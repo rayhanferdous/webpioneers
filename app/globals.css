@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 0.89vw;
+
+  --background: "#FFFFFF";
+  --foreground: "#080808";
+  --dark: "#1D1D1D";
+  --light: "#FAF8F6";
+  --prim: "#FF2626";
+  --sec: "#080808";
+  --gray: "#D7D7D7";
+}
+
+@media (max-width: 639px) {
+  :root {
+    /* font-size: 2.86vw; */
+    font-size: 3.696vw;
+  }
+}
+
+@media (min-width: 1370px) {
+  :root {
+    font-size: 0.803vw;
+  }
+}
+
+@media (min-width: 1450px) {
+  :root {
+    font-size: 0.835vw;
+  }
+}
+
+@media (min-width: 1920px) {
+  :root {
+    font-size: 100%;
+  }
+}
+
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  width: 100%;
+  overflow-y: scroll;
+  position: relative;
+}
+
+@layer utilities {
+  .headerSpace {
+    @apply h-[5.845rem] sm:h-[7.625rem];
+  }
+
+  .heading2 {
+    @apply text-4xl sm:text-[3.5rem] leading-tight;
+  }
+
+  .py-con {
+    @apply py-6 sm:py-12;
+  }
+
+  .px-con {
+    @apply px-5 sm:px-[7.5rem];
+  }
+
+  .p-con {
+    @apply py-6 sm:py-12 px-5 sm:px-[7.5rem];
+  }
+
+  @media (max-width: 1029px) {
+    .border-2 {
+      border-width: 1.5px;
+    }
+  }
+
+  @media (max-width: 639px) {
+    .customScrollbarM {
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .customScrollbarM::-webkit-scrollbar {
+      width: 2px;
+      height: 2px;
+      display: block;
+
+    }
+
+    /* Track */
+    .customScrollbarM::-webkit-scrollbar-track {
+      background: #DADADA;
+      border-radius: 100vh;
+      margin: 0 2.2rem;
+    }
+
+    /* Handle */
+    .customScrollbarM::-webkit-scrollbar-thumb {
+      border-radius: 100vh;
+      background: #FF2626;
+      border-radius: 100vh;
+    }
+
+    /* Handle on hover */
+    .customScrollbarM::-webkit-scrollbar-thumb:hover {
+      background: #FF2626;
+    }
+  }
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+#matterContainer canvas:nth-of-type(2) {
+  display: none !important;
+}
+
+.h-screenS {
+  height: 100vh;
+  height: 100svh;
+}
+
+.body-no-scroll {
+  overflow: hidden;
+  scrollbar-gutter: stable;
+  /* Keeps space for the scrollbar */
+}
