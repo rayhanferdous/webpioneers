@@ -569,7 +569,7 @@ export const Portfolios = [
       {
         type: "text",
         text: [
-          `<span class="text-dark">Jellice</span> is a Japanese <span class="text-dark">Fundex</span>cosmetic brand blending traditional wisdom with advanced technology to create products that enhance vitality and natural beauty. The brand aims to redefine skincare by going beyond surface-level care.`,
+          `<span class="text-dark">Jellice</span> is a Japanese <span class="text-dark">cosmetic brand</span> blending traditional wisdom with advanced technology to create products that enhance vitality and natural beauty. The brand aims to redefine skincare by going beyond surface-level care.`,
           `They approached us to audit their website, conduct <span class="text-dark">market research</span>, and propose a modern, <span class="text-dark">user-centric design</span> that aligns with their innovative identity. The objective was to create a seamless, elegant experience that reflects the brand's commitment to both tradition and cutting-edge technology.`,
           `Focusing on simplicity and sophistication, we crafted a <span class="text-dark">minimalistic design</span> inspired by Japanese aesthetics. The updated website highlights storytelling, intuitive navigation, and enhanced shopping features, ensuring an engaging experience that resonates with their audience.`,
         ],
