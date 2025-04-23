@@ -25,7 +25,6 @@ export default function Home() {
       <Video />
       <HorizontalSec />
       <Portfolio />
-      {/* 
       <PricingBanner />
       <WhatWeOffer />
       <Boxes />
@@ -34,7 +33,7 @@ export default function Home() {
       <WhyChooseUs />
       <Factor />
       <Pricing />
-      <FAQ /> */}
+      <FAQ />
     </>
   );
 }

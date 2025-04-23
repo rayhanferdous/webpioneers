@@ -926,7 +926,7 @@ export const Portfolios = [
     sub: "Smart Shopping, Effortless Living",
     thumbnail: "/Portfolios/Stockly_AI.png",
     thumbnailM: "/Portfolios/Stockly_AIM.png",
-    badges: ["brand Design", "Mobile app"],
+    badges: ["Brand Design", "Mobile app"],
     detail: [
       {
         type: "text",
@@ -963,10 +963,23 @@ export const Portfolios = [
         imageM: "/Portfolios/Stockly_AI/imageM5.png",
       },
       {
+        type: "text",
+        text: [
+          `On the <span class="text-dark">Home</span> and Add to <span class="text-dark">Cart</span> screens, users can explore various <span class="text-dark">categories</span>, including foods, vegetables, fruits, and more. They also have the option to create their own <span class="text-dark">custom</span> categories for better organization. A <span class="text-dark">search bar</span> is available for easy <span class="text-dark">navigation</span>, alongside daily offers and the latest deals tailored to their interests.`,
+          `The <span class="text-dark">Product Screen</span> features a clean and simple <span class="text-dark">layout</span> showcasing the product image, price range, and description. Users can easily add items to their cart, select quantities, and proceed <span class="text-dark">seamlessly</span>. From the Main Screen, users can access the <span class="text-dark">cart</span> to view all the items they’ve added, making it <span class="text-dark">convenient</span> to review and manage their selections.`,
+        ],
+      },
+      {
         type: "image",
         image: "/Portfolios/Stockly_AI/image6.png",
         scroller: true,
         scrollerClass: "h-[35rem] w-auto min-w-fit",
+      },
+      {
+        type: "text",
+        text: [
+          `rayhan`,
+        ],
       },
       {
         type: "image",
