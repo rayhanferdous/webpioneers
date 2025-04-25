@@ -1,3 +1,5 @@
+import { DaxoCreative, DaxoMain, DaxoOther, DaxoOtherColor, DaxoSignin, DaxoSignup, DaxoTrending } from "./daxoSlider";
+
 export const Portfolios = [
   {
     slug: "fundex",
@@ -182,7 +184,7 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image3.png",
-        imageM: "/Portfolios/Daxo/imageM3.png",
+        imageM: "/Portfolios/Daxo/imageM3.svg",
       },
       {
         type: "image",
@@ -212,9 +214,9 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image9.png",
-        image: "/Portfolios/Daxo/imageM9.png",
-        scroller: true,
-        scrollerClass: "h-[25rem] w-auto min-w-fit",
+        slider: true,
+        sliderBg: '/Portfolios/Daxo/sliderBg.svg',
+        sliderData: DaxoCreative,
       },
       {
         type: "text",
@@ -226,12 +228,16 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image10.png",
-        scroller: true,
+        slider: true,
+        sliderBg: false,
+        sliderData: DaxoSignup,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image11.png",
-        scroller: true,
+        slider: true,
+        sliderBg: false,
+        sliderData: DaxoSignin,
       },
       {
         type: "image",
@@ -248,12 +254,16 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image13.png",
-        scroller: true,
+        slider: true,
+        sliderBg: false,
+        sliderData: DaxoMain,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image14.png",
-        scroller: true,
+        slider: true,
+        sliderBg: false,
+        sliderData: DaxoTrending,
       },
       {
         type: "image",
@@ -263,12 +273,16 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image16.png",
-        scroller: true,
+        slider: true,
+        sliderBg: false,
+        sliderData: DaxoOther,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image17.png",
-        scroller: true,
+        slider: true,
+        sliderBg: false,
+        sliderData: DaxoOtherColor,
       },
       {
         type: "image",

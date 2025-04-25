@@ -1,9 +1,13 @@
+'use client';
+
 import { Badge } from "@/app/(components)/ui/Badge";
 import ImageParallex from "@/app/(components)/ui/ImageParallex";
 import MountAnim from "@/app/(components)/ui/MountAnim";
+import { useResponsiveStates } from "@/app/(utils)/hooks";
 import React from "react";
 
 const Hero = () => {
+  const { isMobile } = useResponsiveStates();
   return (
     <section className="py-12 sm:py-20 px-con flex flex-col gap-3 sm:gap-5 overflow-hidden">
       <div className="headerSpace"></div>
@@ -19,7 +23,7 @@ const Hero = () => {
       </div>
       <div className="flex max-sm:flex-col gap-8 justify-between mt-8 sm:mt-14">
         <ImageParallex
-          src="/aboutUsHero1.png"
+          src={isMobile?"/aboutUsHero1M.png": "/aboutUsHero1.png"}
           alt="Hero img"
           width={1200}
           height={1200}

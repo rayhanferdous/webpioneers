@@ -13,6 +13,10 @@ const Data = [
 const ArrayData = [...Data, ...Data];
 
 export default function Marquee({ direction, speed, dark }) {
+  //return null when onload
+  if (typeof window === "undefined") {
+    return null;
+  }
   const marquee = useRef();
   const first = useRef();
   const second = useRef();

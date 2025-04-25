@@ -11,6 +11,7 @@ import Products from "./(components)/Products";
 
 const PortfolioItemPage = ({ params }) => {
   const { slug } = React.use(params);
+  
 
   const CurrentPortfolio = Portfolios.find((item) => item.slug === slug);
 
