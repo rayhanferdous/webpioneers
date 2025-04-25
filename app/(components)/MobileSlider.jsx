@@ -58,15 +58,15 @@ export const MobileSlider = ({sliderImages = [], sliderBg}) => {
               d="M22 9L22 15C22 20 20 22 15 22L9 22C4 22 2 20 2 15L2 9C2 4 4 2 9 2L15 2C20 2 22 4 22 9Z"
               stroke="#080808"
               strokeWidth="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M13.4604 8.47021L9.94043 12.0002L13.4604 15.5302"
               stroke="#959595"
               strokeWidth="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </button>
@@ -101,15 +101,15 @@ export const MobileSlider = ({sliderImages = [], sliderBg}) => {
               d="M22 9L22 15C22 20 20 22 15 22L9 22C4 22 2 20 2 15L2 9C2 4 4 2 9 2L15 2C20 2 22 4 22 9Z"
               stroke="#080808"
               strokeWidth="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M13.4604 8.47021L9.94043 12.0002L13.4604 15.5302"
               stroke="#959595"
               strokeWidth="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </button>
