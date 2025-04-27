@@ -1,32 +1,57 @@
 "use client";
 import { useState } from "react";
 
-export const MobileSlider = ({sliderImages = [], sliderBg}) => {
+export const MobileSlider = ({ sliderImages = [], sliderBg }) => {
   const [currentSlider, setCurrentSlider] = useState(0);
 
+  // Touch gesture state
+  const [touchStartX, setTouchStartX] = useState(0);
+  const [touchEndX, setTouchEndX] = useState(0);
+
+  // Slide navigation
   const prevSlider = () =>
-    setCurrentSlider((currentSlider) =>
-      currentSlider === 0 ? sliderImages.length - 1 : currentSlider - 1
+    setCurrentSlider((current) =>
+      current === 0 ? sliderImages.length - 1 : current - 1
     );
+
   const nextSlider = () =>
-    setCurrentSlider((currentSlider) =>
-      currentSlider === sliderImages.length - 1 ? 0 : currentSlider + 1
+    setCurrentSlider((current) =>
+      current === sliderImages.length - 1 ? 0 : current + 1
     );
+
+  // Touch event handlers
+  const handleTouchStart = (e) => {
+    setTouchStartX(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    setTouchEndX(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    const swipeDistance = touchStartX - touchEndX;
+    if (swipeDistance > 50) {
+      nextSlider(); // Swipe left
+    } else if (swipeDistance < -50) {
+      prevSlider(); // Swipe right
+    }
+  };
+
   return (
     <div className="">
+      {/* Slider Container */}
       <div
-  className={`max-w-6xl mx-auto h-[689px] my-auto flex flex-col xl:flex-row justify-center items-center overflow-hidden relative rounded-2xl ${
-    sliderBg
-      ? 'bg-no-repeat bg-center bg-cover'
-      : 'bg-black'
-  }`}
-  style={sliderBg ? { backgroundImage: `url(${sliderBg})` } : {}}
-> {/* slider container */}
+        className={`max-w-6xl mx-auto h-[689px] my-auto flex flex-col xl:flex-row justify-center items-center overflow-hidden relative rounded-2xl ${sliderBg ? "bg-no-repeat bg-center bg-cover" : "bg-black"
+          }`}
+        style={sliderBg ? { backgroundImage: `url(${sliderBg})` } : {}}
+      >
         <div
           className="h-[569px] w-11/12 relative ease-linear duration-300 flex gap-x-2 items-center"
           style={{ transform: `translateX(-${currentSlider * 80}%)` }}
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
         >
-          {/* sliders */}
           {sliderImages.map((slide, inx) => (
             <div
               key={inx}
@@ -41,8 +66,10 @@ export const MobileSlider = ({sliderImages = [], sliderBg}) => {
           ))}
         </div>
       </div>
+
+      {/* Controls and Indicator */}
       <div className="max-w-6xl mx-auto w-full h-full flex items-center justify-between mt-4 gap-x-4 z-50 px-5">
-        {/* arrow left */}
+        {/* Left Arrow */}
         <button
           onClick={prevSlider}
           className="flex justify-center items-center rounded-full w-6 h-6 md:w-8 md:h-8"
@@ -70,24 +97,25 @@ export const MobileSlider = ({sliderImages = [], sliderBg}) => {
             />
           </svg>
         </button>
-        {/* active bar */}
+
+        {/* Progress Bar */}
         <div className="w-full h-0.5 flex bg-[#DADADA] rounded-[10px]">
           {sliderImages.map((_, inx) => (
             <div
               key={inx}
-              className={`h-0.5  rounded-[10px] ${
-                currentSlider === inx ? "bg-[#FF2626]" : "bg-[#DADADA]"
-              }`}
+              className={`h-0.5 rounded-[10px] ${currentSlider === inx ? "bg-[#FF2626]" : "bg-[#DADADA]"
+                }`}
               style={{
                 width: `${100 / sliderImages.length}%`,
               }}
             ></div>
           ))}
         </div>
-        {/* arrow right */}
+
+        {/* Right Arrow */}
         <button
           onClick={nextSlider}
-          className="flex justify-center items-center  rounded-full w-6 h-6 md:w-8 md:h-8"
+          className="flex justify-center items-center rounded-full w-6 h-6 md:w-8 md:h-8"
         >
           <svg
             className="rotate-180"
