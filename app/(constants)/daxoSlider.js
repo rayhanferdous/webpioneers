@@ -1,18 +1,20 @@
 export const DaxoCreative = [
-    {img:'/Portfolios/Daxo/slider/creative/Home.svg'},
-    {img:'/Portfolios/Daxo/slider/creative/Home.svg'},
-    {img:'/Portfolios/Daxo/slider/creative/Home.svg'},
-    {img:'/Portfolios/Daxo/slider/creative/Home.svg'},
-    {img:'/Portfolios/Daxo/slider/creative/Home.svg'},
-    {img:'/Portfolios/Daxo/slider/creative/Home.svg'}
-
+    {img:'/Portfolios/Daxo/slider/creative/1.svg'},
+    {img:'/Portfolios/Daxo/slider/creative/2.svg'},
+    {img:'/Portfolios/Daxo/slider/creative/3.svg'},
+    {img:'/Portfolios/Daxo/slider/creative/4.svg'},
+    {img:'/Portfolios/Daxo/slider/creative/5.svg'},
+    {img:'/Portfolios/Daxo/slider/creative/6.svg'},
+    {img:'/Portfolios/Daxo/slider/creative/7.svg'},
+    {img:'/Portfolios/Daxo/slider/creative/8.svg'},
+    {img:'/Portfolios/Daxo/slider/creative/9.svg'},
 ]
 
 export const DaxoSignup =  [
-    {img:'/Portfolios/Daxo/slider/signup/Onboarding.svg'},
-    {img:'/Portfolios/Daxo/slider/signup/Focus.svg'},
-    {img:'/Portfolios/Daxo/slider/signup/Active.svg'},
-    {img:'/Portfolios/Daxo/slider/signup/SignInWithApple.svg'},
+    {img:'/Portfolios/Daxo/slider/signup/one.svg'},
+    {img:'/Portfolios/Daxo/slider/signup/two.svg'},
+    {img:'/Portfolios/Daxo/slider/signup/three.svg'},
+    {img:'/Portfolios/Daxo/slider/signup/four.svg'},
 ]
 export const DaxoSignin =  [
     {img:'/Portfolios/Daxo/slider/signin/one.svg'},
