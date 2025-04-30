@@ -24,6 +24,7 @@
     "react-dom": "^19.0.0",
     "react-lottie-player": "^2.1.0",
     "scrolltrigger": "^1.0.1",
+    "swiper": "^11.2.6",
     "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {

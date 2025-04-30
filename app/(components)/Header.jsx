@@ -58,7 +58,7 @@ const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="pointer-events-none absolute top-0 z-[999] left-0 right-0 py-6 px-con flex justify-between items-center whitespace-nowrap">
+    <header className="pointer-events-none absolute top-0 z-[999] left-0 right-0 py-6 px-con flex justify-between items-center whitespace-nowrap my-container">
       {/* Left */}
       <Link href={"/"} className="pointer-events-auto cursor-pointer">
         <Logo className="h-[3.75rem] sm:h-[5.27rem] lg:h-[5.625rem] w-auto" />
@@ -84,8 +84,8 @@ const Header = () => {
                 color: linkActive
                   ? Colors[item.color].dark
                   : hoverTab === item.id
-                  ? "var(--dark)"
-                  : "#888581",
+                    ? "var(--dark)"
+                    : "#888581",
               }}
               onMouseEnter={() => {
                 setHoverTab(item.id);

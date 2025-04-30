@@ -3,6 +3,7 @@ import React from "react";
 import { cn } from "@/app/(utils)/utils";
 import { useRef } from "react";
 import { MobileSlider } from "@/app/(components)/MobileSlider";
+import SliderForAllScreens from "@/app/(components)/SliderForAllScreens";
 
 // const DetailCard = ({ img, pclass, scroller = false, width, height }) => {
 //   const scrollContainerRef = useRef(null);
@@ -113,9 +114,10 @@ const Detail = ({ data }) => {
   return (
     <>
       {data.map((detail, index) => {
+
         if (detail.type === "text") {
           return (
-            <div key={index} className="flex flex-col gap-5 sm:gap-10">
+            <div key={index} className={`flex flex-col gap-5 sm:gap-10 ${detail.sliderForAllScreens ? '' : 'px-con'}`}>
               {detail.text.map((paragraph, pIndex) => (
                 <p
                   className="text-gray-900 font-medium text-[1.375rem] sm:text-[2rem] leading-snug sm:leading-tight"
@@ -129,11 +131,10 @@ const Detail = ({ data }) => {
           return (
             <div
               key={index}
-              className={`${
-                !detail.scroller ? "overflow-hidden rounded-2xl" : ""
-              }`}
+              className={`${!detail.slider ? "overflow-hidden rounded-2xl px-con" : ""
+                }`}
             >
-              { detail.imageM ? (
+              {detail.imageM ? (
                 <>
                   <Image
                     src={detail.image}
@@ -149,10 +150,12 @@ const Detail = ({ data }) => {
                     alt="Portfolio Image"
                     className="w-full sm:hidden"
                   />
-                   {detail.slider && (
-                 <div className="sm:hidden">
-                 <MobileSlider sliderBg={detail.sliderBg} sliderImages={detail.sliderData}/>
-                 </div>
+                  {detail.slider && (
+                    detail.sliderForAllScreens ? (
+                      <SliderForAllScreens sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />) :
+                      <div className="sm:hidden">
+                        <MobileSlider sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />
+                      </div>
                   )}
                 </>
               ) : (
@@ -162,12 +165,14 @@ const Detail = ({ data }) => {
                     width={1920}
                     height={1080}
                     alt="Portfolio Image"
-                    className={`w-full ${detail.slider?"max-sm:hidden":"max-sm:hidden"}`}
+                    className={`w-full ${detail.sliderForAllScreens ? "hidden" : "max-sm:hidden"}`}
                   />
                   {detail.slider && (
-                    <div className="sm:hidden">
-                      <MobileSlider sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />
-                    </div>
+                    detail.sliderForAllScreens ? (
+                      <SliderForAllScreens sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />) :
+                      <div className="sm:hidden">
+                        <MobileSlider sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />
+                      </div>
                   )}
                   {/* <DetailCard
                     img={

@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         suppressHydrationWarning
-        className={`${urbanist.variable} font-urbanist antialiased my-container`}
+        className={`${urbanist.variable} font-urbanist antialiased`}
       >
         <Script
           src="https://cdn.lordicon.com/lordicon.js"

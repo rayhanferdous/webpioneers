@@ -37,7 +37,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <section className="w-full h-fit">
+    <section className="w-full h-fit my-container">
       <div
         ref={preFooter}
         style={{
