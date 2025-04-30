@@ -58,7 +58,7 @@ const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="pointer-events-none absolute top-0 z-[999] left-0 right-0 py-6 px-con flex justify-between items-center whitespace-nowrap my-container">
+    <header className="pointer-events-none absolute top-0 z-[999] left-0 right-0 py-6 px-con flex justify-between items-center whitespace-nowrap">
       {/* Left */}
       <Link href={"/"} className="pointer-events-auto cursor-pointer">
         <Logo className="h-[3.75rem] sm:h-[5.27rem] lg:h-[5.625rem] w-auto" />
