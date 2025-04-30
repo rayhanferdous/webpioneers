@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useRef, useState } from 'react';
 
-const SliderForAllScreens = ({ sliderImages = [], sliderBg }) => {
+const SliderForAllScreens = ({ sliderImages = [], sliderBg = 'bg-[#D2F159]' }) => {
     const swiperRef = useRef(null);
     const [currentSlider, setCurrentSlider] = useState(0);
 
@@ -64,14 +64,14 @@ const SliderForAllScreens = ({ sliderImages = [], sliderBg }) => {
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path
                             d="M22 9L22 15C22 20 20 22 15 22L9 22C4 22 2 20 2 15L2 9C2 4 4 2 9 2L15 2C20 2 22 4 22 9Z"
-                            stroke="#080808"
+                            stroke="#FFFFFF"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                             strokeLinejoin="round"
                         />
                         <path
                             d="M13.4604 8.47021L9.94043 12.0002L13.4604 15.5302"
-                            stroke="#959595"
+                            stroke="#FFFFFF"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -80,11 +80,11 @@ const SliderForAllScreens = ({ sliderImages = [], sliderBg }) => {
                 </button>
 
                 {/* Progress Bar */}
-                <div className="w-full h-0.5 flex bg-[#DADADA] rounded-[10px]">
+                <div className="w-full h-0.5 flex bg-[#FFFFFF]/30 rounded-[10px]">
                     {sliderImages.map((_, inx) => (
                         <div
                             key={inx}
-                            className={`h-0.5 rounded-[10px] ${currentSlider === inx ? 'bg-[#FF2626]' : 'bg-[#DADADA]'
+                            className={`h-0.5 rounded-[10px] ${currentSlider === inx ? 'bg-white' : 'bg-transparent'
                                 }`}
                             style={{
                                 width: `${100 / sliderImages.length}%`,
@@ -102,14 +102,14 @@ const SliderForAllScreens = ({ sliderImages = [], sliderBg }) => {
                     <svg className="rotate-180" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path
                             d="M22 9L22 15C22 20 20 22 15 22L9 22C4 22 2 20 2 15L2 9C2 4 4 2 9 2L15 2C20 2 22 4 22 9Z"
-                            stroke="#080808"
+                            stroke="#FFFFFF"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                             strokeLinejoin="round"
                         />
                         <path
                             d="M13.4604 8.47021L9.94043 12.0002L13.4604 15.5302"
-                            stroke="#959595"
+                            stroke="#FFFFFF"
                             strokeWidth="1.5"
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -118,7 +118,7 @@ const SliderForAllScreens = ({ sliderImages = [], sliderBg }) => {
                 </button>
             </div>
             <div className="relative flex items-center justify-center">
-                <div className='absolute mx-auto -bottom-40 h-96 w-96 scale-x-[5]  blur-[120px] bg-[#D2F159] rounded-full'></div>
+                <div className={`absolute mx-auto -bottom-40 h-96 w-96 scale-x-[5]  blur-[120px] rounded-full ${sliderBg}`}></div>
 
             </div>
         </div>

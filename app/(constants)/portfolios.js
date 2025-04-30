@@ -1,3 +1,4 @@
+import { aeroSlider } from "./aeroSlider";
 import { DaxoCreative, DaxoMain, DaxoOther, DaxoOtherColor, DaxoSignin, DaxoSignup, DaxoTrending } from "./daxoSlider";
 import { orbitSlider } from "./orbitSlider";
 
@@ -1243,10 +1244,10 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Aero/image4.png",
-        scroller: true,
-        scrollerClass: "h-[18rem] w-auto min-w-fit",
-        width: 20000,
-        height: 1920,
+        sliderForAllScreens: true,
+        slider: true,
+        sliderBg: 'bg-[#804EEC]',
+        sliderData: aeroSlider,
       },
       {
         type: "image",
@@ -1418,7 +1419,7 @@ export const Portfolios = [
         image: "/Portfolios/Orbit/image4.png",
         sliderForAllScreens: true,
         slider: true,
-        sliderBg: '/Portfolios/Orbit/slider/sliderBg.svg',
+        sliderBg: 'bg-[#D2F159]',
         sliderData: orbitSlider,
       },
       {
