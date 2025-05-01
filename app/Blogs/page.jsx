@@ -1,3 +1,5 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import { Badge } from "../(components)/ui/Badge";
 import MountAnim from "../(components)/ui/MountAnim";
 import Tags from "../(components)/ui/Tags";
@@ -5,6 +7,17 @@ import { blogs } from "../(constants)/blogs";
 import Card from "./(components)/Card";
 
 const Blogs = () => {
+  useGSAP(() => {
+    const tl = gsap.timeline();
+
+    tl.from(from(".card-items", {
+      y: 80,
+      duration: 1,
+      ease: "power1.out",
+      stagger: 0.2,
+    })
+    );
+  }, []);
   return (
     <>
       <section className="relative max-sm:pt-12 sm:pt-20 flex flex-col">
