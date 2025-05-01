@@ -26,7 +26,7 @@ const DetailCard = ({ img, pclass, scroller = false, width, height }) => {
           ref={scrollContainerRef}
           className={cn(
             `${scroller
-              ? "max-sm:overscroll-y-hidden max-sm:overflow-x-auto max-sm:customScrollbarM max-sm:pb-6 max-sm:mb-2 max-sm:max-w-[calc(100vw-2.5rem-2px)]"
+              ? "max-sm:overscroll-y-hidden max-sm:overflow-x-auto max-sm:customScrollbarM max-sm:pb-6 max-sm:mb-4 max-sm:max-w-[calc(100vw-2.5rem-2px)]"
               : ""
             } w-full h-fit`
           )}

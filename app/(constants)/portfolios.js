@@ -228,11 +228,13 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image10.png",
+        imageM: "/Portfolios/Daxo/imageM10.svg",
         scroller: true,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image11.png",
+        imageM: "/Portfolios/Daxo/imageM11.svg",
         scroller: true,
       },
       {
@@ -250,11 +252,13 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image13.png",
+        imageM: "/Portfolios/Daxo/imageM13.svg",
         scroller: true,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image14.png",
+        imageM: "/Portfolios/Daxo/imageM14.svg",
         scroller: true,
       },
       {
@@ -265,11 +269,13 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image16.png",
+        imageM: "/Portfolios/Daxo/imageM16.svg",
         scroller: true,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image17.png",
+        imageM: "/Portfolios/Daxo/imageM17.svg",
         scroller: true,
       },
       {
