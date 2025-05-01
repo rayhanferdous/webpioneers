@@ -1,5 +1,4 @@
 import { aeroSlider } from "./aeroSlider";
-import { DaxoCreative, DaxoMain, DaxoOther, DaxoOtherColor, DaxoSignin, DaxoSignup, DaxoTrending } from "./daxoSlider";
 import { orbitSlider } from "./orbitSlider";
 
 export const Portfolios = [
@@ -216,9 +215,9 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image9.png",
-        slider: true,
-        sliderBg: '/Portfolios/Daxo/sliderBg.svg',
-        sliderData: DaxoCreative,
+        imageM: "/Portfolios/Daxo/imageM9.png",
+        scroller: true,
+        scrollerClass: "h-[25rem] w-auto min-w-fit",
       },
       {
         type: "text",
@@ -230,16 +229,12 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image10.png",
-        slider: true,
-        sliderBg: false,
-        sliderData: DaxoSignup,
+        scroller: true,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image11.png",
-        slider: true,
-        sliderBg: false,
-        sliderData: DaxoSignin,
+        scroller: true,
       },
       {
         type: "image",
@@ -256,16 +251,12 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image13.png",
-        slider: true,
-        sliderBg: false,
-        sliderData: DaxoMain,
+        scroller: true,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image14.png",
-        slider: true,
-        sliderBg: false,
-        sliderData: DaxoTrending,
+        scroller: true,
       },
       {
         type: "image",
@@ -275,16 +266,12 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Daxo/image16.png",
-        slider: true,
-        sliderBg: false,
-        sliderData: DaxoOther,
+        scroller: true,
       },
       {
         type: "image",
         image: "/Portfolios/Daxo/image17.png",
-        slider: true,
-        sliderBg: false,
-        sliderData: DaxoOtherColor,
+        scroller: true,
       },
       {
         type: "image",
