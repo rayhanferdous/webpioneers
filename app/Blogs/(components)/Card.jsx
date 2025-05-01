@@ -9,7 +9,7 @@ const Card = ({ colSpanTwo, tag, image = '/blogs/blog-1.png', title, desc, minsT
                 {tag}
             </span>
             <div className="w-full">
-                <Image className={`${colSpanTwo ? "md:min-h-full" : ""} h-full min-w-full rounded-[14px]`} src={image} width={539} height={359} alt={title} />
+                <Image className={`${colSpanTwo ? "md:min-h-full" : ""} h-fit min-w-full rounded-[14px]`} src={image} width={539} height={359} alt={title} />
             </div>
             <CardText colSpanTwo={colSpanTwo} title={title} desc={desc} minsToRead={minsToRead} link={link} />
         </div>
