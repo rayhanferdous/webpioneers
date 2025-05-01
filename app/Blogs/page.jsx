@@ -1,3 +1,6 @@
+'use client';
+import gsap from "gsap";
+import { useEffect, useRef } from "react";
 import { Badge } from "../(components)/ui/Badge";
 import MountAnim from "../(components)/ui/MountAnim";
 import Tags from "../(components)/ui/Tags";
@@ -5,6 +8,17 @@ import { blogs } from "../(constants)/blogs";
 import Card from "./(components)/Card";
 
 const Blogs = () => {
+  const itemsRef = useRef([]);
+
+  useEffect(() => {
+    gsap.from(itemsRef.current, {
+      opacity: 0,
+      y: 20,
+      duration: 1,
+      stagger: 0.2, // delay between items
+      ease: 'power2.out',
+    });
+  }, []);
   return (
     <>
       <section className="relative max-sm:pt-12 sm:pt-20 flex flex-col">
@@ -41,6 +55,7 @@ const Blogs = () => {
         {blogs.map((blog, index) => (
           <Card
             key={index}
+            ref={(el) => (itemsRef.current[index] = el)}
             tag={blog.tag}
             image={blog.thumbnail}
             title={blog.title}
