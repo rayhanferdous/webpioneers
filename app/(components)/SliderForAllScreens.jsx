@@ -10,14 +10,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useRef, useState } from 'react';
 
-const SliderForAllScreens = ({ sliderImages = [], sliderBg = 'bg-[#D2F159]' }) => {
+const SliderForAllScreens = ({ sliderImages = [], shapeBg = 'bg-[#D2F159]', sliderBg = 'bg-black' }) => {
     const swiperRef = useRef(null);
     const [currentSlider, setCurrentSlider] = useState(0);
 
     const prevSlider = () => swiperRef.current?.slidePrev();
     const nextSlider = () => swiperRef.current?.slideNext();
     return (
-        <div className="max-h-[916px] relative pt-16 pb-24 bg-[#101214] overflow-hidden">
+        <div className={`min-h-fit relative pt-16 pb-24 overflow-hidden ${sliderBg}`}>
             <Swiper
                 onSlideChange={(swiper) => setCurrentSlider(swiper.realIndex)}
                 onSwiper={(swiper) => {
@@ -118,8 +118,9 @@ const SliderForAllScreens = ({ sliderImages = [], sliderBg = 'bg-[#D2F159]' }) =
                 </button>
             </div>
             <div className="relative flex items-center justify-center">
-                <div className={`absolute mx-auto -bottom-40 h-96 w-96 scale-x-[5]  blur-[120px] rounded-full ${sliderBg}`}></div>
-
+                <div className="absolute">
+                    <div className={`h-80 w-80 scale-y-[1.5] scale-x-[6] blur-[60px] rounded-full ${shapeBg}`}></div>
+                </div>
             </div>
         </div>
     );

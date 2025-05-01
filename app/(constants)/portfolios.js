@@ -217,7 +217,6 @@ export const Portfolios = [
         image: "/Portfolios/Daxo/image9.png",
         imageM: "/Portfolios/Daxo/imageM9.png",
         scroller: true,
-        scrollerClass: "h-[25rem] w-auto min-w-fit",
       },
       {
         type: "text",
@@ -1233,7 +1232,8 @@ export const Portfolios = [
         image: "/Portfolios/Aero/image4.png",
         sliderForAllScreens: true,
         slider: true,
-        sliderBg: 'bg-[#804EEC]',
+        sliderBg: 'bg-white',
+        shapeBg: 'bg-[#804EEC]',
         sliderData: aeroSlider,
       },
       {
@@ -1406,7 +1406,8 @@ export const Portfolios = [
         image: "/Portfolios/Orbit/image4.png",
         sliderForAllScreens: true,
         slider: true,
-        sliderBg: 'bg-[#D2F159]',
+        sliderBg: 'bg-black',
+        shapeBg: 'bg-[#D2F159]',
         sliderData: orbitSlider,
       },
       {

@@ -129,7 +129,7 @@ const Detail = ({ data }) => {
           return (
             <div
               key={index}
-              className={`px-con ${detail.scroller ? "rounded-2xl " : "overflow-hidden"
+              className={` ${detail.sliderForAllScreens ? "" : "rounded-2xl px-con overflow-hidden"
                 }`}
             >
               {detail.imageM ? (
@@ -150,7 +150,7 @@ const Detail = ({ data }) => {
                   />
                   {
                     detail.sliderForAllScreens ? (
-                      <SliderForAllScreens sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />) :
+                      <SliderForAllScreens shapeBg={detail.shapeBg} sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />) :
                       detail.scroller && <DetailCard
                         img={
                           detail.scrollerImage
@@ -177,7 +177,7 @@ const Detail = ({ data }) => {
                     className={`w-full ${detail.sliderForAllScreens ? "hidden" : "max-sm:hidden"}`}
                   />
                   {detail.sliderForAllScreens ? (
-                    <SliderForAllScreens sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />) :
+                    <SliderForAllScreens shapeBg={detail.shapeBg} sliderBg={detail.sliderBg} sliderImages={detail.sliderData} />) :
                     <DetailCard
                       img={
                         detail.scrollerImage
