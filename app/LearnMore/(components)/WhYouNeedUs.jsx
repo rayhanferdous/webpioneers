@@ -5,45 +5,199 @@ import MountAnim from "@/app/(components)/ui/MountAnim";
 import { Badge } from "@/app/(components)/ui/Badge";
 import Icon from "@/app/(components)/ui/Icon";
 import { cn } from "@/app/(utils)/utils";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+
+// const DetailCard = ({ img, title, detail, pclass, scrollar = false }) => {
+//   const scrollContainerRef = useRef(null);
+
+//   const scrollLeft = () => {
+//     if (scrollContainerRef.current) {
+//       scrollContainerRef.current.scrollBy({ left: -300, behavior: "smooth" });
+//     }
+//   };
+
+//   const scrollRight = () => {
+//     if (scrollContainerRef.current) {
+//       scrollContainerRef.current.scrollBy({ left: 300, behavior: "smooth" });
+//     }
+//   };
+
+//   return (
+//     <>
+//       <div className="flex flex-col gap-2">
+//         <h4 className="text-lg sm:text-[1.8rem] xl:text-2xl font-medium">
+//           {title}
+//         </h4>
+//         <p
+//           className={cn(
+//             "text-gray-700 text-base sm:text-[1.375rem] 2xl:text-xl leading-tight max-w-[27ch]",
+//             pclass
+//           )}
+//         >
+//           {detail}
+//         </p>
+//       </div>
+//       <div className="w-full relative">
+//         <div
+//           ref={scrollContainerRef}
+//           className={`${scrollar
+//               ? "max-sm:overscroll-y-hidden max-sm:overflow-x-auto max-sm:customScrollbarM max-sm:pb-6 max-sm:mb-2 max-sm:max-w-[calc(100vw-5rem-2px)]"
+//               : ""
+//             } w-full h-fit`}
+//         >
+//           <Image
+//             src={img}
+//             alt="Learn More Image"
+//             width={600}
+//             height={600}
+//             priority
+//             className={`${scrollar ? "min-w-[44rem]" : ""} w-full h-auto mt-7`}
+//           />
+//         </div>
+//         {scrollar && (
+//           <button
+//             onClick={scrollLeft}
+//             className="sm:hidden absolute -bottom-[calc(0.75rem-1px)] left-0 z-50"
+//           >
+//             <svg
+//               className="size-6"
+//               width="24"
+//               height="24"
+//               viewBox="0 0 24 24"
+//               fill="none"
+//               xmlns="http://www.w3.org/2000/svg"
+//             >
+//               <path
+//                 d="M22 9L22 15C22 20 20 22 15 22L9 22C4 22 2 20 2 15L2 9C2 4 4 2 9 2L15 2C20 2 22 4 22 9Z"
+//                 stroke="#080808"
+//                 strokeWidth="1.5"
+//                 strokeLinecap="round"
+//                 strokeLinejoin="round"
+//               />
+//               <path
+//                 d="M13.4595 8.47021L9.93945 12.0002L13.4595 15.5302"
+//                 stroke="#959595"
+//                 strokeWidth="1.5"
+//                 strokeLinecap="round"
+//                 strokeLinejoin="round"
+//               />
+//             </svg>
+//           </button>
+//         )}
+//         {scrollar && (
+//           <button
+//             onClick={scrollRight}
+//             className="sm:hidden absolute -bottom-[calc(0.75rem-1px)] right-0 z-50"
+//           >
+//             <svg
+//               className="size-6"
+//               width="24"
+//               height="24"
+//               viewBox="0 0 24 24"
+//               fill="none"
+//               xmlns="http://www.w3.org/2000/svg"
+//             >
+//               <path
+//                 d="M2 9L2 15C2 20 4 22 9 22L15 22C20 22 22 20 22 15L22 9C22 4 20 2 15 2L9 2C4 2 2 4 2 9Z"
+//                 stroke="#080808"
+//                 strokeWidth="1.5"
+//                 strokeLinecap="round"
+//                 strokeLinejoin="round"
+//               />
+//               <path
+//                 d="M10.5405 8.47021L14.0605 12.0002L10.5405 15.5302"
+//                 stroke="#959595"
+//                 strokeWidth="1.5"
+//                 strokeLinecap="round"
+//                 strokeLinejoin="round"
+//               />
+//             </svg>
+//           </button>
+//         )}
+//       </div>
+//     </>
+//   );
+// };
+
 
 const DetailCard = ({ img, title, detail, pclass, scrollar = false }) => {
   const scrollContainerRef = useRef(null);
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   const scrollLeft = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: -300, behavior: "smooth" });
-    }
+    scrollContainerRef.current?.scrollBy({ left: -300, behavior: "smooth" });
   };
 
   const scrollRight = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: 300, behavior: "smooth" });
-    }
+    scrollContainerRef.current?.scrollBy({ left: 300, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    const scrollContainer = scrollContainerRef.current;
+
+    const updateScrollProgress = () => {
+      if (!scrollContainer) return;
+      const maxScrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+      const currentScroll = scrollContainer.scrollLeft;
+      const progress = maxScrollLeft > 0 ? (currentScroll / maxScrollLeft) * 100 : 0;
+      setScrollProgress(progress);
+    };
+
+    let startX = 0;
+    let endX = 0;
+
+    const handleTouchStart = (e) => {
+      startX = e.touches[0].clientX;
+    };
+
+    const handleTouchMove = (e) => {
+      endX = e.touches[0].clientX;
+    };
+
+    const handleTouchEnd = () => {
+      const deltaX = endX - startX;
+      const threshold = 50; // Minimum swipe distance
+      if (deltaX > threshold) {
+        scrollLeft();
+      } else if (deltaX < -threshold) {
+        scrollRight();
+      }
+    };
+
+    if (scrollar && scrollContainer) {
+      scrollContainer.addEventListener("scroll", updateScrollProgress);
+      scrollContainer.addEventListener("touchstart", handleTouchStart);
+      scrollContainer.addEventListener("touchmove", handleTouchMove);
+      scrollContainer.addEventListener("touchend", handleTouchEnd);
+
+      updateScrollProgress(); // Initial call
+    }
+
+    return () => {
+      scrollContainer?.removeEventListener("scroll", updateScrollProgress);
+      scrollContainer?.removeEventListener("touchstart", handleTouchStart);
+      scrollContainer?.removeEventListener("touchmove", handleTouchMove);
+      scrollContainer?.removeEventListener("touchend", handleTouchEnd);
+    };
+  }, [scrollar]);
 
   return (
     <>
       <div className="flex flex-col gap-2">
-        <h4 className="text-lg sm:text-[1.8rem] xl:text-2xl font-medium">
-          {title}
-        </h4>
-        <p
-          className={cn(
-            "text-gray-700 text-base sm:text-[1.375rem] 2xl:text-xl leading-tight max-w-[27ch]",
-            pclass
-          )}
-        >
+        <h4 className="text-lg sm:text-[1.8rem] xl:text-2xl font-medium">{title}</h4>
+        <p className={cn("text-gray-700 text-base sm:text-[1.375rem] 2xl:text-xl leading-tight max-w-[27ch]", pclass)}>
           {detail}
         </p>
       </div>
+
       <div className="w-full relative">
         <div
           ref={scrollContainerRef}
-          className={`${scrollar
-              ? "max-sm:overscroll-y-hidden max-sm:overflow-x-auto max-sm:customScrollbarM max-sm:pb-6 max-sm:mb-2 max-sm:max-w-[calc(100vw-5rem-2px)]"
-              : ""
-            } w-full h-fit`}
+          className={cn(
+            scrollar &&
+            " scrollbar-hide max-sm:overscroll-y-hidden max-sm:overflow-x-hidden max-sm:pb-6 max-sm:mb-2 max-sm:max-w-[calc(100vw-5rem-2px)]",
+            "w-full h-fit"
+          )}
         >
           <Image
             src={img}
@@ -51,73 +205,87 @@ const DetailCard = ({ img, title, detail, pclass, scrollar = false }) => {
             width={600}
             height={600}
             priority
-            className={`${scrollar ? "min-w-[44rem]" : ""} w-full h-auto mt-7`}
+            className={cn(scrollar ? "min-w-[44rem]" : "", "w-full h-auto mt-7")}
           />
         </div>
+
+        {/* Scroll indicator bar */}
         {scrollar && (
-          <button
-            onClick={scrollLeft}
-            className="sm:hidden absolute -bottom-[calc(0.75rem-1px)] left-0 z-50"
-          >
-            <svg
-              className="size-6"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M22 9L22 15C22 20 20 22 15 22L9 22C4 22 2 20 2 15L2 9C2 4 4 2 9 2L15 2C20 2 22 4 22 9Z"
-                stroke="#080808"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M13.4595 8.47021L9.93945 12.0002L13.4595 15.5302"
-                stroke="#959595"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
+          <div className="relative mx-auto rounded-lg  max-sm:max-w-[calc(100vw-10rem-2px)] w-full h-0.5 mt-2 bg-gray-200 overflow-hidden">
+            <div
+              className="absolute h-full bg-[#FF2626] rounded-lg transition-all duration-200"
+              style={{ width: `${scrollProgress}%` }}
+            />
+          </div>
         )}
+
+        {/* Scroll Buttons */}
         {scrollar && (
-          <button
-            onClick={scrollRight}
-            className="sm:hidden absolute -bottom-[calc(0.75rem-1px)] right-0 z-50"
-          >
-            <svg
-              className="size-6"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+          <>
+            <button
+              onClick={scrollLeft}
+              className="sm:hidden absolute -bottom-[calc(0.75rem-1px)] left-0 z-50"
             >
-              <path
-                d="M2 9L2 15C2 20 4 22 9 22L15 22C20 22 22 20 22 15L22 9C22 4 20 2 15 2L9 2C4 2 2 4 2 9Z"
-                stroke="#080808"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M10.5405 8.47021L14.0605 12.0002L10.5405 15.5302"
-                stroke="#959595"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
+              <svg
+                className="size-6"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 9L22 15C22 20 20 22 15 22L9 22C4 22 2 20 2 15L2 9C2 4 4 2 9 2L15 2C20 2 22 4 22 9Z"
+                  stroke="#080808"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M13.4595 8.47021L9.93945 12.0002L13.4595 15.5302"
+                  stroke="#959595"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+
+            <button
+              onClick={scrollRight}
+              className="sm:hidden absolute -bottom-[calc(0.75rem-1px)] right-0 z-50"
+            >
+              <svg
+                className="size-6"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 9L2 15C2 20 4 22 9 22L15 22C20 22 22 20 22 15L22 9C22 4 20 2 15 2L9 2C4 2 2 4 2 9Z"
+                  stroke="#080808"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M10.5405 8.47021L14.0605 12.0002L10.5405 15.5302"
+                  stroke="#959595"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </>
         )}
-      </div>
+      </div >
     </>
   );
 };
+
 
 const WhYouNeedUs = () => {
   return (
