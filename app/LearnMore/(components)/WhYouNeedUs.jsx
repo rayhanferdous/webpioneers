@@ -40,11 +40,10 @@ const DetailCard = ({ img, title, detail, pclass, scrollar = false }) => {
       <div className="w-full relative">
         <div
           ref={scrollContainerRef}
-          className={`${
-            scrollar
+          className={`${scrollar
               ? "max-sm:overscroll-y-hidden max-sm:overflow-x-auto max-sm:customScrollbarM max-sm:pb-6 max-sm:mb-2 max-sm:max-w-[calc(100vw-5rem-2px)]"
               : ""
-          } w-full h-fit`}
+            } w-full h-fit`}
         >
           <Image
             src={img}

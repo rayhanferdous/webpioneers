@@ -40,9 +40,9 @@
 }
 
 
-.my-container {
+/* .my-container {
   @apply max-w-[1920px] w-full mx-auto;
-}
+} */
 
 * {
   padding: 0%;

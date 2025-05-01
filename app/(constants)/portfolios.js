@@ -702,17 +702,17 @@ export const Portfolios = [
       {
         type: "image",
         image: "/Portfolios/Playzu/image8.svg",
-        imageM: "/Portfolios/Fundex/imageM8.svg",
+        imageM: "/Portfolios/Playzu/imageM8.svg",
       },
       {
         type: "image",
         image: "/Portfolios/Playzu/image9.svg",
-        imageM: "/Portfolios/Fundex/imageM9.svg",
+        imageM: "/Portfolios/Playzu/imageM9.svg",
       },
       {
         type: "image",
         image: "/Portfolios/Playzu/image10.svg",
-        imageM: "/Portfolios/Fundex/imageM10.svg",
+        imageM: "/Portfolios/Playzu/imageM10.svg",
       },
     ],
 
