@@ -74,7 +74,6 @@ const Hero = () => {
               alt="logo"
               width={800}
               height={800}
-              priority
               className="w-full h-auto ipad max-sm:hidden"
             />
             <img
@@ -82,7 +81,6 @@ const Hero = () => {
               alt="logo"
               width={400}
               height={400}
-              priority
               className="w-full h-auto sm:hidden"
             />
           </MountAnim>
