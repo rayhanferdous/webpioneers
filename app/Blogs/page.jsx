@@ -26,12 +26,6 @@ const Blogs = () => {
             <MountAnim>
               <Tags title="All" active={true} />
             </MountAnim>
-            <MountAnim>
-              <Tags title="Design" />
-            </MountAnim>
-            <MountAnim>
-              <Tags title="Web Development" />
-            </MountAnim>
           </div>
           <div className="mt-6 sm:mt-14 border-b border-gray w-full"></div>
         </div>
