@@ -32,16 +32,16 @@ const Blogs = () => {
       </section>
       {/* card section */}
       <div className="grid gap-y-7 pt-10 md:pt-[42px] lg:pt-14 md:gap-y-10 xl:gap-y-14 2xl:gap-y-20 gap-x-9 md:gap-x-9 xl:gap-x-8 2xl:gap-x-8 sm:grid-cols-2 md:grid-cols-3 px-con">
-        {blogs.map((blog, index) => (
+        {blogs?.map((blog, index) => (
           <Card
             key={index}
-            tag={blog.tag}
-            image={blog.thumbnail}
-            title={blog.title}
-            colSpanTwo={blog.col_span_two}
-            desc={blog.description[0].substring(0, 150)}
-            minsToRead={blog.time_to_read}
-            link={`/Blogs/${blog.slug}`}
+            tag={blog?.tag}
+            image={blog?.thumbnail}
+            title={blog?.title}
+            colSpanTwo={blog?.col_span_two}
+            desc={blog?.description[0].substring(0, 150)}
+            minsToRead={blog?.time_to_read}
+            link={`/Blogs/${blog?.slug}`}
           />
         ))}
       </div>
