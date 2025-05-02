@@ -6,7 +6,7 @@ export const blogs = [
     published_at: "July 5, 2024",
     "title": "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
     slug: "what-makes-a-website-bad-15-examples-crucial-mistakes",
-    "description": "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes, from poor layouts to slow loading speeds, offering insights on creating websites that captivate users and foster success. Whether you're a designer aiming for excellence or a business owner optimizing your online presence, learn to navigate the pitfalls and ensure a seamless, user-friendly digital space.",
+    "description": "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
     thumbnail: "/blogs/blog-1.png",
     main_img: "/blogs/details/blog-1.png",
     "sections": [
