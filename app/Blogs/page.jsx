@@ -40,7 +40,7 @@ const Blogs = () => {
             image={blog?.thumbnail}
             title={blog?.title}
             colSpanTwo={blog?.col_span_two}
-            desc={blog?.description && blog?.description[0]?.substring(0, 150)}
+            desc={blog?.description}
             minsToRead={blog?.time_to_read}
             link={`/Blogs/${blog?.slug}`}
           />

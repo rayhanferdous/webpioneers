@@ -6,6 +6,7 @@ export const blogs = [
     published_at: "July 5, 2024",
     "title": "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
     slug: "what-makes-a-website-bad-15-examples-crucial-mistakes",
+    "description": "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes, from poor layouts to slow loading speeds, offering insights on creating websites that captivate users and foster success. Whether you're a designer aiming for excellence or a business owner optimizing your online presence, learn to navigate the pitfalls and ensure a seamless, user-friendly digital space.",
     thumbnail: "/blogs/blog-1.png",
     main_img: "/blogs/details/blog-1.png",
     "sections": [
@@ -261,9 +262,7 @@ export const blogs = [
     "title": "Conversational UX design how to enhance user engagement",
     slug: "conversational-ux-design-how-to-enhance-user-engagement",
     thumbnail: "/blogs/blog-2.png",
-    "description": ["Conversational UX is revolutionising the way we interact with technology, offering more engaging and natural user experiences across various industries.",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "Conversational UX is revolutionising the way we interact with technology, offering more engaging and natural user experiences across various industries.",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -513,9 +512,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "Mastering the product design process : best practices",
     slug: "mastering-the-product-design-process-best-practices",
     thumbnail: "/blogs/blog-3.png",
-    "description": ["After our fair share of product design experience, we take a peek into the strategies, techniques, and insider know-how that have set the foundation for all...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "After our fair share of product design experience, we take a peek into the strategies, techniques, and insider know-how that have set the foundation for all...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -766,9 +763,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     slug: "4-key-design-strategies-to-boost-your-website-purchases",
     thumbnail: "/blogs/blog-4.png",
     col_span_two: true,
-    "description": ["From a young age, we are afraid of public speaking. The truth is, you should overcome it by using some tricks, that not only will help you to become a master...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "From a young age, we are afraid of public speaking. The truth is, you should overcome it by using some tricks, that not only will help you to become a master...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -1018,9 +1013,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "The role of quality assurance in user experience design",
     slug: "the-role-of-quality-assurance-in-user-experience-design",
     thumbnail: "/blogs/blog-5.png",
-    "description": ["This article is about Quality Assurance and its role in User Experience Design. Furthermore, we've covered some of the important requirements our Quality...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "This article is about Quality Assurance and its role in User Experience Design. Furthermore, we've covered some of the important requirements our Quality...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -1270,9 +1263,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "Enhancing User Trust Through Secure UX Design for Fintech Applications",
     slug: "enhancing-user-trust-through-secure-ux-design-for-fintech-applications",
     thumbnail: "/blogs/blog-6.png",
-    "description": ["As the financial tech industry is making advancements at a rapid rate, it is essential to build trust with your user base. The rapid digitalization of financial services...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "As the financial tech industry is making advancements at a rapid rate, it is essential to build trust with your user base. The rapid digitalization of financial services...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -1522,9 +1513,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "Why Every Business Needs a UX Audit: Benefits and ROI",
     slug: "why-every-business-needs-a-ux-audit-benefits-and-roi",
     thumbnail: "/blogs/blog-7.png",
-    "description": ["In the current digital era, user experience (UX) is everything. A good user experience (UX) may make or break a potential customer's decision to interact...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "In the current digital era, user experience (UX) is everything. A good user experience (UX) may make or break a potential customer's decision to interact...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -1774,9 +1763,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "The Power of Microinteractions in UI: Small Details, Big Impact",
     slug: "the-power-of-microinteractions-in-ui-small-details-big-impact",
     thumbnail: "/blogs/blog-8.png",
-    "description": ["Microinteractions are the small, often overlooked moments of interaction that shape a user's perception of a product. They can be as simple as a button ...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "Microinteractions are the small, often overlooked moments of interaction that shape a user's perception of a product. They can be as simple as a button ...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -2026,9 +2013,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "What is webflow? A comprehensive guide to no-code web design",
     slug: "what-is-webflow-a-comprehensive-guide-to-no-code-web-design",
     thumbnail: "/blogs/blog-9.png",
-    "description": ["Web designers and businesses can now create visually stunning, responsive websites without having to write a single line of code thanks to no-code web design...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "Web designers and businesses can now create visually stunning, responsive websites without having to write a single line of code thanks to no-code web design...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -2279,9 +2264,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     col_span_two: true,
     slug: "the-most-useful-speed-optimisation-tactics-for-webflow-websites",
     thumbnail: "/blogs/blog-10.png",
-    "description": ["Web designers and businesses can now create visually stunning, responsive websites without having to write a single line of code thanks to no-code web design...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "Web designers and businesses can now create visually stunning, responsive websites without having to write a single line of code thanks to no-code web design...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -2531,9 +2514,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "Product design vs UX design-everything in between",
     slug: "product-design-vs-ux-design-everything-in-between",
     thumbnail: "/blogs/blog-11.png",
-    "description": ["Job titles in the digital workspace often cause confusion and multiple “trips” to Google’s search bar. To put Product Design vs UX Design might seem like...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "Job titles in the digital workspace often cause confusion and multiple “trips” to Google’s search bar. To put Product Design vs UX Design might seem like...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -2783,9 +2764,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "Branding in web design: How to craft your digital identity",
     slug: "branding-in-web-design-how-to-craft-your-digital-identity",
     thumbnail: "/blogs/blog-12.png",
-    "description": ["In today's digital era, establishing a robust brand identity across online platforms is essential for boosting recognition and trust. The connection between ...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "In today's digital era, establishing a robust brand identity across online platforms is essential for boosting recognition and trust. The connection between ...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -3035,9 +3014,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "Choosing a Digital Product Agency over a Freelance Designer",
     slug: "choosing-a-digital-product-agency-over-a-freelance-designer",
     thumbnail: "/blogs/blog-13.png",
-    "description": ["When building digital products without the luxury of having an in-house design and development team, it always comes down to one thing - choosing...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "When building digital products without the luxury of having an in-house design and development team, it always comes down to one thing - choosing...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -3288,9 +3265,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     slug: "ux-design-for-mobile-why-its-crucial-for-your-business",
     col_span_two: true,
     thumbnail: "/blogs/blog-14.png",
-    "description": ["We live in a mobile-first world, and many companies have shifted their product focus to mobile-first. This means the design is iterated, keeping in mind...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "We live in a mobile-first world, and many companies have shifted their product focus to mobile-first. This means the design is iterated, keeping in mind...",
     "sections": [
       {
         "title": "1. Poor Web Design",
@@ -3540,9 +3515,7 @@ We've gathered a list of common web design mistakes and examples that lead to su
     "title": "Design Challenges in Building Decentralized Applications ",
     slug: "design-challenges-in-building-decentralized-applications",
     thumbnail: "/blogs/blog-15.png",
-    "description": ["With its unparalleled levels of transparency, security, and user control, decentralized apps (DApps) constitute a paradigm change in software...",
-      `It might be easy to say that bad websites are the ones which simply look bad. As always, the devil is in the details and a proper examination of a website's functionalities is the way to go when trying to find solutions.
-We've gathered a list of common web design mistakes and examples that lead to subpar user experience. From slow loading times to cluttered designs, we'll explore crucial issues in web development.`],
+    "description": "With its unparalleled levels of transparency, security, and user control, decentralized apps (DApps) constitute a paradigm change in software...",
     "sections": [
       {
         "title": "1. Poor Web Design",
