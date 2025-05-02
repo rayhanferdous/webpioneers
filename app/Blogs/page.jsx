@@ -1,3 +1,4 @@
+'use cliet';
 import { Badge } from "../(components)/ui/Badge";
 import MountAnim from "../(components)/ui/MountAnim";
 import Tags from "../(components)/ui/Tags";
@@ -39,7 +40,7 @@ const Blogs = () => {
             image={blog?.thumbnail}
             title={blog?.title}
             colSpanTwo={blog?.col_span_two}
-            desc={blog?.description[0].substring(0, 150)}
+            desc={blog?.description && blog?.description[0]?.substring(0, 150)}
             minsToRead={blog?.time_to_read}
             link={`/Blogs/${blog?.slug}`}
           />
