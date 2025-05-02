@@ -35,19 +35,19 @@ const PortfolioItemPage = ({ params }) => {
         <div className="flex flex-col items-center justify-center text-center gap-6">
           <MountAnim>
             <h1 className="text-4xl sm:text-[3.3rem] leading-tight mx-auto max-w-[36ch] 2xl:max-w-[32ch]">
-              {currentBlog.title}
+              {currentBlog?.title}
             </h1>
           </MountAnim>
 
           <MountAnim>
-            <Tags title={currentBlog.tag} active={true} />
+            <Tags title={currentBlog?.tag} active={true} />
           </MountAnim>
 
           <div className="flex items-center gap-9">
             <div className="flex items-center gap-2.5 font-urbanist font-medium text-[22px] text-gray-700">
-              <span>{currentBlog.published_at}</span>
+              <span>{currentBlog?.published_at}</span>
               <span className="min-h-1.5 min-w-1.5 max-h-1.5 max-w-1.5 rounded-full bg-black"></span>
-              <span>{currentBlog.time_to_read}</span>
+              <span>{currentBlog?.time_to_read}</span>
             </div>
             <div className="flex items-center gap-2.5">
               <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,7 +100,7 @@ const PortfolioItemPage = ({ params }) => {
       </section>
       {/* content section */}
       <section className="px-con mt-14">
-        <Image src={currentBlog.main_img} alt={currentBlog.title} width={1680} height={818} className="w-full h-auto object-cover" />
+        <Image src={currentBlog?.main_img} alt={currentBlog?.title} width={1680} height={818} className="w-full h-auto object-cover" />
 
         <div className="grid grid-cols-3 gap-24 mt-14">
           {/* left */}
@@ -110,7 +110,7 @@ const PortfolioItemPage = ({ params }) => {
               <h3 className="font-medium text-[28px]">Table Of Contents</h3>
               <div className="mt-10 flex flex-col gap-5">
                 {
-                  currentBlog.sections.map((section, index) => (
+                  currentBlog?.sections.map((section, index) => (
                     section.title && <Link href={`#${section?.title?.toLowerCase().replaceAll(' ', '-')}`} key={index} className="text-2xl font-bold text-gray-700">{section.title}</Link>
                   ))
                 }
@@ -119,7 +119,7 @@ const PortfolioItemPage = ({ params }) => {
             {/* content */}
             <div>
               {
-                currentBlog.sections.map((section, index) => (
+                currentBlog?.sections.map((section, index) => (
                   <div key={index} className="mt-10">
                     <div id={section?.title?.toLowerCase().replaceAll(" ", "-")}>
                       <h4 className="text-2xl font-bold">{section.title}</h4>
