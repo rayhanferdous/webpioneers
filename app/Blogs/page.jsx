@@ -41,7 +41,7 @@ const Blogs = () => {
             colSpanTwo={blog.col_span_two}
             desc={blog.description[0].substring(0, 150)}
             minsToRead={blog.time_to_read}
-            link={blog.link}
+            link={`/Blogs/${blog.slug}`}
           />
         ))}
       </div>
