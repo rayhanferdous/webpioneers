@@ -69,7 +69,7 @@ const Hero = () => {
         </div>
         <div ref={containerRef} className="px-5 w-full max-w-[104rem]">
           <MountAnim delay={0.2}>
-            <Image
+            <img
               src={"./LearnMoreHero.svg"}
               alt="logo"
               width={800}
@@ -77,7 +77,7 @@ const Hero = () => {
               priority
               className="w-full h-auto ipad max-sm:hidden"
             />
-            <Image
+            <img
               src={"./LearnMoreHeroM.svg"}
               alt="logo"
               width={400}
