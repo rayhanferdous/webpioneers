@@ -23,13 +23,13 @@ export const blogs = [
           'It often leads to a high bounce rate as visitors quickly become frustrated with confusing layouts, slow load times, or cluttered interfaces, causing them to leave the site prematurely.',
           'Low conversion rates are a common consequence, as users are less likely to trust or engage with a poorly designed website, resulting in missed opportunities for businesses. ',
           `Bad web design leaves a negative impression on potential customers, damaging a brand's credibility and trustworthiness.`
-        ]
+        ],
+        footer_text: `Ultimately, subpar web design extends far beyond aesthetics, and can negatively affect user experience. This often damages the website's ability to attract, retain, and convert visitors effectively.`,
       },
-      {description: [`Ultimately, subpar web design extends far beyond aesthetics, and can negatively affect user experience. This often damages the website's ability to attract, retain, and convert visitors effectively.`]},
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         
       },
          {title: "Text walls",
@@ -45,7 +45,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-2.png',
       },
       {
         "title": "How to improve?",
@@ -56,7 +56,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-3.png',
       },
       {
         "title": "How to improve?",
@@ -67,7 +67,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-4.png',
       },
       {
         "title": "How to improve?",
@@ -77,7 +77,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-5.png',
       },
       {
         "title": "How to improve?",
@@ -87,7 +87,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-6.png',
       },
       {
         "title": "How to improve?",
@@ -107,7 +107,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-7.png',
       },
       {
         "title": "How to improve?",
@@ -124,7 +124,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-8.png',
       },
       {
         "title": "How to improve?",
@@ -133,7 +133,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-9.png',
       },
       {
         "title": "How to improve?",
@@ -142,7 +142,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-10.png',
       },
       {
         "title": "How to improve?",
@@ -151,7 +151,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-11.png',
       },
       {
         "title": "15- Outdated web design",
@@ -202,7 +202,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -210,7 +210,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -218,7 +218,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -262,6 +262,7 @@ export const blogs = [
     "title": "Conversational UX design how to enhance user engagement",
     slug: "conversational-ux-design-how-to-enhance-user-engagement",
     thumbnail: "/blogs/blog-2.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "Conversational UX is revolutionising the way we interact with technology, offering more engaging and natural user experiences across various industries.",
     "sections": [
       {
@@ -277,7 +278,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -295,7 +296,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -306,7 +307,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -317,7 +318,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -327,7 +328,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -337,7 +338,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -357,7 +358,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -374,7 +375,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -383,7 +384,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -392,7 +393,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -401,7 +402,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -452,7 +453,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -460,7 +461,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -468,7 +469,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -512,6 +513,7 @@ export const blogs = [
     "title": "Mastering the product design process : best practices",
     slug: "mastering-the-product-design-process-best-practices",
     thumbnail: "/blogs/blog-3.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "After our fair share of product design experience, we take a peek into the strategies, techniques, and insider know-how that have set the foundation for all...",
     "sections": [
       {
@@ -527,7 +529,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -545,7 +547,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -556,7 +558,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -567,7 +569,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -577,7 +579,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -587,7 +589,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -607,7 +609,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -624,7 +626,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -633,7 +635,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -642,7 +644,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -651,7 +653,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -702,7 +704,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -710,7 +712,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -718,7 +720,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -762,6 +764,7 @@ export const blogs = [
     "title": "4 key design strategies to boost your website purchases",
     slug: "4-key-design-strategies-to-boost-your-website-purchases",
     thumbnail: "/blogs/blog-4.png",
+    main_img: "/blogs/details/blog-1.png",
     col_span_two: true,
     "description": "From a young age, we are afraid of public speaking. The truth is, you should overcome it by using some tricks, that not only will help you to become a master...",
     "sections": [
@@ -778,7 +781,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -796,7 +799,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -807,7 +810,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -818,7 +821,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -828,7 +831,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -838,7 +841,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -858,7 +861,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -875,7 +878,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -884,7 +887,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -893,7 +896,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -902,7 +905,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -953,7 +956,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -961,7 +964,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -969,7 +972,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1013,6 +1016,7 @@ export const blogs = [
     "title": "The role of quality assurance in user experience design",
     slug: "the-role-of-quality-assurance-in-user-experience-design",
     thumbnail: "/blogs/blog-5.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "This article is about Quality Assurance and its role in User Experience Design. Furthermore, we've covered some of the important requirements our Quality...",
     "sections": [
       {
@@ -1028,7 +1032,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -1046,7 +1050,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1057,7 +1061,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1068,7 +1072,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1078,7 +1082,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1088,7 +1092,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1108,7 +1112,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1125,7 +1129,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1134,7 +1138,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1143,7 +1147,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1152,7 +1156,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -1203,7 +1207,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1211,7 +1215,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1219,7 +1223,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1263,6 +1267,7 @@ export const blogs = [
     "title": "Enhancing User Trust Through Secure UX Design for Fintech Applications",
     slug: "enhancing-user-trust-through-secure-ux-design-for-fintech-applications",
     thumbnail: "/blogs/blog-6.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "As the financial tech industry is making advancements at a rapid rate, it is essential to build trust with your user base. The rapid digitalization of financial services...",
     "sections": [
       {
@@ -1278,7 +1283,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -1296,7 +1301,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1307,7 +1312,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1318,7 +1323,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1328,7 +1333,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1338,7 +1343,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1358,7 +1363,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1375,7 +1380,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1384,7 +1389,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1393,7 +1398,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1402,7 +1407,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -1453,7 +1458,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1461,7 +1466,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1469,7 +1474,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1513,6 +1518,7 @@ export const blogs = [
     "title": "Why Every Business Needs a UX Audit: Benefits and ROI",
     slug: "why-every-business-needs-a-ux-audit-benefits-and-roi",
     thumbnail: "/blogs/blog-7.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "In the current digital era, user experience (UX) is everything. A good user experience (UX) may make or break a potential customer's decision to interact...",
     "sections": [
       {
@@ -1528,7 +1534,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -1546,7 +1552,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1557,7 +1563,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1568,7 +1574,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1578,7 +1584,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1588,7 +1594,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1608,7 +1614,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1625,7 +1631,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1634,7 +1640,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1643,7 +1649,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1652,7 +1658,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -1703,7 +1709,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1711,7 +1717,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1719,7 +1725,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1763,6 +1769,7 @@ export const blogs = [
     "title": "The Power of Microinteractions in UI: Small Details, Big Impact",
     slug: "the-power-of-microinteractions-in-ui-small-details-big-impact",
     thumbnail: "/blogs/blog-8.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "Microinteractions are the small, often overlooked moments of interaction that shape a user's perception of a product. They can be as simple as a button ...",
     "sections": [
       {
@@ -1778,7 +1785,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -1796,7 +1803,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1807,7 +1814,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1818,7 +1825,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1828,7 +1835,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1838,7 +1845,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1858,7 +1865,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1875,7 +1882,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1884,7 +1891,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1893,7 +1900,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -1902,7 +1909,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -1953,7 +1960,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1961,7 +1968,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -1969,7 +1976,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2013,6 +2020,7 @@ export const blogs = [
     "title": "What is webflow? A comprehensive guide to no-code web design",
     slug: "what-is-webflow-a-comprehensive-guide-to-no-code-web-design",
     thumbnail: "/blogs/blog-9.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "Web designers and businesses can now create visually stunning, responsive websites without having to write a single line of code thanks to no-code web design...",
     "sections": [
       {
@@ -2028,7 +2036,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -2046,7 +2054,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2057,7 +2065,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2068,7 +2076,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2078,7 +2086,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2088,7 +2096,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2108,7 +2116,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2125,7 +2133,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2134,7 +2142,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2143,7 +2151,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2152,7 +2160,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -2203,7 +2211,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2211,7 +2219,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2219,7 +2227,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2264,6 +2272,7 @@ export const blogs = [
     col_span_two: true,
     slug: "the-most-useful-speed-optimisation-tactics-for-webflow-websites",
     thumbnail: "/blogs/blog-10.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "Web designers and businesses can now create visually stunning, responsive websites without having to write a single line of code thanks to no-code web design...",
     "sections": [
       {
@@ -2279,7 +2288,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -2297,7 +2306,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2308,7 +2317,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2319,7 +2328,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2329,7 +2338,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2339,7 +2348,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2359,7 +2368,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2376,7 +2385,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2385,7 +2394,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2394,7 +2403,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2403,7 +2412,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -2454,7 +2463,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2462,7 +2471,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2470,7 +2479,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2514,6 +2523,7 @@ export const blogs = [
     "title": "Product design vs UX design-everything in between",
     slug: "product-design-vs-ux-design-everything-in-between",
     thumbnail: "/blogs/blog-11.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "Job titles in the digital workspace often cause confusion and multiple “trips” to Google’s search bar. To put Product Design vs UX Design might seem like...",
     "sections": [
       {
@@ -2529,7 +2539,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -2547,7 +2557,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2558,7 +2568,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2569,7 +2579,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2579,7 +2589,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2589,7 +2599,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2609,7 +2619,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2626,7 +2636,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2635,7 +2645,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2644,7 +2654,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2653,7 +2663,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -2704,7 +2714,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2712,7 +2722,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2720,7 +2730,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2764,6 +2774,7 @@ export const blogs = [
     "title": "Branding in web design: How to craft your digital identity",
     slug: "branding-in-web-design-how-to-craft-your-digital-identity",
     thumbnail: "/blogs/blog-12.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "In today's digital era, establishing a robust brand identity across online platforms is essential for boosting recognition and trust. The connection between ...",
     "sections": [
       {
@@ -2779,7 +2790,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -2797,7 +2808,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2808,7 +2819,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2819,7 +2830,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2829,7 +2840,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2839,7 +2850,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2859,7 +2870,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2876,7 +2887,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2885,7 +2896,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2894,7 +2905,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -2903,7 +2914,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -2954,7 +2965,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2962,7 +2973,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -2970,7 +2981,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3014,6 +3025,7 @@ export const blogs = [
     "title": "Choosing a Digital Product Agency over a Freelance Designer",
     slug: "choosing-a-digital-product-agency-over-a-freelance-designer",
     thumbnail: "/blogs/blog-13.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "When building digital products without the luxury of having an in-house design and development team, it always comes down to one thing - choosing...",
     "sections": [
       {
@@ -3029,7 +3041,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -3047,7 +3059,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3058,7 +3070,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3069,7 +3081,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3079,7 +3091,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3089,7 +3101,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3109,7 +3121,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3126,7 +3138,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3135,7 +3147,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3144,7 +3156,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3153,7 +3165,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -3204,7 +3216,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3212,7 +3224,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3220,7 +3232,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3265,6 +3277,7 @@ export const blogs = [
     slug: "ux-design-for-mobile-why-its-crucial-for-your-business",
     col_span_two: true,
     thumbnail: "/blogs/blog-14.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "We live in a mobile-first world, and many companies have shifted their product focus to mobile-first. This means the design is iterated, keeping in mind...",
     "sections": [
       {
@@ -3280,7 +3293,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -3298,7 +3311,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3309,7 +3322,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3320,7 +3333,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3330,7 +3343,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3340,7 +3353,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3360,7 +3373,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3377,7 +3390,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3386,7 +3399,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3395,7 +3408,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3404,7 +3417,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -3455,7 +3468,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3463,7 +3476,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3471,7 +3484,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3515,6 +3528,7 @@ export const blogs = [
     "title": "Design Challenges in Building Decentralized Applications ",
     slug: "design-challenges-in-building-decentralized-applications",
     thumbnail: "/blogs/blog-15.png",
+    main_img: "/blogs/details/blog-1.png",
     "description": "With its unparalleled levels of transparency, security, and user control, decentralized apps (DApps) constitute a paradigm change in software...",
     "sections": [
       {
@@ -3530,7 +3544,7 @@ export const blogs = [
       {
         "title": "2. Lack of White Space",
         "description": [`White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,`A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
         "examples": [
          {title: "Text walls",
           description: [`The biggest mistake in web design is adding too much text to the page. Site visitors might seek info but text walls are often scary. Internet users prefer texts that are quick to read at a glance.`]
@@ -3548,7 +3562,7 @@ export const blogs = [
         "title": "3. Non-Responsive Design",
         "description": ["Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`],
-          image: '/blogs/details/blog-1.png',
+          image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3559,7 +3573,7 @@ export const blogs = [
         "title": "4. Inconsistent Colours or Visual Elements",
         "description": ["Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3570,7 +3584,7 @@ export const blogs = [
       {
         "title": "5- Poor Typography Choices",
         "description": ["Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.","For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3580,7 +3594,7 @@ export const blogs = [
       {
         "title": "6- Poor Navigation",
         "description": ["Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.", "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3590,7 +3604,7 @@ export const blogs = [
       {
         "title": "7- Slow Loading Speed",
         "description": ["Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",  "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3610,7 +3624,7 @@ export const blogs = [
       {
         "title": "9- Unclear CTA Buttons",
         "description": ["Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",  "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",'For instance, imagine a website with CTA buttons that blend seamlessly into the background or use generic, uninspiring text like "Submit" or "Click Here." Such issues can result in missed conversions and frustrated users.'],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3627,7 +3641,7 @@ export const blogs = [
       {
         "title": "11- Complex Registration Process",
         "description": ["A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",  "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3636,7 +3650,7 @@ export const blogs = [
       {
         "title": "12- Ignoring SEO",
         "description": ["Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",  "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3645,7 +3659,7 @@ export const blogs = [
       {
         "title": "13- Accessibility Issues",
         "description": ["Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",  "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "How to improve?",
@@ -3654,7 +3668,7 @@ export const blogs = [
       {
         "title": "14- Broken Links and 404 Errors",
         "description": ["The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages."],
-        image: '/blogs/details/blog-1.png',
+        image: '/blogs/details/blog-1-1.png',
       },
       {
         "title": "15- Outdated web design",
@@ -3705,7 +3719,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3713,7 +3727,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Conversational UX design how to enhance user engagement",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",
@@ -3721,7 +3735,7 @@ export const blogs = [
       {
         tag: "UI/UX",
         title: "Mastering the product design process : best practices",
-        description: ["Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes."],
+        description: "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
         image: "https://www.example.com/web-design.jpg",
         link: "#",
         time_to_read: "4 mins read",

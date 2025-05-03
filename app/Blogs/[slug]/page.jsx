@@ -1,5 +1,6 @@
 "use client";
 
+import { Badge } from "@/app/(components)/ui/Badge";
 import MountAnim from "@/app/(components)/ui/MountAnim";
 import Tags from "@/app/(components)/ui/Tags";
 import { blogs } from "@/app/(constants)/blogs";
@@ -7,6 +8,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import React from "react";
+import Card from "../(components)/Card";
+import Button from "@/app/(components)/ui/Button";
 
 const PortfolioItemPage = ({ params }) => {
   const { slug } = React.use(params);
@@ -120,22 +123,26 @@ const PortfolioItemPage = ({ params }) => {
             <div>
               {
                 currentBlog?.sections.map((section, index) => (
-                  <div key={index} className="mt-10">
-                    <div id={section?.title?.toLowerCase().replaceAll(" ", "-")}>
-                      <h4 className="text-2xl font-bold">{section.title}</h4>
-                      {section?.description?.map((paragraph, i) => (
-                        <p key={i}>{paragraph}</p>
-                      ))}
+                  <div key={index} className="mt-10 font-medium">
+                    <div className="flex flex-col gap-4" id={section?.title?.toLowerCase().replaceAll(" ", "-")}>
+                      <h4 className="text-[28px] ">{section.title}</h4>
+                      {section?.description && <div className="flex flex-col gap-8">
+                        {section?.description?.map((paragraph, i) => (
+                          <p className="text-2xl text-gray-700" key={i}>{paragraph}</p>
+                        ))}
+                      </div>
+                      }
+                      {section?.image && <Image className="mt-4" src={section.image} width={967} height={502} alt={section.title} />}
 
-                      {section?.image && <Image src={section.image} width={200} height={200} alt={section.title} />}
-
-                      {section?.orderList && <ol className="!list-decimal !list-inside">
+                      {section?.orderList && <ul className="mt-8">
                         {section?.orderList?.map((item, i) => (
-                          <li key={i} className="flex items-center  gap-2">
-                            <p>{item}</p>
+                          <li key={i} className="list-decimal !list-inside text-2xl text-gray-700 mb-2">
+                            {item}
                           </li>
                         ))}
-                      </ol>}
+                      </ul>}
+
+                      {section?.footer_text && <p className="text-2xl text-gray-700 mt-8">{section?.footer_text}</p>}
                     </div>
                   </div>
                 ))
@@ -149,6 +156,47 @@ const PortfolioItemPage = ({ params }) => {
               <p>title</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* explore more  */}
+      <section className="my-container px-con relative max-sm:pt-12 sm:pt-20 flex flex-col">
+        <div className="mt-6 sm:mt-14 border-b border-gray w-full"></div>
+
+        <div className="headerSpace"></div>
+        <div className="flex items-center justify-between">
+          <div className="flex flex-col items-start sm:text-center sm:justify-start gap-4">
+            <MountAnim>
+              <Badge nodot variant="yellow">
+                Other Blogs
+              </Badge>
+            </MountAnim>
+            <MountAnim>
+              <h1 className="text-4xl sm:text-[3.5rem] leading-tight mx-auto max-w-[36ch] 2xl:max-w-[32ch]">
+                Explore More
+              </h1>
+            </MountAnim>
+          </div>
+
+          <Link href={'/Blogs'}>
+            <MountAnim>
+              <Button btnType="light">See All Blogs</Button>
+            </MountAnim>
+          </Link>
+
+        </div>
+        {/* card */}
+        <div className=" grid gap-y-7 pt-10 md:pt-[42px] lg:pt-14 md:gap-y-10 xl:gap-y-14 2xl:gap-y-20 gap-x-9 md:gap-x-9 xl:gap-x-8 2xl:gap-x-8 sm:grid-cols-2 md:grid-cols-3">
+          {currentBlog?.explore_more?.map((card, index) => (
+            <Card
+              key={index}
+              tag={card?.tag}
+              image={card?.thumbnail}
+              title={card?.title}
+              desc={card?.description}
+              minsToRead={card?.time_to_read}
+              link={`/Blogs/${card?.link}`}
+            />))}
         </div>
       </section>
     </>
