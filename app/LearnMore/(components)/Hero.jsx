@@ -72,15 +72,11 @@ const Hero = () => {
             <img
               src={"./LearnMoreHero.svg"}
               alt="logo"
-              width={800}
-              height={800}
               className="w-full h-auto ipad max-sm:hidden"
             />
             <img
               src={"./LearnMoreHeroM.svg"}
               alt="logo"
-              width={400}
-              height={400}
               className="w-full h-auto sm:hidden"
             />
           </MountAnim>

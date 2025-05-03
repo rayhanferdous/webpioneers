@@ -66,12 +66,11 @@ const WhyChooseUs = () => {
 
         {/* tab */}
         <StaggerMount className="group rounded-2xl border-2 border-gray-600 col-span-1 sm:col-span-2 row-span-2 hidden sm:flex items-center">
-          <Image
+          <img
             src={"./tablet.svg"}
             alt="tablet"
             width={1920}
             height={1080}
-            priority
             className="w-full h-auto pl-16 my-[7.5rem]"
           />
         </StaggerMount>

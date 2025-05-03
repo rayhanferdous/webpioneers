@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const CardText = ({ colSpanTwo, title, desc, minsToRead, link = "/#" }) => {
     return (
-        <div className={`${colSpanTwo && 'min-[1024px]:absolute min-[1024px]:bottom-9 min-[1024px]:left-9 min-[1024px]:bg-white max-w-[400px] 2xl:max-w-[549px] rounded-2xl'} p-6 flex flex-col gap-[18px] 2xl:justify-between md:gap-6 lg:gap-4 2xl:gap-9`}>
+        <div className={`${colSpanTwo && 'md:absolute md:h-fit md:bottom-9 md:left-9 md:bg-white max-w-[400px] 2xl:max-w-[549px] rounded-2xl'} p-6 flex flex-col gap-[18px] 2xl:justify-between md:gap-6 lg:gap-4 2xl:gap-9`}>
             <div className="flex flex-col gap-4 md:gap-5">
                 <h3 className={`text-[21px] md:text-[18px] lg:text-[21px] 2xl:text-[28px]"} font-medium text-dark`}>{title}</h3>
                 <p className="font-medium text-[#7A7A7A] text-[18px] lg:text-[16px] xl:text-[15px] 2xl:text-[20px]">
