@@ -22,7 +22,7 @@ const Sidebar = ({ handleClose }) => {
     { href: "/Services", label: "Services" },
     { href: "/Pricing", label: "Pricing" },
     { href: "/BookACall", label: "Book A Call" },
-    { href: "/OurBlogs", label: "Our Blogs" },
+    { href: "/Blogs", label: "Our Blogs" },
     { href: "/FAQ", label: "FAQ's" },
   ];
 

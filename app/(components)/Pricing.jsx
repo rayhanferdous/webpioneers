@@ -167,7 +167,7 @@ const Pricing = () => {
   const { isMobile } = useResponsiveStates();
 
   return (
-    <section className="pt-12 sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-8 sm:gap-16">
+    <section className="pt-12 my-container sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-8 sm:gap-16">
       <div className="flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">
@@ -189,11 +189,10 @@ const Pricing = () => {
               onClick={() => {
                 setActive(index);
               }}
-              className={`flex-1 px-2.5 py-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${
-                active === index
+              className={`flex-1 px-2.5 py-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${active === index
                   ? "bg-dark text-light"
                   : "hover:bg-dark hover:text-light"
-              }`}
+                }`}
             >
               {plan.title}
             </button>
@@ -204,9 +203,8 @@ const Pricing = () => {
             <motion.div
               key={index}
               animate={{
-                x: `calc(-${isMobile ? active * 100 : 0}% - ${
-                  isMobile ? active * 2 : 0
-                }rem)`,
+                x: `calc(-${isMobile ? active * 100 : 0}% - ${isMobile ? active * 2 : 0
+                  }rem)`,
                 opacity: active === index ? 1 : 0,
               }}
               transition={{
@@ -216,9 +214,8 @@ const Pricing = () => {
                   duration: 0.45,
                 },
               }}
-              className={`${
-                index === 2 ? "col-span-1 sm:col-span-2" : "col-span-1"
-              } sm:!opacity-100 flex sm:!translate-x-0`}
+              className={`${index === 2 ? "col-span-1 sm:col-span-2" : "col-span-1"
+                } sm:!opacity-100 flex sm:!translate-x-0`}
             >
               <div className="max-sm:min-w-[calc(100vw-2.5rem)] flex-1 rounded-xl sm:rounded-2xl border-2 border-gray-600 flex gap-8">
                 <PlanCard {...plan} />

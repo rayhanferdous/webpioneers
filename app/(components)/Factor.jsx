@@ -103,7 +103,7 @@ const Factor = () => {
   };
 
   return (
-    <section className="p-con flex">
+    <section className="p-con flex my-container">
       <div className="rounded-2xl border-2 border-gray-600 flex-1 flex flex-col sm:gap-20 px-5 py-10 sm:px-[3.75rem] sm:py-[3.75rem]">
         <div className="flex flex-col items-center gap-2 text-center">
           <MountAnim>
@@ -129,11 +129,10 @@ const Factor = () => {
               onClick={() => {
                 setActive(0);
               }}
-              className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${
-                active === 0
+              className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${active === 0
                   ? "bg-dark text-light"
                   : "hover:bg-dark hover:text-light"
-              }`}
+                }`}
             >
               Fiverr like <br />
               Platforms
@@ -142,11 +141,10 @@ const Factor = () => {
               onClick={() => {
                 setActive(1);
               }}
-              className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${
-                active === 1
+              className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${active === 1
                   ? "bg-dark text-light"
                   : "hover:bg-dark hover:text-light"
-              }`}
+                }`}
             >
               Freelancers <br />
               Employees
@@ -155,11 +153,10 @@ const Factor = () => {
               onClick={() => {
                 setActive(2);
               }}
-              className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${
-                active === 2
+              className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${active === 2
                   ? "bg-dark text-light"
                   : "hover:bg-dark hover:text-light"
-              }`}
+                }`}
             >
               Traditional <br />
               Agencies
@@ -244,9 +241,8 @@ const Factor = () => {
                     {row.title}
                   </div>
                   <div
-                    className={`h-[4.375rem] sm:h-[5rem] flex justify-center items-center px-4 border-gray ${
-                      index < Data.length - 1 ? "max-sm:border-b" : ""
-                    }`}
+                    className={`h-[4.375rem] sm:h-[5rem] flex justify-center items-center px-4 border-gray ${index < Data.length - 1 ? "max-sm:border-b" : ""
+                      }`}
                   >
                     {renderIcon(row.thisPlatform)}
                   </div>
@@ -263,9 +259,8 @@ const Factor = () => {
                           duration: 0.45,
                         },
                       }}
-                      className={`sm:!translate-x-0 sm:!opacity-100 flex-1 flex-shrink-0 h-[4.375rem] sm:h-[5rem] flex justify-center items-center px-4 border-gray ${
-                        index < Data.length - 1 ? "border-b" : ""
-                      }`}
+                      className={`sm:!translate-x-0 sm:!opacity-100 flex-1 flex-shrink-0 h-[4.375rem] sm:h-[5rem] flex justify-center items-center px-4 border-gray ${index < Data.length - 1 ? "border-b" : ""
+                        }`}
                     >
                       {renderIcon(row.fiverr)}
                     </motion.div>
@@ -281,9 +276,8 @@ const Factor = () => {
                           duration: 0.45,
                         },
                       }}
-                      className={`sm:!translate-x-0 sm:!opacity-100 max-sm:absolute w-full left-full top-0 flex-shrink-0 h-[4.375rem] sm:h-[5rem] flex justify-center items-center px-4 border-gray ${
-                        index < Data.length - 1 ? "border-b" : ""
-                      }`}
+                      className={`sm:!translate-x-0 sm:!opacity-100 max-sm:absolute w-full left-full top-0 flex-shrink-0 h-[4.375rem] sm:h-[5rem] flex justify-center items-center px-4 border-gray ${index < Data.length - 1 ? "border-b" : ""
+                        }`}
                     >
                       {renderIcon(row.freelancers)}
                     </motion.div>
@@ -299,9 +293,8 @@ const Factor = () => {
                           duration: 0.45,
                         },
                       }}
-                      className={`sm:!translate-x-0 sm:!opacity-100 max-sm:absolute w-full left-[200%] top-0 flex-shrink-0 h-[4.375rem] sm:h-[5rem] flex justify-center items-center px-4 border-gray ${
-                        index < Data.length - 1 ? "border-b" : ""
-                      }`}
+                      className={`sm:!translate-x-0 sm:!opacity-100 max-sm:absolute w-full left-[200%] top-0 flex-shrink-0 h-[4.375rem] sm:h-[5rem] flex justify-center items-center px-4 border-gray ${index < Data.length - 1 ? "border-b" : ""
+                        }`}
                     >
                       {renderIcon(row.agencies)}
                     </motion.div>

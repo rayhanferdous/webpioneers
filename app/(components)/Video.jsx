@@ -36,7 +36,7 @@ const Video = () => {
   );
 
   return (
-    <section className="relative p-con flex flex-col sm:items-center sm:text-center gap-3 overflow-hidden">
+    <section className="my-container relative p-con flex flex-col sm:items-center sm:text-center gap-3 overflow-hidden">
       <div ref={containerRef} className="w-full">
         <div className="videoFrame w-full overflow-hidden border-2 border-gray-600 bg-[#F7F7F7] rounded-2xl aspect-[1.29] sm:aspect-[1.868] relative">
           {/* <video src="" className="w-full h-full object-cover" /> */}

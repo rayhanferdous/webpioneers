@@ -62,8 +62,8 @@ const Comp1 = React.memo(({ isInView }) => {
                     ? "translate-x-0"
                     : "-translate-x-20"
                   : index % 2 === 0
-                  ? "-translate-x-20 lg:group-hover:translate-x-0"
-                  : "translate-x-0 lg:group-hover:-translate-x-20"
+                    ? "-translate-x-20 lg:group-hover:translate-x-0"
+                    : "translate-x-0 lg:group-hover:-translate-x-20"
               )}
             >
               {text}
@@ -377,7 +377,7 @@ const WhatWeOffer = () => {
   const isInView6 = useInView(ref6, { amount: 0.3, once: true });
 
   return (
-    <section className="p-con flex flex-col gap-10 sm:gap-20">
+    <section className="my-container p-con flex flex-col gap-10 sm:gap-20">
       <div className="flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">

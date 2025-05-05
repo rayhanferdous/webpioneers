@@ -35,7 +35,7 @@ const faqs = [
         Absolutely! We have a detailed portfolio showcasing our past projects,
         highlighting our expertise in UI/UX, development, and conversion
         optimization for various industries. Check our{" "}
-        <a href="/" className="text-prim underline">
+        <a href="/Portfolio" className="text-prim underline">
           awesome work
         </a>
       </>
@@ -98,7 +98,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="pt-12 sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-10 sm:gap-20">
+    <section className="pt-12 my-container sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-10 sm:gap-20">
       <div className="flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">
@@ -120,11 +120,10 @@ const FAQ = () => {
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
             onMouseEnter={handleMouseEnter}
-            className={`group relative overflow-hidden focus:outline-none cursor-pointer h-fit transition-colors border-b ${
-              index === activeFAQ || index === activeFAQ - 1
-                ? "border-transparent"
-                : "border-gray"
-            }`}
+            className={`group relative overflow-hidden focus:outline-none cursor-pointer h-fit transition-colors border-b ${index === activeFAQ || index === activeFAQ - 1
+              ? "border-transparent"
+              : "border-gray"
+              }`}
           >
             <div className="relative z-10 px-[1.25rem] sm:px-[1.875rem] py-7 sm:py-10 sm:mr-[6.25rem]">
               <h4 className="text-[1.2rem] sm:text-[1.5rem] text-dark sm:max-w-[73ch] font-medium leading-snug max-sm:pr-[3rem]">
@@ -149,17 +148,15 @@ const FAQ = () => {
               className={`absolute right-5 max-sm:right-5 max-lg:right-10 lg:left-[90%] top-7 sm:top-[calc(50%-1.5rem)] lg:top-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 z-[1]`}
             >
               <div
-                className={`${
-                  activeFAQ === index
-                    ? " border-prim bg-prim text-white"
-                    : " border-gray-600 bg-white text-dark"
-                } transition-all duration-500 border size-[1.875rem] sm:size-[3.125rem] rounded-lg sm:rounded-2xl lg:group-hover:scale-100 scale-100 lg:scale-0 origin-center`}
+                className={`${activeFAQ === index
+                  ? " border-prim bg-prim text-white"
+                  : " border-gray-600 bg-white text-dark"
+                  } transition-all duration-500 border size-[1.875rem] sm:size-[3.125rem] rounded-lg sm:rounded-2xl lg:group-hover:scale-100 scale-100 lg:scale-0 origin-center`}
               >
                 <div className="w-2.5 sm:w-[1.25rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-0"></div>
                 <div
-                  className={`${
-                    activeFAQ === index ? "rotate-0" : "rotate-90"
-                  } transition-transform duration-500 w-2.5 sm:w-[1.25rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2`}
+                  className={`${activeFAQ === index ? "rotate-0" : "rotate-90"
+                    } transition-transform duration-500 w-2.5 sm:w-[1.25rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2`}
                 ></div>
               </div>
             </div>

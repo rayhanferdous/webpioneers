@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const PricingBanner = () => {
   return (
-    <section className="pt-12 sm:pt-24 pb-6 sm:pb-12 px-con">
+    <section className=" pt-12 sm:pt-24 pb-6 sm:pb-12 px-con">
       <div className="relative flex justify-center border-2 border-gray-600 rounded-2xl overflow-hidden">
-        <div className="relative z-10 sm:text-center py-10 sm:py-16 px-7 sm:px-12 flex flex-col items-start sm:items-center gap-6 sm:gap-8 w-fit">
+        <div className="my-container relative z-10 sm:text-center py-10 sm:py-16 px-7 sm:px-12 flex flex-col items-start sm:items-center gap-6 sm:gap-8 w-fit">
           <div className="flex flex-col gap-2">
             <MountAnim>
               <Badge nodot variant="yellow">
