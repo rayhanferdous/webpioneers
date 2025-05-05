@@ -1,12 +1,37 @@
-'use cliet';
+'use client';
+import { useEffect, useRef } from "react";
 import { Badge } from "../(components)/ui/Badge";
 import MountAnim from "../(components)/ui/MountAnim";
 import Tags from "../(components)/ui/Tags";
 import { blogs } from "../(constants)/blogs";
 import Card from "./(components)/Card";
 import CardSpan from "./(components)/CardSpan";
+import gsap from "gsap";
 
 const Blogs = () => {
+  const cardsRef = useRef([]);
+
+  useEffect(() => {
+    cardsRef.current.forEach((el, index) => {
+      if (el) {
+        gsap.fromTo(
+          el,
+          { opacity: 0, y: 50 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.8,
+            delay: index * 0.15,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: el,
+              start: "top 90%",
+            },
+          }
+        );
+      }
+    });
+  }, []);
   return (
     <>
       <section className="my-container relative max-sm:pt-12 sm:pt-20 flex flex-col">
@@ -38,6 +63,7 @@ const Blogs = () => {
           blog?.col_span_two ?
             <CardSpan
               key={index}
+              ref={el => cardsRef.current[index] = el}
               tag={blog?.tag}
               image={blog?.thumbnail}
               title={blog?.title}
@@ -47,6 +73,7 @@ const Blogs = () => {
               link={`/Blogs/${blog?.slug}`}
             /> : <Card
               key={index}
+              ref={el => cardsRef.current[index] = el}
               tag={blog?.tag}
               image={blog?.thumbnail}
               title={blog?.title}
