@@ -72,7 +72,7 @@ const Portfolio = () => {
           <h1 className="heading2">We Don't Do Basic</h1>
         </MountAnim>
       </div>
-      <div className="w-full my-container grid grid-cols-1 sm:grid-cols-3 gap-x-12 lg:gap-x-8 gap-y-12 sm:gap-y-24 overflow-hidden">
+      <div className="w-full container-2560 grid grid-cols-1 sm:grid-cols-3 gap-x-12 lg:gap-x-8 gap-y-12 sm:gap-y-24 overflow-hidden">
         {displayedData.map((item, index) => {
           return (
             <Link key={index} href={"/"} className="block col-span-1">

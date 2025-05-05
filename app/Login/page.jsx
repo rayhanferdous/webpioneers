@@ -3,7 +3,7 @@ import Hero from "./(components)/Hero";
 
 const Login = () => {
   return (
-    <div>
+    <div className="">
       <Hero />
     </div>
   );

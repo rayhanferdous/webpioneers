@@ -3,7 +3,7 @@ import React from "react";
 
 export const Bento = () => {
   return (
-    <section className="pt-12 sm:pt-24 px-con flex gap-5 sm:gap-14">
+    <section className="pt-12 container-2560 sm:pt-24 px-con flex gap-5 sm:gap-14">
       <div className="w-full grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-[22.5rem_13.6rem_30.5rem] gap-8">
         <ImageParallax
           src="/Bento1.png"

@@ -61,7 +61,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section className="relative z-50 py-10 sm:py-20 px-con text-dark flex flex-col gap-12 sm:gap-20 rounded-[1.5rem] sm:rounded-[2.5rem] items-center">
+    <section className="relative container-2560 z-50 py-10 sm:py-20 px-con text-dark flex flex-col gap-12 sm:gap-20 rounded-[1.5rem] sm:rounded-[2.5rem] items-center">
       <div className="text-center hidden sm:flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">

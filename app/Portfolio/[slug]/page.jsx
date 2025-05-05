@@ -32,7 +32,7 @@ const PortfolioItemPage = ({ params }) => {
   return (
     <>
       <Hero data={CurrentPortfolio} />
-      <div className="pb-6 sm:pb-10 flex flex-col gap-10 sm:gap-20">
+      <div className="pb-6 container-2560 sm:pb-10 flex flex-col gap-10 sm:gap-20">
         {CurrentPortfolio.detail && <Detail data={CurrentPortfolio.detail} />}
         {CurrentPortfolio.products && (
           <Products data={CurrentPortfolio.products} />

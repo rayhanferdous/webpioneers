@@ -7,7 +7,7 @@ import StaggerMount from "./ui/StaggerMount";
 
 const WhyChooseUs = () => {
   return (
-    <section className="my-container pt-12 sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-10 sm:gap-20">
+    <section className="container-2560 pt-12 sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-10 sm:gap-20">
       <div className="flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">

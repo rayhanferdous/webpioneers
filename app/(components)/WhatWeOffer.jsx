@@ -377,7 +377,7 @@ const WhatWeOffer = () => {
   const isInView6 = useInView(ref6, { amount: 0.3, once: true });
 
   return (
-    <section className="my-container p-con flex flex-col gap-10 sm:gap-20">
+    <section className="container-2560 p-con flex flex-col gap-10 sm:gap-20">
       <div className="flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">

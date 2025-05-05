@@ -141,7 +141,7 @@ const Process = () => {
   const isInView3 = useInView(ref3, { amount: 0.5, once: true });
 
   return (
-    <section className="my-container relative mt-12 p-con flex flex-col items-center text-center gap-3 overflow-hidden">
+    <section className="container-2560 relative mt-12 p-con flex flex-col items-center text-center gap-3 overflow-hidden">
       <MountAnim>
         <Badge nodot variant="yellow">
           Our Process

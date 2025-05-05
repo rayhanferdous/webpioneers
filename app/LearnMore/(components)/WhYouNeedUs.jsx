@@ -122,7 +122,7 @@ const DetailCard = ({ img, title, detail, pclass, scrollar = false }) => {
 
 const WhYouNeedUs = () => {
   return (
-    <section className="pt-12 sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-10 sm:gap-20">
+    <section className="pt-12 container-2560 sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-10 sm:gap-20">
       <div className="flex flex-col gap-4 sm:gap-10">
         <div className="flex items-start sm:items-center gap-2 sm:gap-5 flex-wrap max-sm:flex-col">
           <MountAnim>

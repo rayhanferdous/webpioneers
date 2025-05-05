@@ -33,7 +33,7 @@ const PortfolioItemPage = ({ params }) => {
 
   return (
     <>
-      <section className="relative max-sm:pt-12 sm:pt-20 flex flex-col px-con">
+      <section className="relative container-2560 max-sm:pt-12 sm:pt-20 flex flex-col px-con">
         <div className="headerSpace"></div>
         <div className="flex flex-col items-center justify-center text-center gap-6">
           <MountAnim>
@@ -102,7 +102,7 @@ const PortfolioItemPage = ({ params }) => {
         </div>
       </section>
       {/* content section */}
-      <section className="px-con mt-14">
+      <section className="px-con container-2560 mt-14">
         <Image src={currentBlog?.main_img} alt={currentBlog?.title} width={1680} height={818} className="w-full h-auto object-cover" />
 
         <div className="grid grid-cols-3 gap-24 mt-14">

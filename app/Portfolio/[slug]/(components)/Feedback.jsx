@@ -5,7 +5,7 @@ import React from "react";
 
 const Feedback = ({ data }) => {
   return (
-    <section className="py-6 sm:py-10 px-con flex">
+    <section className="container-2560 py-6 sm:py-10 px-con flex">
       <div className="rounded-2xl bg-light p-5 sm:p-14 flex flex-col gap-5 sm:gap-6 w-full relative">
         <MountAnim className="flex max-sm:flex-col items-start sm:items-center gap-5">
           <Badge nodot variant="yellow">

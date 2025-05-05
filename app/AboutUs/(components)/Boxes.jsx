@@ -43,7 +43,7 @@ const Boxes = () => {
           setHoverTab(null);
         }, 300);
       }}
-      className="max-sm:flex-wrap overflow-hidden flex border-y border-dark relative"
+      className="max-sm:flex-wrap container-2560 overflow-hidden flex border-y border-dark relative"
     >
       <motion.span
         className="max-sm:hidden absolute left-0 aspect-square w-[50%] sm:w-[25%] top-0"

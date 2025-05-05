@@ -50,7 +50,7 @@ const Hero = () => {
   );
 
   return (
-    <section className="py-12 sm:py-20 px-con flex flex-col gap-3 sm:gap-5 overflow-hidden">
+    <section className="container-2560 py-12 sm:py-20 px-con flex flex-col gap-3 sm:gap-5 overflow-hidden">
       <div className="headerSpace"></div>
       <div className="flex flex-col gap-2">
         <MountAnim>

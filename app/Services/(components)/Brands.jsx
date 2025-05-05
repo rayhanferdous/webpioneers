@@ -8,7 +8,7 @@ import BrandsMarquee from "./BrandsMarquee";
 
 const Brands = () => {
   return (
-    <section className={`w-full flex flex-col gap-1`}>
+    <section className={`w-full container-2560 flex flex-col gap-1`}>
       <div className="py-12 sm:py-24 px-con">
         <div className="relative flex justify-center border-2 border-gray-600 rounded-2xl overflow-hidden ">
           <div className="relative z-10 text-center py-10 sm:py-16 flex flex-col items-start sm:items-center gap-10 sm:gap-16 w-full">

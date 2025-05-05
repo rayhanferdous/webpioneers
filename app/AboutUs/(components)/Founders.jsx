@@ -31,7 +31,7 @@ const Data = [
 ];
 const Founders = () => {
   return (
-    <section className="pb-12 sm:pb-24 px-con flex flex-col gap-5 sm:gap-14">
+    <section className="pb-12 container-2560 sm:pb-24 px-con flex flex-col gap-5 sm:gap-14">
       <div className="w-full flex flex-col gap-5">
         <MountAnim className="flex max-sm:flex-col items-start sm:items-center gap-5">
           <Badge nodot variant="yellow">
@@ -52,9 +52,8 @@ const Founders = () => {
           return (
             <div
               key={index}
-              className={`${
-                index === 0 ? "" : "sm:flex-row-reverse"
-              } flex max-sm:flex-col gap-5 sm:gap-20 w-full items-start`}
+              className={`${index === 0 ? "" : "sm:flex-row-reverse"
+                } flex max-sm:flex-col gap-5 sm:gap-20 w-full items-start`}
             >
               <Image
                 src={item.src}

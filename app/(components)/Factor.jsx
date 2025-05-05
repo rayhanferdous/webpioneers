@@ -103,7 +103,7 @@ const Factor = () => {
   };
 
   return (
-    <section className="p-con flex my-container">
+    <section className="p-con flex container-2560">
       <div className="rounded-2xl border-2 border-gray-600 flex-1 flex flex-col sm:gap-20 px-5 py-10 sm:px-[3.75rem] sm:py-[3.75rem]">
         <div className="flex flex-col items-center gap-2 text-center">
           <MountAnim>
@@ -130,8 +130,8 @@ const Factor = () => {
                 setActive(0);
               }}
               className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${active === 0
-                  ? "bg-dark text-light"
-                  : "hover:bg-dark hover:text-light"
+                ? "bg-dark text-light"
+                : "hover:bg-dark hover:text-light"
                 }`}
             >
               Fiverr like <br />
@@ -142,8 +142,8 @@ const Factor = () => {
                 setActive(1);
               }}
               className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${active === 1
-                  ? "bg-dark text-light"
-                  : "hover:bg-dark hover:text-light"
+                ? "bg-dark text-light"
+                : "hover:bg-dark hover:text-light"
                 }`}
             >
               Freelancers <br />
@@ -154,8 +154,8 @@ const Factor = () => {
                 setActive(2);
               }}
               className={`flex-1 p-4 rounded-lg text-sm leading-tight border border-dark transition-colors duration-300 ${active === 2
-                  ? "bg-dark text-light"
-                  : "hover:bg-dark hover:text-light"
+                ? "bg-dark text-light"
+                : "hover:bg-dark hover:text-light"
                 }`}
             >
               Traditional <br />

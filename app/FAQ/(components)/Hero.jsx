@@ -323,7 +323,7 @@ const Hero = () => {
   }, [isMobile, active]);
 
   return (
-    <section className="relative max-sm:pt-12 sm:pt-20 flex flex-col">
+    <section className="relative container-2560 max-sm:pt-12 sm:pt-20 flex flex-col">
       <div className="headerSpace"></div>
       <div className="flex flex-col sm:items-start sm:justify-start px-con">
         <div className="flex flex-col items-start sm:text-center sm:justify-start gap-4">
@@ -343,9 +343,8 @@ const Hero = () => {
                 <motion.button
                   key={FAQItem.title}
                   onClick={() => handleMenuClick(FAQItem.title)}
-                  className={`${
-                    titleActive ? "text-light" : "text-dark"
-                  } text-[1.375rem] relative flex items-center justify-center px-3 py-2 leading-none font-medium rounded-full cursor-pointer !outline-none`}
+                  className={`${titleActive ? "text-light" : "text-dark"
+                    } text-[1.375rem] relative flex items-center justify-center px-3 py-2 leading-none font-medium rounded-full cursor-pointer !outline-none`}
                   transition={transition}
                 >
                   {titleActive && (
@@ -384,9 +383,8 @@ const Hero = () => {
                     <span>{FAQItem.title}</span>
                     <span className="sm:hidden">
                       <svg
-                        className={`${
-                          active === FAQItem.title ? "rotate-0" : "rotate-180"
-                        } w-4 h-auto transition-transform duration-300`}
+                        className={`${active === FAQItem.title ? "rotate-0" : "rotate-180"
+                          } w-4 h-auto transition-transform duration-300`}
                         width="17"
                         height="10"
                         viewBox="0 0 17 10"
@@ -408,11 +406,10 @@ const Hero = () => {
                       height: isMobile && active != FAQItem.title ? 0 : "auto",
                     }}
                     transition={{ duration: 0.6 }}
-                    className={`${
-                      active != FAQItem.title
+                    className={`${active != FAQItem.title
                         ? "border-gray"
                         : "border-transparent"
-                    } max-sm:border-b overflow-hidden grid grid-cols-1 sm:grid-cols-2 sm:gap-8`}
+                      } max-sm:border-b overflow-hidden grid grid-cols-1 sm:grid-cols-2 sm:gap-8`}
                   >
                     {FAQItem.list.map((item, index) => {
                       const groupActive = activeFAQ[FAQItem.title] === index;
@@ -424,13 +421,11 @@ const Hero = () => {
                             onMouseMove={handleMouseMove}
                             onMouseLeave={handleMouseLeave}
                             onMouseEnter={handleMouseEnter}
-                            className={`group relative overflow-hidden focus:outline-none cursor-pointer h-fit transition-colors border-b ${
-                              groupActive ? "border-transparent" : "border-gray"
-                            } ${
-                              activeFAQ[FAQItem.title] === index + 1
+                            className={`group relative overflow-hidden focus:outline-none cursor-pointer h-fit transition-colors border-b ${groupActive ? "border-transparent" : "border-gray"
+                              } ${activeFAQ[FAQItem.title] === index + 1
                                 ? "max-sm:border-transparent"
                                 : "border-gray"
-                            }`}
+                              }`}
                           >
                             <div className="relative z-10 p-5 sm:p-6 sm:mr-[3rem]">
                               <div className="flex items-center gap-6 max-sm:mr-[4rem]  text-[1.25rem] sm:text-[1.75rem]">
@@ -462,17 +457,15 @@ const Hero = () => {
                               className={`sticky-btn absolute right-2 sm:left-[94%] top-5 sm:top-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 z-20`}
                             >
                               <div
-                                className={`${
-                                  groupActive
+                                className={`${groupActive
                                     ? " border-prim bg-prim text-white"
                                     : " border-gray bg-white text-dark"
-                                } transition-all duration-500 border size-[1.75rem] sm:size-[2.1rem] rounded-lg sm:rounded-xl sm:group-hover:scale-100 scale-100 origin-center`}
+                                  } transition-all duration-500 border size-[1.75rem] sm:size-[2.1rem] rounded-lg sm:rounded-xl sm:group-hover:scale-100 scale-100 origin-center`}
                               >
                                 <div className="w-[0.7rem] sm:w-[0.8rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-0"></div>
                                 <div
-                                  className={`${
-                                    groupActive ? "rotate-0" : "rotate-90"
-                                  } transition-transform duration-500 w-[0.7rem] sm:w-[0.8rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2`}
+                                  className={`${groupActive ? "rotate-0" : "rotate-90"
+                                    } transition-transform duration-500 w-[0.7rem] sm:w-[0.8rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2`}
                                 ></div>
                               </div>
                             </div>

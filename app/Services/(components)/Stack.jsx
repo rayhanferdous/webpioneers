@@ -125,7 +125,7 @@ const Stack = ({ badge, title, subtitle, labels, detail, data }) => {
   return (
     <section
       ref={section}
-      className="w-full relative max-sm:h-[calc(300vh+100vw)] lg:h-[300vh] bg-dark text-light"
+      className="w-full container-2560 relative max-sm:h-[calc(300vh+100vw)] lg:h-[300vh] bg-dark text-light"
     >
       <div ref={container} className="sticky max-sm:top-[-100vw] lg:top-0 flex">
         <div className="flex px-con h-[calc(100vh+100vw)] sm:h-fit lg:h-screen gap-8 max-sm:py-8 max-lg:py-5 max-sm:flex-col relative">

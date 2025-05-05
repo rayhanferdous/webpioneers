@@ -34,7 +34,7 @@ const Hero = () => {
     }
   );
   return (
-    <section className="my-container relative py-12 sm:py-20 px-con flex flex-col sm:items-center gap-3 sm:gap-5 sm:text-center overflow-hidden">
+    <section className="container-2560 relative py-12 sm:py-20 px-con flex flex-col sm:items-center gap-3 sm:gap-5 sm:text-center overflow-hidden">
       <div className="headerSpace"></div>
       <MountAnim>
         <Badge nodot size="xl" variant="yellow">

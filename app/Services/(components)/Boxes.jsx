@@ -35,7 +35,7 @@ const Boxes = ({ labels, boxes, labelName }) => {
   }, [isTab]);
 
   return (
-    <section className="overflow-hidden flex flex-col h-fit">
+    <section className="container-2560 overflow-hidden flex flex-col h-fit">
       <div className="max-sm:flex-wrap flex border-y border-dark">
         {boxes.slice(0, 4).map((item, index) => (
           <Box key={index} {...item} />

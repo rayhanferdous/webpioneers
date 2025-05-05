@@ -56,9 +56,8 @@ export default function Marquee({ direction, speed, dark }) {
 
   return (
     <section
-      className={`w-full py-3 sm:py-5 flex justify-center items-center overflow-hidden border-y text-2xl sm:text-[2.5rem] whitespace-nowrap ${
-        dark ? "border-transparent bg-dark" : "border-dark bg-white"
-      }`}
+      className={`w-full py-3 sm:py-5 flex justify-center items-center overflow-hidden border-y text-2xl sm:text-[2.5rem] whitespace-nowrap ${dark ? "border-transparent bg-dark" : "border-dark bg-white"
+        }`}
     >
       <div ref={marquee} className="h-full relative">
         <div className="h-full flex w-fit flex-nowrap items-center" ref={first}>
@@ -68,11 +67,10 @@ export default function Marquee({ direction, speed, dark }) {
               className="mx-2 sm:mx-6 flex flex-shrink-0 gap-4 sm:gap-12 flex-nowrap w-fit items-center"
             >
               <p
-                className={`flex-shrink-0 transition-colors duration-200 ${
-                  dark
-                    ? "text-white sm:text-[#A0A0A0] hover:text-white"
-                    : "text-dark sm:text-[#A0A0A0] hover:text-dark"
-                }`}
+                className={`flex-shrink-0 transition-colors duration-200 ${dark
+                  ? "text-white sm:text-[#A0A0A0] hover:text-white"
+                  : "text-dark sm:text-[#A0A0A0] hover:text-dark"
+                  }`}
               >
                 {item}
               </p>
@@ -92,11 +90,10 @@ export default function Marquee({ direction, speed, dark }) {
               className="mx-2 sm:mx-6 flex flex-shrink-0 gap-4 sm:gap-12 flex-nowrap w-fit items-center"
             >
               <p
-                className={`flex-shrink-0 transition-colors duration-200 ${
-                  dark
-                    ? "text-white sm:text-[#A0A0A0] hover:text-white"
-                    : "text-dark sm:text-[#A0A0A0] hover:text-dark"
-                }`}
+                className={`flex-shrink-0 transition-colors duration-200 ${dark
+                  ? "text-white sm:text-[#A0A0A0] hover:text-white"
+                  : "text-dark sm:text-[#A0A0A0] hover:text-dark"
+                  }`}
               >
                 {item}
               </p>

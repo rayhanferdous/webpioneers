@@ -50,7 +50,7 @@ const DiscoverMore = () => {
     },
   ];
   return (
-    <section className="p-con flex flex-col gap-10 sm:gap-20">
+    <section className="p-con container-2560 flex flex-col gap-10 sm:gap-20">
       <div className="flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">

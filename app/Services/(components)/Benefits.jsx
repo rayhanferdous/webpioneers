@@ -102,7 +102,7 @@ const Benefits = () => {
   };
 
   return (
-    <section className="py-12 sm:py-24 px-con flex flex-col gap-5 sm:gap-14">
+    <section className="py-12 container-2560 sm:py-24 px-con flex flex-col gap-5 sm:gap-14">
       <MountAnim className="flex max-sm:flex-col items-start sm:items-center gap-5">
         <Badge nodot variant="yellow">
           Benefits
@@ -164,17 +164,15 @@ const Benefits = () => {
                 className={`absolute right-5 sm:left-[92%] top-5 sm:top-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 z-[1]`}
               >
                 <div
-                  className={`${
-                    activeFAQ === index
+                  className={`${activeFAQ === index
                       ? " border-prim bg-prim text-white"
                       : " border-gray bg-white text-dark"
-                  } transition-all duration-500 border size-[1.75rem] sm:size-[2.1rem] rounded-lg sm:rounded-xl sm:group-hover:scale-100 scale-100 origin-center`}
+                    } transition-all duration-500 border size-[1.75rem] sm:size-[2.1rem] rounded-lg sm:rounded-xl sm:group-hover:scale-100 scale-100 origin-center`}
                 >
                   <div className="w-[0.7rem] sm:w-[0.8rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rotate-0"></div>
                   <div
-                    className={`${
-                      activeFAQ === index ? "rotate-0" : "rotate-90"
-                    } transition-transform duration-500 w-[0.7rem] sm:w-[0.8rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2`}
+                    className={`${activeFAQ === index ? "rotate-0" : "rotate-90"
+                      } transition-transform duration-500 w-[0.7rem] sm:w-[0.8rem] h-px bg-current absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2`}
                   ></div>
                 </div>
               </div>

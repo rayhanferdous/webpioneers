@@ -7,7 +7,7 @@ import React from "react";
 
 const ExploreMore = ({ data }) => {
   return (
-    <section className="p-con flex flex-col gap-8 sm:gap-16">
+    <section className="p-con container-2560 flex flex-col gap-8 sm:gap-16">
       <div className="flex gap-2 justify-between items-center">
         <div className="flex flex-col gap-2">
           <MountAnim>

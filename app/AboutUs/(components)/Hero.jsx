@@ -9,7 +9,7 @@ import React from "react";
 const Hero = () => {
   const { isMobile } = useResponsiveStates();
   return (
-    <section className="py-12 sm:py-20 px-con flex flex-col gap-3 sm:gap-5 overflow-hidden">
+    <section className="container-2560 py-12 sm:py-20 px-con flex flex-col gap-3 sm:gap-5 overflow-hidden">
       <div className="headerSpace"></div>
       <div className="flex flex-col gap-2">
         <MountAnim>
@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       <div className="flex max-sm:flex-col gap-8 justify-between mt-8 sm:mt-14">
         <ImageParallex
-          src={isMobile?"/aboutUsHero1M.png": "/aboutUsHero1.png"}
+          src={isMobile ? "/aboutUsHero1M.png" : "/aboutUsHero1.png"}
           alt="Hero img"
           width={1200}
           height={1200}

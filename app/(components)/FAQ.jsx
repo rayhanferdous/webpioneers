@@ -98,7 +98,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="pt-12 my-container sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-10 sm:gap-20">
+    <section className="pt-12 container-2560 sm:pt-24 pb-6 sm:pb-12 px-con flex flex-col gap-10 sm:gap-20">
       <div className="flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">

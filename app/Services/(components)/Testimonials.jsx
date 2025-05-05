@@ -116,7 +116,7 @@ const Testimonials = () => {
 
   return (
     <section className="relative z-50 py-10 sm:py-20 px-con bg-[#FAF8F6] text-dark flex flex-col gap-12 sm:gap-20  items-center overflow-hidden">
-      <div className="text-center flex flex-col gap-2">
+      <div className=" text-center flex flex-col gap-2">
         <MountAnim>
           <Badge nodot variant="yellow">
             Testimonials
@@ -128,7 +128,7 @@ const Testimonials = () => {
       </div>
       <div
         ref={container}
-        className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8  overflow-hidden items-start mb-[-26.2rem] lg:mb-[-22.2rem]"
+        className="w-full container-2560 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8  overflow-hidden items-start mb-[-26.2rem] lg:mb-[-22.2rem]"
       >
         <div className="sm:hidden flex flex-col gap-4 sm:gap-8">
           <TestimonialItem item={Data[0]} />

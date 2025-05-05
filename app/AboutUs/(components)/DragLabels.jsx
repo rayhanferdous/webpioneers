@@ -13,7 +13,7 @@ const DragLabels = ({ labels, labelName = "AboutLabels" }) => {
   }, [isTab]);
 
   return (
-    <section className="overflow-hidden flex flex-col h-fit">
+    <section className="overflow-hidden container-2560 flex flex-col h-fit">
       <div
         className={`[--bgSize:20vw_16.8vw] sm:[--bgSize:6.4rem_6.3rem] [--bgPos:0px_-2px] sm:[--bgPos:0rem_4.7rem] w-full flex-shrink-0 flex h-[18rem] sm:h-[34.5rem] pointer-events-auto border-b border-dark`}
       >

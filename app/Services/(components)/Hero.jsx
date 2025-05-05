@@ -4,7 +4,7 @@ import HeroMarquee from "./HeroMarquee";
 
 const Hero = () => {
   return (
-    <section className="relative max-sm:pt-12 sm:pt-20 flex flex-col overflow-hidden">
+    <section className="container-2560 relative max-sm:pt-12 sm:pt-20 flex flex-col overflow-hidden">
       <div className="headerSpace"></div>
       <div className="flex flex-col sm:items-center gap-10 sm:gap-20 sm:justify-center">
         <div className="flex flex-col sm:items-center sm:text-center sm:justify-center px-con">
