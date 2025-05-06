@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
         </StaggerMount>
 
         {/* tab */}
-        <StaggerMount className="group rounded-2xl border-2 border-gray-600 col-span-1 sm:col-span-2 row-span-2 hidden sm:flex items-center">
+        <StaggerMount className="group rounded-2xl border-2 border-gray-600 col-span-1 sm:col-span-2 row-span-2 hidden sm:flex items-center justify-end">
           <img
             src={"./tablet.svg"}
             alt="tablet"

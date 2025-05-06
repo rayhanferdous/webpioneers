@@ -12,7 +12,7 @@ const Card = forwardRef(({ tag, image = '/blogs/blog-default-thumb.png', title, 
             </span>
 
             <img
-                className="h-auto min-w-full rounded-[14px]"
+                className="h-auto min-w-full rounded-[16.5px]"
                 src={image}
                 width={539}
                 height={359}

@@ -10,6 +10,7 @@ import { notFound } from "next/navigation";
 import React from "react";
 import Card from "../(components)/Card";
 import Button from "@/app/(components)/ui/Button";
+import SimilarPostCard from "./(components)/SimilarPostCard";
 
 const PortfolioItemPage = ({ params }) => {
   const { slug } = React.use(params);
@@ -105,16 +106,16 @@ const PortfolioItemPage = ({ params }) => {
       <section className="px-con container-2560 mt-14">
         <Image src={currentBlog?.main_img} alt={currentBlog?.title} width={1680} height={818} className="w-full h-auto object-cover" />
 
-        <div className="grid grid-cols-3 gap-24 mt-14">
+        <div className="grid md:grid-cols-5 md:gap-8 3xl:gap-24 mt-14">
           {/* left */}
-          <div className="col-span-2">
+          <div className="col-span-3">
             {/* table of content */}
             <div className="bg-light p-10 rounded-2xl font-urbanist">
               <h3 className="font-medium text-[28px]">Table Of Contents</h3>
               <div className="mt-10 flex flex-col gap-5">
                 {
-                  currentBlog?.sections.map((section, index) => (
-                    section.title && <Link href={`#${section?.title?.toLowerCase().replaceAll(' ', '-')}`} key={index} className="text-2xl font-bold text-gray-700">{section.title}</Link>
+                  currentBlog?.table_of_contents.map((tableOfContent, index) => (
+                    <Link href={`#${tableOfContent?.toLowerCase().replaceAll(' ', '-')}`} key={index} className="text-lg md:text-base lg:text-lg 3xl:text-2xl font-bold text-gray-700">{tableOfContent}</Link>
                   ))
                 }
               </div>
@@ -125,14 +126,14 @@ const PortfolioItemPage = ({ params }) => {
                 currentBlog?.sections.map((section, index) => (
                   <div key={index} className="mt-10 font-medium">
                     <div className="flex flex-col gap-4" id={section?.title?.toLowerCase().replaceAll(" ", "-")}>
-                      <h4 className="text-[28px] ">{section.title}</h4>
+                      <h4 className="text-2xl md:text-[22px] 3xl:text-[28px] ">{section.title}</h4>
                       {section?.description && <div className="flex flex-col gap-8">
                         {section?.description?.map((paragraph, i) => (
-                          <p className="text-2xl text-gray-700" key={i}>{paragraph}</p>
+                          <p className="text-lg md:text-base 3xl:text-2xl text-gray-700" key={i}>{paragraph}</p>
                         ))}
                       </div>
                       }
-                      {section?.image && <Image className="mt-4" src={section.image} width={967} height={502} alt={section.title} />}
+                      {section?.image && <Image className="mt-4 min-w-full h-auto" src={section.image} width={967} height={502} alt={section.title} />}
 
                       {section?.orderList && <ul className="mt-8">
                         {section?.orderList?.map((item, i) => (
@@ -151,9 +152,19 @@ const PortfolioItemPage = ({ params }) => {
             </div>
           </div>
           {/* right */}
-          <div className="col-span-1 h-full">
-            <div className="sticky top-4">
-              <p>title</p>
+          <div className="max-md:hidden md:col-span-2 h-full">
+            <div className="sticky top-4 flex flex-col gap-7">
+              <h3 className="font-urbanist font-medium text-2xl pb-4 border-b border-gray-700" >Similar Posts</h3>
+              {currentBlog?.similar_post?.map((card, index) => (
+                <SimilarPostCard key={index}
+                  // ref={el => cardsRef.current[index] = el}
+                  image={card?.image}
+                  title={card?.title}
+                  date={card?.date}
+                  colSpanTwo={card?.col_span_two}
+                  minsToRead={card?.time_to_read}
+                  link={`/Blogs/${card?.link}`}
+                />))}
             </div>
           </div>
         </div>

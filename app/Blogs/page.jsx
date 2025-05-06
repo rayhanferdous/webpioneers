@@ -7,6 +7,10 @@ import { blogs } from "../(constants)/blogs";
 import Card from "./(components)/Card";
 import CardSpan from "./(components)/CardSpan";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 const Blogs = () => {
   const cardsRef = useRef([]);
@@ -25,7 +29,8 @@ const Blogs = () => {
             ease: "power3.out",
             scrollTrigger: {
               trigger: el,
-              start: "top 90%",
+              start: "top 99%",
+              end: "top 80%",
             },
           }
         );

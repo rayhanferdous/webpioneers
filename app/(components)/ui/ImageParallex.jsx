@@ -54,7 +54,7 @@ const ImageParallax = ({
         alt={alt}
         width={width}
         height={height}
-        className={cn("max-xs:object-center w-full md:h-[110%] max-md:object-fill md:object-cover", imgClass)}
+        className={cn("max-xs:object-center w-full md:h-[110%] max-md:object-fill md:object-fit", imgClass)}
       />
     </div>
   );
