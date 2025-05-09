@@ -114,9 +114,32 @@ const PortfolioItemPage = ({ params }) => {
               <h3 className="font-medium text-[28px]">Table Of Contents</h3>
               <div className="mt-10 flex flex-col gap-5">
                 {
-                  currentBlog?.table_of_contents.map((tableOfContent, index) => (
-                    <Link href={`#${tableOfContent?.toLowerCase().replaceAll(' ', '-')}`} key={index} className="text-lg md:text-base lg:text-lg 3xl:text-2xl font-bold text-gray-700">{tableOfContent}</Link>
-                  ))
+                  currentBlog?.sections
+                    ?.filter(section => section.title && /^\d+[-.]/.test(section.title.trim()))
+                    .map((section, index) => {
+                      const targetId = section.title.toLowerCase().replace(/ /g, '-');
+                      const handleClick = (e) => {
+                        e.preventDefault();
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                          targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                          });
+                        }
+                      };
+
+                      return (
+                        <Link
+                          href={`#${targetId}`}
+                          key={index}
+                          onClick={handleClick}
+                          className="text-lg md:text-base lg:text-lg 3xl:text-2xl font-bold text-gray-700"
+                        >
+                          {section.title}
+                        </Link>
+                      );
+                    })
                 }
               </div>
             </div>
@@ -135,8 +158,8 @@ const PortfolioItemPage = ({ params }) => {
                       }
                       {section?.image && <Image className="mt-4 min-w-full h-auto" src={section.image} width={967} height={502} alt={section.title} />}
 
-                      {section?.orderList && <ul className="mt-8">
-                        {section?.orderList?.map((item, i) => (
+                      {section?.order_list && <ul className="mt-8">
+                        {section?.order_list?.map((item, i) => (
                           <li key={i} className="list-decimal !list-inside text-2xl text-gray-700 mb-2">
                             {item}
                           </li>
