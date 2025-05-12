@@ -152,21 +152,25 @@ const PortfolioItemPage = ({ params }) => {
                       <h4 className="text-2xl md:text-[22px] 3xl:text-[28px] ">{section.title}</h4>
                       {section?.description && <div className="flex flex-col gap-8">
                         {section?.description?.map((paragraph, i) => (
-                          <p className="text-lg md:text-base 3xl:text-2xl text-gray-700" key={i}>{paragraph}</p>
+                          <p className="text-lg md:text-base 3xl:text-2xl text-gray-700" key={i} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                         ))}
                       </div>
                       }
                       {section?.image && <Image className="mt-4 min-w-full h-auto" src={section.image} width={967} height={502} alt={section.title} />}
 
-                      {section?.order_list && <ul className="mt-8">
+                      {section?.order_list && <ol className="mt-8">
                         {section?.order_list?.map((item, i) => (
-                          <li key={i} className="list-decimal !list-inside text-2xl text-gray-700 mb-2">
-                            {item}
-                          </li>
+                          <li key={i} className="list-decimal !list-inside text-lg md:text-base 3xl:text-2xl text-gray-700 mb-2" dangerouslySetInnerHTML={{ __html: item }}></li>
                         ))}
-                      </ul>}
+                      </ol>}
+                      {section?.unorder_list && <ul className="mt-8">
+                        {section?.unorder_list?.map((item, i) => (
+                          <li key={i} className="list-disc !list-inside text-lg md:text-base 3xl:text-2xl text-gray-700 mb-2" dangerouslySetInnerHTML={{ __html: item }}></li>
+                        ))}
+                      </ul>
+                      }
 
-                      {section?.footer_text && <p className="text-2xl text-gray-700 mt-8">{section?.footer_text}</p>}
+                      {section?.footer_text && <p className="text-lg md:text-base 3xl:text-2xl text-gray-700 mt-8" dangerouslySetInnerHTML={{ __html: section?.footer_text }}></p>}
                     </div>
                   </div>
                 ))
