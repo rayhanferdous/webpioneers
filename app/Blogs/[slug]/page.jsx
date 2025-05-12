@@ -136,7 +136,7 @@ const PortfolioItemPage = ({ params }) => {
                           onClick={handleClick}
                           className="text-lg md:text-base lg:text-lg 3xl:text-2xl font-bold text-gray-700"
                         >
-                          {section.title}
+                          {section.title.replace(/^\d+[-.]\s*/, '')}
                         </Link>
                       );
                     })
