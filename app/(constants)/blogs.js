@@ -1912,7 +1912,7 @@ Take a look at the test cases below to help get you started:`,
     slug: "product-design-vs-ux-design-everything-in-between",
     description:
       "In the current digital era, user experience (UX) is everything. A good user experience (UX) may make or break a potential customer's decision to interact...",
-    thumbnail: "/blogs/blog-7.png",
+    thumbnail: "/blogs/blog-11.png",
     main_img: "/blogs/details/blog-7.png",
     sections: [
       {
@@ -2054,7 +2054,7 @@ Take a look at the test cases below to help get you started:`,
     slug: "branding-in-web-design-how-to-craft-your-digital-identity",
     description:
       "Microinteractions are the small, often overlooked moments of interaction that shape a user's perception of a product. They can be as simple as a button ...",
-    thumbnail: "/blogs/blog-8.png",
+    thumbnail: "/blogs/blog-12.png",
     main_img: "/blogs/details/blog-8.png",
     sections: [
       {
