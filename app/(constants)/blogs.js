@@ -302,65 +302,6 @@ export const blogs = [
         ],
       },
     ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
   },
   {
     tag: "UI/UX",
@@ -461,7 +402,7 @@ export const blogs = [
       },
       {
         title: "Creating a chatbot persona",
-        imgae: "/blogs/details/blog-2-3.png",
+        image: "/blogs/details/blog-2-3.png",
         description: [
           `Creating a chatbot persona is the extra mile you might have to go to enhance the UX design process. A persona helps to humanize the chatbot and makes the interaction more engaging for users. The persona should be designed to align with your brand's voice and tone, and the needs of your target audience.`,
           `This persona will guide the language, tone, and style of conversation the chatbot will have with users. It's not just about making the bot sound human; it's about maintaining a consistent branding and believable personality that can build strong relationships with users.`,
@@ -636,65 +577,6 @@ It is also making it easier for patients to book appointments and receive tailor
         description: [
           "NLP is essential for conversational UX, allowing systems to understand customer intent and respond appropriately. It provides a more natural dialogue between customers and products, helping create a smoother overall user experience.",
         ],
-      },
-    ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
       },
     ],
   },
@@ -1061,65 +943,6 @@ This process involves testing the product at different stages of the design proc
         ],
       },
     ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
   },
   {
     tag: "UI/UX",
@@ -1177,65 +1000,6 @@ This process involves testing the product at different stages of the design proc
           `If you manage to develop all the skills you read, you can become a great speaker. Not only good, but great. Try it on your next public speech and tell us how everything went.`,
         ],
         image: "/blogs/details/blog-4-4.png",
-      },
-    ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
       },
     ],
   },
@@ -1325,65 +1089,6 @@ Take a look at the test cases below to help get you started:`,
 
           `Essentially, when building and perfecting a digital product, it comes down to the UX Designer working in collaboration with the QA. While the QA assists with the efficient release of the product, the UX Designer needs to ensure that the implemented functionality of the designs is up to par, thus resulting in a polished final product. After all, teamwork makes the dream work, right?`,
         ],
-      },
-    ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
       },
     ],
   },
@@ -1485,65 +1190,6 @@ Take a look at the test cases below to help get you started:`,
         description: [
           "Trust is a key component of success in the fintech industry, as users need to feel confident that their financial information is safe, and that the platform is reliable. Building this trust through secure UX design means not only understanding user expectations but also prioritizing security and incorporating modern design trends that enhance usability. Robust user research is essential for gaining insights into what users value most in their financial apps, enabling companies to create experiences that align with both functional needs and emotional reassurance.<br><br>By committing to a user-centric product design approach, fintech companies can develop applications that meet the highest standards of security and usability. This approach involves designing intuitive interfaces that minimize risk, streamline navigation, and provide transparency around data handling practices. Focusing on user needs from the outset establishes a solid, secure foundation that fosters loyalty and confidence. In doing so, fintech applications not only meet immediate security expectations but also pave the way for a brighter, more secure future in financial technology - one where users feel supported, empowered, and genuinely valued.",
         ],
-      },
-    ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
       },
     ],
   },
@@ -1751,65 +1397,6 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
     ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
   },
   {
     tag: "UI/UX",
@@ -1996,65 +1583,6 @@ Take a look at the test cases below to help get you started:`,
         description: [
           "The little things, or micro interactions, can have a significant impact on the user experience. You may design and execute micro interactions with care to produce products that are enjoyable to use in addition to being functional. To improve your designs, don't forget to test and iterate, make it simple, maintain consistency, give clear feedback, and clarify the objective of each micro interaction.<br><br>Micro-interactions are important because even the tiniest feature may improve a product's use and enjoyment.<br>Design with the user in mind to make sure that micro-interactions address actual issues.<br>Micro-interactions may be entertaining and beneficial: Achieve a balance between succinct criticism and a hint of personality.<br>Utilize brief exchanges to communicate your brand: Your brand values may be quietly communicated through subtle design elements and animations.",
         ],
-      },
-    ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
       },
     ],
   },
@@ -2262,65 +1790,6 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
     ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
   },
   {
     tag: "UI/UX",
@@ -2432,65 +1901,6 @@ Take a look at the test cases below to help get you started:`,
         description: [
           "CLS measures the visual stability of a website by calculating the amount of all unexpected layout shifts a user experiences while loading a certain page. A layout shift refers to the change in position of any visible element, altering the page's entire structure. In order to ensure a high-quality user experience, a good CLS score needs to be less than 0.1. If it's between 0.1 and 0.25 it would require some improvement, and if it exceeds 0.25, it's considered poor.",
         ],
-      },
-    ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
       },
     ],
   },
@@ -2635,65 +2045,6 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
     ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
   },
   {
     tag: "UI/UX",
@@ -2832,65 +2183,6 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
     ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
   },
   {
     tag: "UI/UX",
@@ -2964,65 +2256,6 @@ Take a look at the test cases below to help get you started:`,
           "To conclude, we can't fail to mention one of the most defining elements when hiring digital product designers - pricing. Sure, it is a well-known fact that agencies are the more expensive option. For some companies, working with freelance product designers could be way more appealing due to their budget-friendly costs.",
           "Despite that fact, as we all know, the affordable choice is not always the best possible option. After all, you get what you pay for. Sometimes, outsourcing multiple digital freelancers could actually end up costing you way more than simply hiring an agency. Furthermore, as an agency of expert product designers, we can provide the best digital product development services and offer you a much higher value for your desired budget.<br><br>We guarantee you won't be left disappointed!",
         ],
-      },
-    ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
       },
     ],
   },
@@ -3141,65 +2374,6 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
     ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
   },
   {
     tag: "UI/UX",
@@ -3308,65 +2482,6 @@ Take a look at the test cases below to help get you started:`,
         description: [
           "We specialize in creating intuitive, user-friendly decentralized applications that leverage the full potential of Web3 and blockchain technology. Whether you're looking to improve your UX, develop a seamless web3 design agency, or design a cutting-edge crypto interface, our webflow design expert team is here to help.",
         ],
-      },
-    ],
-    explore_more: [
-      {
-        tag: "UI/UX",
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Conversational UX design how to enhance user engagement",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        tag: "UI/UX",
-        title: "Mastering the product design process : best practices",
-        description:
-          "Beyond surface aesthetics, the quality of a website profoundly influences user experience. In this article, we dissect 15 common web design mistakes.",
-        image: "https://www.example.com/web-design.jpg",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-    ],
-    similar_post: [
-      {
-        title: 'What Makes a Website "Bad"? 15 Examples & Crucial Mistakes',
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-1.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Conversational UX design how to enhance user engagement",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-2.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-3.png",
-        link: "#",
-        time_to_read: "4 mins read",
-      },
-      {
-        title: "Mastering the product design process : best practices",
-        date: "July 5, 2024",
-        image: "/blogs/similar-post/similar-post-4.png",
-        link: "#",
-        time_to_read: "4 mins read",
       },
     ],
   },

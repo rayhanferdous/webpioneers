@@ -12,7 +12,7 @@ import Card from "../(components)/Card";
 import Button from "@/app/(components)/ui/Button";
 import SimilarPostCard from "./(components)/SimilarPostCard";
 
-const PortfolioItemPage = ({ params }) => {
+const BlogDetailsPage = ({ params }) => {
   const { slug } = React.use(params);
 
 
@@ -25,12 +25,100 @@ const PortfolioItemPage = ({ params }) => {
   // Find the index of the current portfolio
   const currentIndex = blogs.findIndex((item) => item.slug === slug);
 
+  const renderSectionContent = (section) => {
+    const properties = Object.keys(section);
+
+    return properties.map((prop, i) => {
+      switch (prop) {
+        case 'title':
+          // Skip title since it's rendered separately
+          return null;
+        case 'description':
+          return (
+            <div key={`desc-${i}`} className="flex flex-col gap-8">
+              {section.description.map((paragraph, j) => (
+                <p
+                  key={j}
+                  className="text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-700"
+                  dangerouslySetInnerHTML={{ __html: paragraph }}
+                />
+              ))}
+            </div>
+          );
+        case 'image':
+          return (
+            <Image
+              key={`img-${i}`}
+              className="mt-4 min-w-full h-auto"
+              src={section.image}
+              width={967}
+              height={502}
+              alt={section.title}
+            />
+          );
+        case 'order_list':
+          return (
+            <ol key={`ol-${i}`} className="mt-8">
+              {section.order_list.map((item, j) => (
+                <li
+                  key={j}
+                  className="list-decimal !list-inside text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-700 mb-2"
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
+              ))}
+            </ol>
+          );
+        case 'unorder_list':
+          return (
+            <ul key={`ul-${i}`} className="mt-8">
+              {section.unorder_list.map((item, j) => (
+                <li
+                  key={j}
+                  className="list-disc !list-inside text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-700 mb-2"
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
+              ))}
+            </ul>
+          );
+        case 'footer_text':
+          return (
+            <p
+              key={`footer-${i}`}
+              className="text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-700 mt-8"
+              dangerouslySetInnerHTML={{ __html: section.footer_text }}
+            />
+          );
+        default:
+          return null;
+      }
+    }).filter(Boolean); // Filter out null values (like title)
+  };
+
+
   // Get the next 2 portfolios with wrap-around
   const nextBlog = [];
   for (let i = 1; i <= 2; i++) {
     const nextIndex = (currentIndex + i) % blogs.length;
     nextBlog.push(blogs[nextIndex]);
   }
+
+  const getSimilarBlogs = () => {
+    return blogs
+      .filter(blog => blog.slug !== slug)
+      .slice(0, 4);
+  };
+
+
+  const getExploreMoreBlogs = () => {
+    return blogs
+      .filter(blog => blog.slug !== slug)
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3);
+  };
+
+  const similarBlogs = getSimilarBlogs();
+  const exploreMoreBlogs = getExploreMoreBlogs();
+
 
   return (
     <>
@@ -145,52 +233,29 @@ const PortfolioItemPage = ({ params }) => {
             </div>
             {/* content */}
             <div>
-              {
-                currentBlog?.sections.map((section, index) => (
-                  <div key={index} className="mt-10 font-medium">
-                    <div className="flex flex-col gap-4" id={section?.title?.toLowerCase().replaceAll(" ", "-")}>
-                      <h4 className="text-2xl md:text-[22px] 3xl:text-[28px] ">{section.title}</h4>
-                      {section?.description && <div className="flex flex-col gap-8">
-                        {section?.description?.map((paragraph, i) => (
-                          <p className="text-lg md:text-base 3xl:text-2xl text-gray-700" key={i} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
-                        ))}
-                      </div>
-                      }
-                      {section?.image && <Image className="mt-4 min-w-full h-auto" src={section.image} width={967} height={502} alt={section.title} />}
-
-                      {section?.order_list && <ol className="mt-8">
-                        {section?.order_list?.map((item, i) => (
-                          <li key={i} className="list-decimal !list-inside text-lg md:text-base 3xl:text-2xl text-gray-700 mb-2" dangerouslySetInnerHTML={{ __html: item }}></li>
-                        ))}
-                      </ol>}
-                      {section?.unorder_list && <ul className="mt-8">
-                        {section?.unorder_list?.map((item, i) => (
-                          <li key={i} className="list-disc !list-inside text-lg md:text-base 3xl:text-2xl text-gray-700 mb-2" dangerouslySetInnerHTML={{ __html: item }}></li>
-                        ))}
-                      </ul>
-                      }
-
-                      {section?.footer_text && <p className="text-lg md:text-base 3xl:text-2xl text-gray-700 mt-8" dangerouslySetInnerHTML={{ __html: section?.footer_text }}></p>}
-                    </div>
+              {currentBlog?.sections?.map((section, index) => (
+                <div key={index} className="mt-10 font-medium">
+                  <div className="flex flex-col gap-4" id={section?.title?.toLowerCase().replaceAll(" ", "-")}>
+                    <h4 className="text-2xl md:text-3xl 3xl:text-4xl">{section.title}</h4>
+                    {renderSectionContent(section)}
                   </div>
-                ))
-
-              }
+                </div>
+              ))}
             </div>
           </div>
           {/* right */}
           <div className="max-md:hidden md:col-span-2 h-full">
             <div className="sticky top-4 flex flex-col gap-7">
               <h3 className="font-urbanist font-medium text-2xl pb-4 border-b border-gray-700" >Similar Posts</h3>
-              {currentBlog?.similar_post?.map((card, index) => (
+              {similarBlogs?.map((blog, index) => (
                 <SimilarPostCard key={index}
                   // ref={el => cardsRef.current[index] = el}
-                  image={card?.image}
-                  title={card?.title}
-                  date={card?.date}
-                  colSpanTwo={card?.col_span_two}
-                  minsToRead={card?.time_to_read}
-                  link={`/Blogs/${card?.link}`}
+                  image={blog?.thumbnail}
+                  title={blog?.title}
+                  date={blog?.published_at}
+                  colSpanTwo={blog?.col_span_two}
+                  minsToRead={blog?.time_to_read}
+                  link={`/Blogs/${blog?.slug}`}
                 />))}
             </div>
           </div>
@@ -198,7 +263,7 @@ const PortfolioItemPage = ({ params }) => {
       </section>
 
       {/* explore more  */}
-      <section className="my-container px-con relative max-sm:pt-12 sm:pt-20 flex flex-col">
+      <section className="container-2560 px-con relative max-sm:pt-12 sm:pt-20 flex flex-col">
         <div className="mt-6 sm:mt-14 border-b border-gray w-full"></div>
 
         <div className="headerSpace"></div>
@@ -225,15 +290,15 @@ const PortfolioItemPage = ({ params }) => {
         </div>
         {/* card */}
         <div className=" grid gap-y-7 pt-10 md:pt-[42px] lg:pt-14 md:gap-y-10 xl:gap-y-14 2xl:gap-y-20 gap-x-9 md:gap-x-9 xl:gap-x-8 2xl:gap-x-8 sm:grid-cols-2 md:grid-cols-3">
-          {currentBlog?.explore_more?.map((card, index) => (
+          {exploreMoreBlogs?.map((blog, index) => (
             <Card
               key={index}
-              tag={card?.tag}
-              image={card?.thumbnail}
-              title={card?.title}
-              desc={card?.description}
-              minsToRead={card?.time_to_read}
-              link={`/Blogs/${card?.link}`}
+              tag={blog?.tag}
+              image={blog?.thumbnail}
+              title={blog?.title}
+              desc={blog?.description}
+              minsToRead={blog?.time_to_read}
+              link={`/Blogs/${blog?.slug}`}
             />))}
         </div>
       </section>
@@ -241,4 +306,4 @@ const PortfolioItemPage = ({ params }) => {
   );
 };
 
-export default PortfolioItemPage;
+export default BlogDetailsPage;

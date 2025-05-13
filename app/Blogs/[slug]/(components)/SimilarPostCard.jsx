@@ -1,8 +1,9 @@
+import Link from "next/link";
 import { forwardRef } from "react";
 
 const SimilarPostCard = forwardRef(({ image = '/blogs/blog-default-thumb.png', title, date, minsToRead, link }, ref) => {
     return (
-        <div
+        <Link href={link}
             ref={ref}
             className="font-urbanist flex items-center gap-6"
         >
@@ -25,7 +26,7 @@ const SimilarPostCard = forwardRef(({ image = '/blogs/blog-default-thumb.png', t
                     <span>{minsToRead}</span>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 });
 
