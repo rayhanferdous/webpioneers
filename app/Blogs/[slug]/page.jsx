@@ -103,18 +103,53 @@ const BlogDetailsPage = ({ params }) => {
   }
 
   const getSimilarBlogs = () => {
-    return blogs
-      .filter(blog => blog.slug !== slug)
-      .slice(0, 4);
-  };
+    const otherBlogs = blogs.filter(blog => blog.slug !== slug);
+    const currentIndex = blogs.findIndex(blog => blog.slug === slug);
 
+    if (currentIndex === -1) return otherBlogs.slice(0, 4);
+
+    const nextBlogs = [];
+
+    for (let i = currentIndex + 1; i < blogs.length && nextBlogs.length < 4; i++) {
+      if (blogs[i].slug !== slug) {
+        nextBlogs.push(blogs[i]);
+      }
+    }
+
+    for (let i = 0; i < blogs.length && nextBlogs.length < 4; i++) {
+      if (blogs[i].slug !== slug && !nextBlogs.includes(blogs[i])) {
+        nextBlogs.push(blogs[i]);
+      }
+    }
+
+    return nextBlogs;
+  };
 
   const getExploreMoreBlogs = () => {
-    return blogs
-      .filter(blog => blog.slug !== slug)
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 3);
+    const otherBlogs = blogs.filter(blog => blog.slug !== slug);
+    const currentIndex = blogs.findIndex(blog => blog.slug === slug);
+
+    if (currentIndex === -1) return otherBlogs.slice(0, 3); // slug না পেলে সিম্পল ৩টা রিটার্ন
+
+    const nextBlogs = [];
+
+    // Add blogs after the current one
+    for (let i = currentIndex + 1; i < blogs.length && nextBlogs.length < 3; i++) {
+      if (blogs[i].slug !== slug) {
+        nextBlogs.push(blogs[i]);
+      }
+    }
+
+    // If not enough, start from beginning
+    for (let i = 0; i < blogs.length && nextBlogs.length < 3; i++) {
+      if (blogs[i].slug !== slug && !nextBlogs.includes(blogs[i])) {
+        nextBlogs.push(blogs[i]);
+      }
+    }
+
+    return nextBlogs;
   };
+
 
   const similarBlogs = getSimilarBlogs();
   const exploreMoreBlogs = getExploreMoreBlogs();
