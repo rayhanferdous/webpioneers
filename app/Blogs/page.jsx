@@ -25,7 +25,7 @@ const Blogs = () => {
             opacity: 1,
             y: 0,
             duration: 0.8,
-            delay: index * 0.15,
+            delay: index * 0.1,
             ease: "power3.out",
             scrollTrigger: {
               trigger: el,
@@ -63,7 +63,7 @@ const Blogs = () => {
         </div>
       </section>
       {/* card section */}
-      <div className="my-container grid gap-y-7 pt-10 md:pt-[42px] lg:pt-14 md:gap-y-10 xl:gap-y-14 2xl:gap-y-20 gap-x-9 md:gap-x-9 xl:gap-x-8 2xl:gap-x-8 sm:grid-cols-2 md:grid-cols-3 px-con">
+      <div className="container-2560 grid gap-y-7 pt-10 md:pt-[42px] lg:pt-14 md:gap-y-10 xl:gap-y-14 2xl:gap-y-20 gap-x-9 md:gap-x-9 xl:gap-x-8 2xl:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 px-con">
         {blogs?.map((blog, index) => (
           blog?.col_span_two ?
             <CardSpan

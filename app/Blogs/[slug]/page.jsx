@@ -7,7 +7,7 @@ import { blogs } from "@/app/(constants)/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Card from "../(components)/Card";
 import Button from "@/app/(components)/ui/Button";
 import SimilarPostCard from "./(components)/SimilarPostCard";
@@ -15,12 +15,22 @@ import SimilarPostCard from "./(components)/SimilarPostCard";
 const BlogDetailsPage = ({ params }) => {
   const { slug } = React.use(params);
 
-
   const currentBlog = blogs.find((item) => item.slug === slug);
 
   if (!currentBlog) {
     notFound();
   }
+  const [activeToC, setActiveToC] = useState(-1);
+
+  useEffect(() => {
+    if (currentBlog?.sections) {
+      const firstToCIndex = currentBlog?.sections
+        ?.filter(section => section.isToC);
+      setActiveToC(firstToCIndex);
+    }
+  }, [currentBlog?.sections]);
+
+  console.log(activeToC)
 
   // Find the index of the current portfolio
   const currentIndex = blogs.findIndex((item) => item.slug === slug);
@@ -39,7 +49,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.description.map((paragraph, j) => (
                 <p
                   key={j}
-                  className="text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-700"
+                  className="text-lg sm:text-4xl md:text-2xl lg:text-2xl 3xl:text-3xl text-gray-700"
                   dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
               ))}
@@ -62,7 +72,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.order_list.map((item, j) => (
                 <li
                   key={j}
-                  className="list-decimal !list-inside text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-700 mb-2"
+                  className="list-decimal !list-inside text-lg sm:text-4xl md:text-2xl lg:text-2xl 3xl:text-3xl text-gray-700 mb-2"
                   dangerouslySetInnerHTML={{ __html: item }}
                 />
               ))}
@@ -74,7 +84,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.unorder_list.map((item, j) => (
                 <li
                   key={j}
-                  className="list-disc !list-inside text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-700 mb-2"
+                  className="list-disc !list-inside text-lg sm:text-4xl md:text-2xl lg:text-2xl 3xl:text-3xl text-gray-700 mb-2"
                   dangerouslySetInnerHTML={{ __html: item }}
                 />
               ))}
@@ -84,7 +94,7 @@ const BlogDetailsPage = ({ params }) => {
           return (
             <p
               key={`footer-${i}`}
-              className="text-lg md:text-xl lg:text-2xl 3xl:text-3xl text-gray-700 mt-8"
+              className="text-lg sm:text-4xl md:text-2xl lg:text-2xl 3xl:text-3xl text-gray-700 mt-8"
               dangerouslySetInnerHTML={{ __html: section.footer_text }}
             />
           );
@@ -248,9 +258,9 @@ const BlogDetailsPage = ({ params }) => {
               <div className="mt-10 flex flex-col gap-5">
                 {
                   currentBlog?.sections
-                    ?.filter(section => section.title && /^\d+[-.]/.test(section.title.trim()))
+                    ?.filter(section => section.isToC)
                     .map((section, index) => {
-                      const targetId = section.title.toLowerCase().replace(/ /g, '-');
+                      const targetId = section.title.toLowerCase().replace(/^\d+[-.]\s*/, '');
                       const handleClick = (e) => {
                         e.preventDefault();
                         const targetElement = document.getElementById(targetId);
@@ -263,14 +273,13 @@ const BlogDetailsPage = ({ params }) => {
                       };
 
                       return (
-                        <Link
-                          href={`#${targetId}`}
+                        <div
                           key={index}
                           onClick={handleClick}
-                          className="text-lg md:text-base lg:text-lg 3xl:text-2xl font-bold text-gray-700"
+                          className={`${activeToC == index ? "text-black" : index == 0 ? "text-black" : ""} text-lg cursor-pointer md:text-xl 3xl:text-2xl font-bold text-gray-700`}
                         >
                           {section.title.replace(/^\d+[-.]\s*/, '')}
-                        </Link>
+                        </div>
                       );
                     })
                 }
@@ -280,8 +289,12 @@ const BlogDetailsPage = ({ params }) => {
             <div>
               {currentBlog?.sections?.map((section, index) => (
                 <div key={index} className="mt-10 font-medium">
-                  <div className="flex flex-col gap-4" id={section?.title?.toLowerCase().replaceAll(" ", "-")}>
-                    <h4 className="text-2xl md:text-3xl 3xl:text-4xl">{section.title}</h4>
+                  <div
+                    className="flex flex-col gap-4"
+                    id={section.isToC ? section.title.toLowerCase().replace(/^\d+[-.]\s*/, '') : undefined}
+                  >
+
+                    <h4 className="text-2xl sm:text-4xl md:text-3xl 3xl:text-4xl">{section.title}</h4>
                     {renderSectionContent(section)}
                   </div>
                 </div>

@@ -20,6 +20,7 @@ export const blogs = [
       },
       {
         title: "1- Poor Web Design",
+        isToC: true,
         description: [
           "Poor web design can have a significant impact on a website's success.",
         ],
@@ -32,6 +33,7 @@ export const blogs = [
       },
       {
         title: "2- Lack of White Space",
+        isToC: true,
         description: [
           `White space, often referred to as "negative space", is a fundamental element in web design that significantly contributes to an enhanced user experience. It serves as breathing room between content, allowing for better readability.`,
           `A website page with an excessively cluttered layout, where text, images, and buttons are tightly packed together, leaves no room for the eye to rest. This lack of white space might overwhelm users and make it challenging to keep visual interest or navigate the site efficiently.`,
@@ -58,6 +60,7 @@ export const blogs = [
       },
       {
         title: "3- Non-Responsive Design",
+        isToC: true,
         description: [
           "Responsive design is a vital aspect of modern web development, as it ensures a seamless and consistent user experience across different devices. With the usage increase of smartphones and tablets, mobile-friendly web design has become of greatest importance. Failing to optimize a website for mobile devices can frustrate users. Non-responsive websites often feature small text sizes that strain the eyes and hidden navigation menus that make it challenging for users to explore the site effectively.",
           `A non-responsive website where content and images are poorly scaled on a mobile device, forcing users to pinch, zoom, and scroll excessively just to access information. This not only challenges usability but can also put off potential visitors.`,
@@ -73,6 +76,7 @@ export const blogs = [
       },
       {
         title: "4- Inconsistent Colours or Visual Elements",
+        isToC: true,
         description: [
           "Inconsistent color schemes or visual elements on a website can lead to confusion and frustration for users, undermining the overall user experience. When colors or visual elements vary significantly across different pages or sections of a site, it can give the impression of disjointedness and lack of attention to detail, potentially deterring users.",
           "For instance, consider a website where each page uses a different set of colors for headings and buttons, making it challenging for users to establish a visual hierarchy or navigate seamlessly.",
@@ -88,6 +92,7 @@ export const blogs = [
       },
       {
         title: "5- Poor Typography Choices",
+        isToC: true,
         description: [
           "Appropriate typography is a cornerstone of effective web design, with far-reaching implications for both readability and aesthetics. The choice of fonts plays a pivotal role in determining how easily users can consume content and how structured the user flow is. Poor typography choices can undermine the user experience, making text difficult to read due to factors like overly decorative fonts, improper line spacing, tiny text sizes or too many different fonts.",
           "For example, imagine a website that employs a cursive font for body text or uses minuscule fonts for paragraphs – such decisions not only affect legibility but also detract from the overall visual appeal.",
@@ -103,6 +108,7 @@ export const blogs = [
       },
       {
         title: "6- Poor Navigation",
+        isToC: true,
         description: [
           "Poor navigation is among the most common mistakes in web design, often resulting in user frustration and increased bounce rates. When navigation is poor, users encounter difficulties in locating information, products, or services, leading to a bad website usability.",
           "Issues like disorganized menus, unclear links, and excessive clicks make it challenging for visitors to efficiently access the content they seek. A web page where the main menu lacks clear categories, forcing users to click through multiple pages to find specific information speaks of bad website design. This not only wastes the users' time but also increases the chances of them leaving the site out of frustration.",
@@ -118,6 +124,7 @@ export const blogs = [
       },
       {
         title: "7- Slow Loading Speed",
+        isToC: true,
         description: [
           "Slow loading speed is a frequent issue that can poorly impact user interactions with a website. Common causes of slow-loading websites are the use of large images or media files, excessive plugins or scripts, and flawed server resources.",
           "Studies have shown that even a one-second delay in page loading can result in a 7% reduction in conversions and a 16% decrease in user satisfaction. Additionally, slow-loading websites tend to have higher bounce rates, as impatient users are more likely to leave the site before it fully loads. This can lead to missed opportunities for engagement and revenue.",
@@ -133,6 +140,7 @@ export const blogs = [
       },
       {
         title: "8- Low-Quality Images",
+        isToC: true,
         description: [
           "Low-quality images can significantly lower a website's visual effect and credibility. They not only fail to engage users but can also convey an impression of unprofessionalism and lack of attention to detail. Using high-resolution, visually attractive images that align with the website's content is critical in creating an immersive and positive user experience.",
           "When it comes to product images, professionalism is key. High-quality product images that showcase details and provide a clear, close-up view can enhance the audience's trust and interest in what you offer.",
@@ -148,6 +156,7 @@ export const blogs = [
       },
       {
         title: "9- Unclear CTA Buttons",
+        isToC: true,
         description: [
           "Clear and compelling Call-to-Action (CTA) buttons are vital elements of any website, serving as the driving force behind user interaction and conversions. They provide a direct path for visitors to take the desired actions, such as making a purchase, signing up, or downloading content. However, common mistakes with CTAs can sabotage their effectiveness.",
           "Some websites fail to use them altogether, missing out on opportunities for user engagement. Others make the mistake of creating unenticing CTAs, which do not prompt users to take action. Additionally, not indicating the clickability of CTA buttons can lead to confusion.",
@@ -164,6 +173,7 @@ export const blogs = [
       },
       {
         title: "10- Poor User Experience",
+        isToC: true,
         description: [
           "User experience (UX) is at the core of effective web design, as it directly influences how visitors interact with and perceive a website. An exceptional user experience requires intuitive navigation, clear calls to action, and smooth user flows. Poor UX, on the other hand, can have harmful consequences, causing frustration, higher bounce rates, and decreased user engagement.",
           "A website with convoluted menus, sluggish loading times, or confusing layouts makes users more likely to abandon such a site, leading to missed opportunities for conversions or engagement. Additionally, poor UX can affect a brand's reputation and discourage potential users from returning or recommending the website to others.",
@@ -179,6 +189,7 @@ export const blogs = [
       },
       {
         title: "11- Complex Registration Process",
+        isToC: true,
         description: [
           "A complex registration process is a clear indicator of a poorly designed website. It refers to the intricate and often cumbersome steps users are required to go through when signing up for an account or accessing certain features. Such processes typically involve an excessive number of form fields, mandatory requirements, and multiple confirmation steps, making it challenging and time-consuming for users to complete their registration.",
           "A bad website design example would be one with a registration process that demands extensive personal information, email verification, phone verification, and captchas—all in one go. This complexity can put off potential users.",
@@ -194,6 +205,7 @@ export const blogs = [
       },
       {
         title: "12- Ignoring SEO",
+        isToC: true,
         description: [
           "Ignoring Search Engine Optimization (SEO) is a critical oversight in web design and digital marketing. SEO is the practice of optimizing a website's content, structure, and other elements to rank higher in search engine results pages (SERPs). When website owners neglect SEO, they miss out on a significant opportunity to enhance their online visibility and reach.",
           "Without effective SEO strategies, a website is less likely to appear in search results, making it harder for potential users or customers to find. This lack of visibility can have a deep impact on website performance, as it limits organic traffic, reduces opportunities for conversions, and challenges the website's overall success in the digital landscape.",
@@ -211,6 +223,7 @@ export const blogs = [
       },
       {
         title: "13- Accessibility Issues",
+        isToC: true,
         description: [
           "Ensuring accessibility on websites is important as it promotes inclusivity, allowing all users, including those with disabilities, to have equal access to online content and services. Ignoring accessibility issues not only limits the reach of a website but also runs counter to the principles of digital equity.",
           "One crucial aspect of web accessibility is providing proper alt text (alternative text) for images. Alt text is a brief description of an image that is read aloud by screen readers to visually impaired users. This simple feature allows individuals who cannot see the image to understand its content and context. It's essential to ensure that alt text is descriptive, concise, and conveys the image's purpose, as this greatly enhances the user experience for people with visual impairments.",
@@ -227,6 +240,7 @@ export const blogs = [
       },
       {
         title: "14- Broken Links and 404 Errors",
+        isToC: true,
         description: [
           "The website has a lot of broken links which redirect to a different page. Clicking on these links causes an error message. If users find the error, they'll likely leave the site and seek information in a similar manner, which increases the bounce rate and decreases user engagement. 404 errors may also cause confusion and undermine the brand's reputation and credibility. Often the smallest details undermine trust among customers. In addition, some links are redirecting directly to other web pages.",
         ],
@@ -234,6 +248,7 @@ export const blogs = [
       },
       {
         title: "15- Outdated web design",
+        isToC: true,
         description: [
           "Outdated design on a website can significantly erode its credibility and effectiveness. It can convey a sense of stagnation and give the impression that the website may not be regularly updated or maintained. This lack of freshness and relevance can deter visitors and undermine the trust they place in the site's content or services. An outdated design often includes elements like clunky, old-fashioned layouts, obsolete color schemes, and outdated typography, which can make a website look unprofessional and out of touch.",
           "Consider an example of an outdated website with an image of a design that incorporates elements like excessive gradients, outdated fonts, and a heavy reliance on Flash animations. Such design choices were once trendy but are now considered passe, affecting the site's aesthetic appeal and overall user experience negatively.",
@@ -274,6 +289,7 @@ export const blogs = [
       },
       {
         title: "16- FAQ",
+        isToC: true,
       },
       {
         title: "How do you know if a website is bad?",
@@ -325,6 +341,7 @@ export const blogs = [
       {
         title:
           "1- Conversational UX: The Intersection of AI and Human Interaction",
+        isToC: true,
         description: [
           "Remember the times when you had to click buttons or type commands to interact with technology? Well, those days are soon to be history! Conversational UX is the new cool kid in town. It's all about having a casual chat with technology, thanks to the wonder combo of AI and human interaction.",
           "This approach has found its way into everything, from virtual assistants like Amazon Alexa and Siri, to chat windows on shopping websites. It's like having a natural human conversation with your gadgets. And of course, that serves as a great tool to gain more insight from a UX designer's perspective.",
@@ -359,6 +376,7 @@ export const blogs = [
       },
       {
         title: "2- Designing Conversational Flows for Maximum Efficiency",
+        isToC: true,
         description: [
           `Voice User Interface (VUI) design has come a long way in recent years. Improved AI and NLP technologies, better speech recognition, and the potential for more natural and conversational interactions between users and web apps have all contributed to the evolution of voice user interface design.`,
           `As a result, voice assistants like Siri and Alexa have become increasingly capable of understanding and responding to user inputs in a way that feels more natural and engaging, enhancing the overall user experience with voice assistant technology.
@@ -412,6 +430,7 @@ export const blogs = [
       },
       {
         title: "3- Conversational UI Best Practices for Customer Satisfaction",
+        isToC: true,
         image: "/blogs/details/blog-2-4.png",
         description: [
           `In our daily UX design practice, we should adhere to a set of best practices to create a successful conversational UI that caters to customer needs. These practices include personalization, continuous learning and adaptation, and accessibility and inclusivity in conversation design. By adhering to these best practices, those of us involved in design can ensure that our conversational interfaces deliver a satisfying and engaging user experience.`,
@@ -458,6 +477,7 @@ export const blogs = [
       },
       {
         title: "4- Implementing Conversational UX Across Various Industries",
+        isToC: true,
         description: [
           `Conversational UX is influencing various industries, including retail, healthcare, and education. Businesses are increasingly recognizing the value of conversational interfaces in streamlining customer interactions, providing personalized recommendations, and offering real-time support.`,
 
@@ -505,6 +525,7 @@ It is also making it easier for patients to book appointments and receive tailor
       },
       {
         title: "5- Overcoming Challenges in Conversational UX Design",
+        isToC: true,
         description: [
           `Conversational UX is influencing various industries, including retail, healthcare, and education. Businesses are increasingly recognizing the value of conversational interfaces in streamlining customer interactions, providing personalized recommendations, and offering real-time support.`,
 
@@ -558,6 +579,7 @@ It is also making it easier for patients to book appointments and receive tailor
       },
       {
         title: "6- Frequently Asked Questions",
+        isToC: true,
       },
       {
         title: "What is conversational UI design?",
@@ -598,6 +620,7 @@ It is also making it easier for patients to book appointments and receive tailor
       },
       {
         title: "1- What Is Product Design?",
+        isToC: true,
         description: [
           "Product design is all about creating a user-centered solution that solves a problem and delivers value to both the user and the business. The main task of the product designer is to provide the right product to answer what the user currently needs.",
           "Effective product design is one of the key elements for businesses to remain competitive in today's market, especially when it comes to digital products. This is why product designers conduct user research upfront and, consciously or not - master project management techniques that stand as a backbone for trendy products.",
@@ -606,6 +629,7 @@ It is also making it easier for patients to book appointments and receive tailor
       },
       {
         title: "2- Understanding the Product Design Process: Overview",
+        isToC: true,
         description: [
           `The product design process helps fulfil the roles and responsibilities of the product designer and their team by ensuring that the product meets the needs of the key user groups, is aesthetically pleasing, and functions as intended.`,
 
@@ -615,6 +639,7 @@ It is also making it easier for patients to book appointments and receive tailor
       },
       {
         title: "3- The Importance of a Well-Defined Process",
+        isToC: true,
         description: [
           `A well-defined process provides a clear roadmap for the entire product design, making it easier for everyone involved to understand what needs to be done and when.`,
           `It enables multiple stakeholders to collaborate effectively with the business goal in mind. A well-defined process allows for the integration of different perspectives and skill sets, ensuring that the final design is robust and meets the needs of the target audience.`,
@@ -622,6 +647,7 @@ It is also making it easier for patients to book appointments and receive tailor
       },
       {
         title: "4- Key Stages of the Product Design Process",
+        isToC: true,
         description: [
           `During the product research phase and ideation stage of the product design process, designers focus on generating creative ideas based on user analysis and conducting market research to ensure that the product will meet the needs of potential customers. This stage is crucial to product success and can help ensure that it is well-received by its target audience.`,
 
@@ -727,6 +753,7 @@ By understanding what motivates and frustrates the target market, designers can 
       },
       {
         title: "5- Design and Development",
+        isToC: true,
         description: [
           "Design plays a crucial role in shaping the perception of a product and influencing purchasing decisions. Designers must strike the right balance between form and function, incorporate brand identity into the design, and choose the right design approach to create a compelling user experience and build brand identity.",
         ],
@@ -758,6 +785,7 @@ By understanding what motivates and frustrates the target market, designers can 
       },
       {
         title: "6- Designing for User Experience (UX)",
+        isToC: true,
         description: [
           "Incorporating UX in the product design process is crucial to ensure the success of a product. UX designers focus on refining a product based on user behavior research and journey maps, which help in creating intuitive and seamless user experiences. By incorporating UX principles, designers can strike the right balance between aesthetics and functionality.",
         ],
@@ -811,6 +839,7 @@ Product managers can track progress, provide input, and ensure that the team is 
       },
       {
         title: "7- Design Evaluation and Refinement",
+        isToC: true,
         description: [
           `Using design collaboration tools can be an essential component of the product design process. With popular tools like Figma and InVision, teams can quickly iterate through design ideas, build prototypes, and gather feedback from stakeholders.
 A visualization tool facilitates efficient workflow by enabling designers, product managers, and engineers to work together seamlessly. Designers can share their work with others, receive feedback, and make changes in real-time. 
@@ -882,6 +911,7 @@ This process involves testing the product at different stages of the design proc
       },
       {
         title: "8- Launch and Post-Launch Activities",
+        isToC: true,
         description: [
           `Once the product has been developed and tested, the team will move into the launch phase. During this phase, they will work to create marketing materials and launch campaigns that will promote the product to its target users.`,
 
@@ -971,6 +1001,7 @@ This process involves testing the product at different stages of the design proc
       },
       {
         title: "1- Always start with a story connected with your topic",
+        isToC: true,
         description: [
           "An interesting story connected with your topic is a good way to start. If you start your public speech with an interesting story, your audience will be intrigued from the beginning. Shortly after you tell your story, start talking about your topic. The audience will be more concentrated if there is an emotional connection with them, before the topic starts.",
         ],
@@ -978,6 +1009,7 @@ This process involves testing the product at different stages of the design proc
       },
       {
         title: "2- Use emotional inflections in your voice.",
+        isToC: true,
         description: [
           `Open body language is also a key element of some of the greatest public speakers.`,
         ],
@@ -992,6 +1024,7 @@ This process involves testing the product at different stages of the design proc
       },
       {
         title: "3- Always make sure to rehearse before your speech",
+        isToC: true,
         description: [
           `Make sure you rehearse in front of the people you trust the most. Ask them for their honest opinion about your speech. Was it interesting, did they get lost at any part of the speech, how was the body language, the tone of voice…`,
 
@@ -1021,12 +1054,14 @@ This process involves testing the product at different stages of the design proc
       },
       {
         title: "1- What is QA?",
+        isToC: true,
         description: [
           "Let’s start with what QA or Quality Assurance Testing actually means. It refers to one of the most crucial components of the development process that is designed to detect any errors that may have occurred before the release of the end product. Verifying that the product is functioning as intended, as well as debugging it before it is shipped out, is the main goal of Quality Assurance Testing.",
         ],
       },
       {
         title: "2- Why is QA important in UI/UX design?",
+        isToC: true,
         description: [
           `As a digital agency, our focus leans more toward the design and visual quality of a web page, which is also one of the main responsibilities of our in-house Quality Assurance (QA) Specialist. The idea is for the QA to maintain the overall high quality of the product, so it shouldn’t come as a surprise that QAs are often involved in design and web development as well.`,
           `When it comes to defining the scope of a QA’s responsibilities, it should go beyond simply ensuring that the product’s functionality is working as intended. A QA must also consider the perspective of the end-user. `,
@@ -1035,24 +1070,28 @@ This process involves testing the product at different stages of the design proc
       },
       {
         title: "A. Usability & Accessibility",
+        isToC: true,
         description: [
           `Usability and accessibility refer to how one could access a page, navigate through a website or even complete orders without much effort or involving many actions.`,
         ],
       },
       {
         title: "B. Consistency and logic ",
+        isToC: true,
         description: [
           `The product description or page needs to display every bit of necessary information for the user regarding its functionality and features and everything needs to perform as it should.`,
         ],
       },
       {
         title: "C. Compatibility",
+        isToC: true,
         description: [
           `The product needs to accommodate and adapt to multiple different devices and operating systems to ensure all users are able to go through the same experience. When testing, a website should perform equally as well in a variety of browsers and screen resolutions.`,
         ],
       },
       {
         title: "D. Performance",
+        isToC: true,
         description: [
           `There’s no doubt that there’s nothing more annoying than a slow-performing system. Surveys show that the average user expects a certain page to load in up to 3 seconds. As a result, due to our constant desire to improve, we’ve done extensive research on how we can optimise the speed of every page we build on Webflow.`,
 
@@ -1113,46 +1152,48 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "Why is Trust Crucial in Fintech?",
+        isToC: true,
         description: [
           "Fintech apps have revolutionized the way people manage personal finances, make payments and investments. But due to the nature of the complex and sensitive information handled during these transactions, it is natural for users to be concerned about the security risks associated with them. Therefore, building trust with users will not only improve their reputation, fintech companies will also see a rise in customer retention rates and satisfaction. In fact, a significant number of successful fintech organisations succeed due to their dedication to solving problems users care about which in turn helps build credibility and assurance among users.",
         ],
       },
       {
         title: "UX Design to Build Trust in Fintech Apps",
+        isToC: true,
         description: [
           "The key to improving user trust in a fintech app begins with understanding the user - their behavior, motivations, expectations and concerns. As a starting point it is important to be mindful of a few UX design elements that help fintech companies create a secure and reliable user experience.",
         ],
       },
       {
-        title: "1- Prioritise Security at every point",
+        title: "1. Prioritise Security at every point",
         description: [
           "Security should be preeminent since the beginning of a fintech app's design. Right from the login screens to completing a transaction, at every stage, users need to be reassured of the fact that their data is safe. Including elements like multi-factor authentication, biometric login options and end-to-end encryption is a must. These features in still confidence among users which can be a deciding factor in the app's success.",
         ],
         image: "/blogs/details/blog-11-1.png",
       },
       {
-        title: "2- Clear and Transparent Communication",
+        title: "2. Clear and Transparent Communication",
         description: [
           "A major contributing factor in enhancing user experience within a fintech application is the clarity of information provided. Users want information of sensitive nature in a straightforward and easy-to-understand manner, especially if it involves service charges, security protocols and potential risks. Unclear messages can elevate user concerns and uncertainty while using the app. Instant notifications alerting users of their account activity and security status are some ways to foster trust. Furthermore, clear and concise error messages and prompts can help them navigate through seemingly difficult processes, thereby reducing frustration and boosting morale.",
         ],
         image: "/blogs/details/blog-11-2.png",
       },
       {
-        title: "3- Seamless and Intuitive Navigation",
+        title: "3. Seamless and Intuitive Navigation",
         description: [
           "Users should be able to find what they are looking for with ease. Simple, intuitive navigation having clear labels and relevant icons can help users feel comfortable and in control. It is necessary to let users know what transactions can be made and where they can find them. Creating clear categories and grouping similar items together can help reduce friction. Additionally, making frequently used options readily available at the users' disposal is a great way to make the process even smoother. This makes even the most complex transactions seem slightly less daunting and puts users' minds at ease. Apps like Venmo and PayPal are both great examples of simplifying their navigation.",
         ],
         image: "/blogs/details/blog-11-3.png",
       },
       {
-        title: "4- Building a consistent Brand Identity",
+        title: "4. Building a consistent Brand Identity",
         description: [
           "Users associate consistency with familiarity and reliability. Having a strong and unique visual identity that reflects the brand values makes for a memorable and trustworthy experience. A consistent color palette, logo, iconography and typography can help leave a lasting impression on users. Additionally, using relevant icons and images wherever necessary will aid users in making the association with the corresponding tasks, making navigation easier. A consistent visual design showcases legitimacy and professionalism, establishing a foundation of trust among users.",
         ],
         image: "/blogs/details/blog-11-4.png",
       },
       {
-        title: "5- Mobile-first Approach",
+        title: "5. Mobile-first Approach",
         description: [
           "One of the main reasons for the rise in the popularity of fintech apps is credited to the ease with which financial services can be accessed from mobile phones these days. Therefore, at present, the success of a fintech corporation is decided by that of its mobile app. Having a user-friendly mobile experience that allows users to manage their finances is crucial to a fintech company's prosperity.",
         ],
@@ -1160,18 +1201,21 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "Conducting User Research for Secure UX Design",
+        isToC: true,
         description: [
           "We have already discussed key fintech UX design elements to enhance user trust and loyalty. Now let us talk about how we can understand users better and leverage those principles to solve user pain points.<br><br>Conducting interviews, surveys, and usability testing, fintech companies can gather useful insights into user perceptions around security. This research can help inform design decisions that will impact how users' concerns revolving around safety, security and privacy are addressed. Discovery interviews can help understand unique issues and provide a competitive edge in the market while usability testing can help detect any points of friction early on.<br><br>For instance, Visa Europe reported that younger users prefer more modern features like biometric login while older users may prefer traditional PINs and passwords. User research can help make these distinctions and make design choices that create an accessible and inclusive solution for all.",
         ],
       },
       {
         title: "Balancing Innovation and Security",
+        isToC: true,
         description: [
           "The fintech industry is constantly innovating new technology and solutions. Although, these innovations need to be balanced with appropriate security measures as novel solutions may intimidate users and make them hesitant of adopting them.<br><br>Employing UX Design Trends like minimalism can help make new fintech apps more accessible while protecting users from security breaches. The most successful fintech apps in the market currently are those that offer a minimal and straight-forward interface paired with strong security features.",
         ],
       },
       {
         title: "Employing UX Design Trends in Fintech Applications",
+        isToC: true,
         description: [
           "Keeping up with ongoing design trends in the UX industry is important to stay relevant in the market, meet user expectations and maintain a competitive edge. Popular trends like customisation options, dark mode and simplified login features appeals to modern users. Leveraging these trends paired with user research can promote user engagement and retention rates, establishing trust and loyalty.<br><br>Personalized dashboards, for example, empower users to prioritize features and data points that are most relevant to them. A user focused on budgeting might want quick access to spending insights, while an investor may prefer to see portfolio updates at a glance. By enabling this level of customization, fintech companies not only make the experience more relevant but also enhance user engagement, as users are more likely to return to an app that aligns with their personal financial objectives. This level of customization can foster a sense of ownership, encouraging users to stay engaged and loyal over time.",
         ],
@@ -1209,20 +1253,23 @@ Take a look at the test cases below to help get you started:`,
           "Transform Your Business with a UX Audit: Boost Engagement, Conversions, and Satisfaction",
       },
       {
-        title: "1- Introduction",
+        title: "Introduction",
+        isToC: true,
         image: "/blogs/details/blog-12-1.png",
         description: [
           "In the current digital era, user experience (UX) is everything. A good user experience (UX) may make or break a potential customer's decision to interact with your business, as your website or app is frequently their initial point of contact. How can you, however, make sure your digital product offers the greatest user experience? The UX/UI audit is a thorough assessment that helps create a more user-centric experience by pinpointing areas that need improvement.<br><br>Through this blog we will explore the value of UX audits and the advantages they provide for companies of all kinds and sectors. We will also discuss UX audits' return on investment (ROI) and show how a well-planned audit may result in observable business growth.",
         ],
       },
       {
-        title: "2- What Is a UX Audit",
+        title: "What Is a UX Audit",
+        isToC: true,
         description: [
           "But first, what exactly is a UX audit? As we talked about it a little in the introduction, usability audit is an inspection one conducts to identify potential issues that may hamper the user experience on a product.<br><br>After a well audit is conducted a final UX report is delivered to work upon the imperfections of the website or the app. A UX is not just an activity but rather a combination of different ones. In the next section let us explore what activities are involved in the UX audit process.",
         ],
       },
       {
-        title: "3- When To Do a UX Audit",
+        title: "When To Do a UX Audit",
+        isToC: true,
         description: [
           "These are the main times when UX audits are helpful for most businesses:",
         ],
@@ -1234,24 +1281,19 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "4- How Much Does a UX Audit Cost?",
+        title: "How Much Does a UX Audit Cost?",
+        isToC: true,
         description: [
           'There is no defined answer for this, it heavily depends on the scope and complexity of the audit, the duration of the UX audit, and who you are working with (it may be an agency or an individual freelancer).<br><br>According to Koru UX "Depending on the scope and scale of the product, a basic audit exercise can cost between $ 5k to $ 15k, which will cover a single product, multiple workflows using an informal approach."<br><br>Freelancers may charge a bit less than that, approx $ 1k to $ 5k, with this you can get a checklist with detailed explanation on where the UX can be improved.',
         ],
       },
       {
-        title: `5- Key Components of a UX Audit`,
+        title: `Key Components of a UX Audit`,
+        isToC: true,
         description: [
           `These components are necessary to determine the scope of a UX audit and assess the quality of user experience.`,
         ],
         image: "/blogs/details/blog-12-2.png",
-      },
-      {
-        title: "What Are the Benefits of a UX Audit",
-        description: [
-          "These components are necessary to determine the scope of a UX audit and assess the quality of user experience.",
-        ],
-        image: "/blogs/details/blog-12-3.png",
       },
       {
         title: "Defined Business Goals",
@@ -1300,7 +1342,8 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "6- Output of a UX Audit",
+        title: "Output of a UX Audit",
+        isToC: true,
         description: [
           "The project description and the primary objectives of the UX audit are typically included in the report along with the conclusions of the UX audit. It contains:",
         ],
@@ -1312,7 +1355,8 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "7- ROI of UX Audit: Why Your Business Needs It",
+        title: "ROI of UX Audit: Why Your Business Needs It",
+        isToC: true,
         description: [
           "Businesses can gain a great deal from investing in a UX audit. Some businesses might be hesitant due to perceived costs. However, the ROI associated with UX audits is undeniable. The following are some of the main benefits:",
         ],
@@ -1355,7 +1399,8 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "9- UX Audit Tools That You Can Try",
+        title: "UX Audit Tools That You Can Try",
+        isToC: true,
         description: [
           "Wondering what tools can be resourceful for conducting UX audit? Here's a list of well known UX audit tools that most of the players in the industry use to improve their user experience.",
         ],
@@ -1391,7 +1436,8 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "10- Conclusion",
+        title: "Conclusion",
+        isToC: true,
         description: [
           "User experience must now be prioritised in order to remain competitive in today's market. An effective approach for pinpointing opportunities for development and producing a digital product that genuinely connects with your target market is a UX audit. You can get a multitude of advantages by investing in a UX audit and strategically putting the recommendations into practice, from improved brand reputation and devoted customers to higher conversion rates and lower expenses. Keep in mind that improving user experience is an investment in your company's future. Even though a UX audit might seem a bit costly, one can't simply neglect the ROI it can bring on to the table.",
         ],
@@ -1417,14 +1463,16 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "1- Understanding Microinteractions",
+        title: "Understanding Microinteractions",
+        isToC: true,
         image: "/blogs/details/blog-13-1.png",
         description: [
           "Micro interactions are typically centered around a single task or action. They provide immediate feedback to users, confirming their actions or guiding them toward the next step. While often subtle, they play a vital role in shaping the overall user experience.<br><br>To promote ongoing interaction, they provide encouraging feedback on user activities. They provide the product emotional significance in order to establish a bond with the user. The perceived performance of the product is enhanced by this attention to detail.",
         ],
       },
       {
-        title: "2- The Role of Microinteractions",
+        title: "The Role of Microinteractions",
+        isToC: true,
         description: [
           "Microinteraction helps provide small cues of what is happening on the screen. Here are a few reasons why companies prefer using microinteractions in their design.",
         ],
@@ -1458,7 +1506,8 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "3- 4 Key Components of Microinteractions",
+        title: "4 Key Components of Microinteractions",
+        isToC: true,
         image: "/blogs/details/blog-13-6.png",
         description: [
           "According to Dan Saffer, in his book Microinteractions: Designing with Details, there are 4 key components of microinteractions that are: Trigger, Rules, Feedback, and Loops & Modes.",
@@ -1489,7 +1538,8 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "4- Best Practices for Designing Micro interactions",
+        title: "Best Practices for Designing Micro interactions",
+        isToC: true,
         description: [
           "Here are some best practices to keep in mind while designing micro interactions:",
         ],
@@ -1541,7 +1591,8 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "5- Examples of Effective Microinteractions in Apps",
+        title: "Examples of Effective Microinteractions in Apps",
+        isToC: true,
       },
       {
         title: "Facebook's Interactive Emoji Reaction",
@@ -1579,7 +1630,8 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "6- Conclusion",
+        title: "Conclusion",
+        isToC: true,
         description: [
           "The little things, or micro interactions, can have a significant impact on the user experience. You may design and execute micro interactions with care to produce products that are enjoyable to use in addition to being functional. To improve your designs, don't forget to test and iterate, make it simple, maintain consistency, give clear feedback, and clarify the objective of each micro interaction.<br><br>Micro-interactions are important because even the tiniest feature may improve a product's use and enjoyment.<br>Design with the user in mind to make sure that micro-interactions address actual issues.<br>Micro-interactions may be entertaining and beneficial: Achieve a balance between succinct criticism and a hint of personality.<br>Utilize brief exchanges to communicate your brand: Your brand values may be quietly communicated through subtle design elements and animations.",
         ],
@@ -1604,12 +1656,14 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "1- Key Takeaways",
+        isToC: true,
         description: [
           "Webflow is a comprehensive, no-code web design platform for business owners, developers and content creators.<br>It offers an intuitive visual design tool with drag & drop interface, customizability options and secure hosting.<br>Webflow provides learning resources such as tutorials & courses along with forums and online communities to help users maximize the potential of the platform.",
         ],
       },
       {
         title: "2- Understanding Webflow",
+        isToC: true,
         description: [
           "Webflow is a comprehensive, no-code web design platform for business owners, developers and content creators.<br>It offers an intuitive visual design tool with drag & drop interface, customizability options and secure hosting.<br>Webflow provides learning resources such as tutorials & courses along with forums and online communities to help users maximize the potential of the platform.",
         ],
@@ -1631,6 +1685,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "3- The Power of Visual Web Design",
+        isToC: true,
         image: "/blogs/details/blog-9-2.png",
         description: [
           "Webflow is a no-code platform for web designers to design websites without any coding knowledge. It provides visual design, content management and ecommerce tools as well as hosting services in one complete package.<br><br>There are various plans available tailored both for internal teams and independent developers/agencies, including free trial options.This makes Webflow the perfect solution when it comes to building beautiful online experiences with quality web development results efficiently and quickly.",
@@ -1650,6 +1705,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "4- Webflow CMS: Flexible Content Management",
+        isToC: true,
         image: "/blogs/details/blog-9-3.png",
         description: [
           "Webflow's content management system offers a comprehensive and user-friendly solution to create, organize, and collaborate on different types of content. The CMS menu as well as the design interface give users versatility when it comes to managing items such as movies reviews or artworks in one place.<br><br>Notable features that Webflow's Content Management System has include: drawing data from various collections, displaying images along with post titles and author names promptly, referencing other cms collections quickly. These features are what make this tool so efficient for any type of digital manager looking for an effective way to manage their digital assets seamlessly.",
@@ -1669,6 +1725,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "5- Webflow Ecommerce Capabilities",
+        isToC: true,
         image: "/blogs/details/blog-9-4.png",
         description: [
           "Webflow provides an effective and adjustable ecommerce option for setting up online stores. Though its payment entrance is limited to Stripe which operates in 26 countries, the platform still offers a great opportunity for customizing store designs as well as handling products, orders and payments efficiently.",
@@ -1688,6 +1745,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "6- Webflow Hosting: Speed, Security, and Scalability",
+        isToC: true,
         image: "/blogs/details/blog-9-5.png",
         description: [
           "Hosting with Webflow ensures that your website runs fast and secure at all times, while being able to scale as needed. This hosting solution provides optimal performance alongside top-level security measures for protection against any potential threats. With this type of optimized offering from Webflow, you can be sure the stability and reliability of your site is always up to par.",
@@ -1707,6 +1765,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "7- Comparing Webflow to Other Website Builders",
+        isToC: true,
         image: "/blogs/details/blog-9-6.png",
         description: [
           "Compared to other website builders such as WordPress, Wix, and Squarespace, Webflow stands out with its real-time visual editing capabilities which allow for a high level of customizability. It also provides users the ability to control their code and advanced interactions/animations that are lacking on most competitors' websites.<br><br>Finally it includes robust CMS functionality making site management more intuitive than ever before. When we analyze these features compared against popular alternatives in this space like those previously mentioned – you can quickly see how much higher the value is when using Webflow rather than any competing platforms available today",
@@ -1732,6 +1791,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "8- Learning Resources and Community Support",
+        isToC: true,
         description: [
           "To maximize their Webflow experience, users can access a variety of learning materials and community support options. With tutorials, courses and guides available for both novice or experienced users of the platform to learn from - they are well-equipped to progress in building great websites using the features offered by Webflow.<br><br>With vibrant online forums where participants exchange knowledge as well as ask questions related to this amazing software – it is definitely an environment worth exploring if you're keen on unlocking its full potential!",
         ],
@@ -1751,12 +1811,14 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "9- Summary",
+        isToC: true,
         description: [
           "At the end of the day, Webflow is a formidable no-code web design platform that provides an all-inclusive answer to constructing and maintaining websites. By virtue of its visual designing potentialities, flexible content control elements, ecommerce components as well as secure hosting possibilities,it distinguishes itself from other website builders available on the market.<br><br>With Webflow's helpful learning resources and community aid accessibly accessible users can make use of this platform optimally. So why not give it a go for your web design adventure?",
         ],
       },
       {
         title: "10- FAQ",
+        isToC: true,
       },
       {
         title: "What is Webflow used for?",
@@ -1818,6 +1880,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "1- Image optimisation & compression",
+        isToC: true,
         description: [
           "Although Webflow can make your images responsive and optimize their size for different devices, that doesn't mean you don't have to make sure they are well compressed and optimized beforehand. For example, if you download a single image directly from Unsplash or Pexels and upload it in Webflow you will most probably be fine and not need to optimize further.<br><br>If you however have 20-30 images on the same page, you will most probably end up with performance issues. Especially, if you are in Admin mode and trying to edit something, it saves the original image and that can result in very slow load time.",
         ],
@@ -1825,6 +1888,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "2- What format to use? PNG vs JPEG vs SVG",
+        isToC: true,
       },
       {
         title: "JPEG",
@@ -1847,6 +1911,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "3- Lazy load images",
+        isToC: true,
         image: "/blogs/details/blog-10-3.png",
         description: [
           'To make websites load faster, Webflow have turned the lazy load on by default. This feature "instructs" the browser you are using to not load the image before a user has scrolled through the section it\'s positioned in.<br><br>However, the only time you need to turn this option off is for all above the fold images as you will probably want them to load immediately when the website loads.',
@@ -1854,12 +1919,14 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "4- Reduce the use of web fonts",
+        isToC: true,
         description: [
           "A font can come up with many different widths and variations. For example, Roboto comes with 9 widths and you probably won't use more than 2-3 of them. Make sure to load only what you need.",
         ],
       },
       {
         title: "5- Key Google PageSpeed metrics",
+        isToC: true,
         image: "/blogs/details/blog-10-4.png",
         description: [
           "A font can come up with many different widths and variations. For example, Roboto comes with 9 widths and you probably won't use more than 2-3 of them. Make sure to load only what you need.",
@@ -1867,12 +1934,14 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "6- First Contentful Paint (FCP)",
+        isToC: true,
         description: [
           "The FCP is one of the most important metrics that you need to keep in mind when setting up your website for page speed success. The First Contentful Paint refers to how long it takes a browser to show a piece of content that is on your website. This content is called DOM content and it can be an image, non-white canvas element, or an SVG.<br><br>When coming up with an FCP score, the calculation is based on your website's page FCP time and that of other real websites. For example, a good FCP time is anything below 1.5 seconds. That will put your website in the 99-percentile in terms of performance.",
         ],
       },
       {
         title: "7- Speed Index",
+        isToC: true,
         description: [
           "Developers have created the Speed Index metric in order to measure how quickly your website's visual content is displayed when first loading. It is measured in milliseconds and the lower it is the better. Generally, if your Speed Index is below 3.4 seconds, then you have a pretty fast loading website.<br><br>The other cool thing is that you can easily check any website from here and the tool can even let you compare the speed between different devices.",
         ],
@@ -1880,24 +1949,28 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "8- Largest Contentful Paint (LCP)",
+        isToC: true,
         description: [
           "Similar to FCP, LCP refers to the time that the largest in size content on your web page loads. When measuring your Largest Contentful Paint, you should always aim for it to be at 2.5 second or less. This means that your webpage will provide a good user experience and not make users frustrated due to slow load time.",
         ],
       },
       {
         title: "9- Time to Interactive (TTI)",
+        isToC: true,
         description: [
           "TTI refers to the amount of time it takes for a certain page to load and become fully interactive. This becomes possible once the initial useful content, which has been measured by the FCP, has rendered on the screen, the event handlers have registered for the majority of the already visible page elements, and the response time to user interaction is up to 50 milliseconds. If your TTI score is up to 3.8 seconds, your color-coding is considered fast, however once it exceeds 5 seconds it starts to get slower, resulting in a poor user experience.",
         ],
       },
       {
         title: "10- Total Blocking Time (TBT)",
+        isToC: true,
         description: [
           "TBT refers to the amount of time during which the main thread has been blocked before being able to respond to user input, which includes actions as simple as a keyboard press or a mouse click. One could calculate this by adding the blocking time for all long tasks which run on the main thread between FCP and TTI for more than 50 milliseconds. The blocking time occurs once the long tasks exceed 50 ms. For example, if a certain main thread timeline detects a 90 ms long task, the blocking time would be 40 ms.",
         ],
       },
       {
         title: "11- Cumulative Layout Shift (CLS)",
+        isToC: true,
         description: [
           "CLS measures the visual stability of a website by calculating the amount of all unexpected layout shifts a user experiences while loading a certain page. A layout shift refers to the change in position of any visible element, altering the page's entire structure. In order to ensure a high-quality user experience, a good CLS score needs to be less than 0.1. If it's between 0.1 and 0.25 it would require some improvement, and if it exceeds 0.25, it's considered poor.",
         ],
@@ -1925,6 +1998,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "1- What Is Product Design?",
+        isToC: true,
         description: [
           "Product Design focuses on meeting specific market needs and solving user problems. Staying involved from the beginning till the end of the product development is key, and it includes business-related processes like:<br><br>market research<br>problem identification<br>product development<br>creation of informed solutions before the product's initial release.<br>Compared to UX design, product design has been around for longer and used to be associated with physical products. That, just like everything else, is rapidly changing. Today product designers often find themselves in the role of creative problem solvers for digital products. They have a narrow focus on business needs and objectives as well as user behaviour in the area they're creating products for.",
           "Product design is essentially project management focused on product roadmaps. What product design services present are solutions to the problems that might arise during the development process.",
@@ -1934,6 +2008,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "2- What Is UX Design?",
+        isToC: true,
         description: [
           "User Experience Design (UX design) dives into creating a smooth and efficient user experience.",
           "A UX designer looks out for customer satisfaction with the product throughout its usage. That includes providing the service or product in the most intuitive way for the customer. After all, the fewer steps you have to reach the information you need - the better.",
@@ -1952,6 +2027,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "3- Product Design vs UX Design",
+        isToC: true,
         description: [
           "The main difference between product design and UX design comes from the perspective from which they approach the product. A product designer would aim at fitting a product to the current business and market economy while answering the user's needs. With that taken into account, a UX designer would be researching user behavior and testing its usability in order to deliver the most intuitive experience.",
         ],
@@ -1972,10 +2048,10 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "4- The Role of a Product Designer",
+        isToC: true,
         description: [
           "The product designer job description includes building, following and monitoring the whole product journey from start to finish. It circles around the maintenance of the customer's satisfaction with the product's core nature.",
         ],
-        image: "/blogs/details/blog-1-3.png",
       },
       {
         title: "Job Description and Responsibilities",
@@ -1994,6 +2070,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "5- The Role of a UX Designer",
+        isToC: true,
         description: [
           "User experience designers solve usability issues and ensure products follow a logical flow. They are strongly involved in early user and competitor research to identify and understand user problems and develop design solutions using different UX tools. Many UX designers turn to tools like FigJam to map out their products. When it comes to analytics and A/B testing, Maze and VWO provide extensive and structured insights.",
           "Part of the UX designer's responsibilities is the development of a smooth user experience back to back with the UI designers. Consumer satisfaction with the product's core is highly dependent on the UX design and the design thinking process which focuses on the people they create for and leads to better products.",
@@ -2019,6 +2096,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "6- FAQ",
+        isToC: true,
       },
       {
         title: "Is UX design the same as product design?",
@@ -2064,6 +2142,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "1- What Is Digital Branding?",
+        isToC: true,
         description: [
           "At its core, digital branding refers to the process of creating and maintaining a cohesive and consistent brand identity across various digital platforms. It goes beyond visuals, capturing a brand's essence, values, personality, and messaging. By integrating these elements seamlessly, businesses can develop meaningful connections with their target audience.",
         ],
@@ -2085,6 +2164,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "2- The Role of Branding in Web Design",
+        isToC: true,
         description: [
           "When looking at how branding and web design elements come together, it's more than just logos and looks. Branding reaches beyond appearances, affecting what users feel and think about a brand.<br><br>Branding isn't just about the visuals like logos, colors, and fonts. It's the way all these elements work together and help a brand stand out. By consciously choosing these elements, a brand becomes unique and recognizable, even in a crowded digital world.<br><br>Website designers don't just create good-looking sites; they make sure everything feels and looks like the brand. This goes from the visuals to how things are set up and how users are experiencing the website. By mixing good looks with meaning, websites become more than just web pages. They turn into digital places that show what a brand stands for. This mix of branding and web design helps brands connect with people and build trust based on familiar feelings and shared values.",
         ],
@@ -2096,10 +2176,11 @@ Take a look at the test cases below to help get you started:`,
         ],
         image: "/blogs/details/blog-8-1.png",
         footer_text:
-          "A web Designer specializes in translating a brand's visual identity into an online experience. Web Designers consider user experience (UX) and user interface (UI) design principles to ensure that the website is not only visually appealing but also functional and user-friendly. They decide where elements like buttons, menus, images, and content blocks go to create a smooth and engaging browsing experience.",
+          "A Web Designer specializes in translating a brand's visual identity into an online experience. Web Designers consider user experience (UX) and user interface (UI) design principles to ensure that the website is not only visually appealing but also functional and user-friendly. They decide where elements like buttons, menus, images, and content blocks go to create a smooth and engaging browsing experience.",
       },
       {
         title: "3- The Elements of Effective Branding in Web Design",
+        isToC: true,
         description: [
           "Creating a powerful brand presence on the web involves mastering a few key elements. These fundamentals not only catch the eye but also build a lasting impression. The key elements that make branding in web design effective are visual elements, consistency across platforms and building a cohesive UX.<br><br>Incorporating these elements crafts a web presence that embodies your brand's personality and leaves a lasting impact.",
         ],
@@ -2132,6 +2213,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "4- How to Craft Your Digital Identity Through Web Design",
+        isToC: true,
         description: [
           "Crafting a unique digital identity via web design blends aesthetics and purpose, creating an online presence reflecting your brand. This journey involves defining and translating your brand identity into resonant design.",
         ],
@@ -2151,6 +2233,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "5- Digital Branding Optimization",
+        isToC: true,
         description: [
           "This step encompasses several steps that ensure brand consistency, improve user engagement, and adapt to evolving trends and preferences.<br><br>Monitoring brand consistency is a crucial starting point. Web designers regularly assess visuas, messaging, and overall brand identity across various online platforms. This ensures that the brand's image remains coherent and aligned, fostering recognition and trust among users.<br><br>A/B testing and gathering user feedback further refine the brand's digital experience. By presenting customers with different design variations and measuring their responses, design professionals can pinpoint what resonates best. User feedback provides invaluable insights into what works and what needs improvement, enabling iterative enhancements to the design.<br><br>Adapting to changing trends and user preferences is a dynamic aspect of digital branding optimization. A web designer must stay on top of shifts in design trends, user behavior, and technological advancements. This allows them to implement timely updates that keep the brand's online presence fresh and appealing.",
         ],
@@ -2158,6 +2241,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "6- How to Ensure Long-Term Brand Cohesion",
+        isToC: true,
         description: [
           "Maintaining long-term brand cohesion is a cornerstone of successful branding, ensuring a consistent and recognizable brand identity across all platforms. This commitment to consistency nurtures a strong and enduring connection with the audience.<br><br>Furthermore, long-term brand cohesion establishes a foundation for positive relationships with customers. By consistently delivering on its core values and messaging, a brand earns the loyalty of its audience. This loyalty is a result of the trust that has been built over time, creating a bond that withstands market fluctuations and challenges.",
         ],
@@ -2206,6 +2290,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "1- Agency vs Freelancer",
+        isToC: true,
         description: [
           "First things first, let's dive into the basics and define each one of the contenders. A digital freelancer is an individual who provides product design services independently and isn't tied to a specific legal entity. They're exclusively responsible for delivering results to their clients and are usually hired by smaller or medium-sized companies and start-ups.",
           "A digital agency is a group of web designers managed by other employees at a higher authority level. Those employees are usually dedicated project managers who are responsible for assigning particular tasks and clients to the designers. So what criteria could possibly define an agency as a prime contender and make it stand out significantly, you ask? We will get into the specifics below.",
@@ -2213,6 +2298,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "2- Relationship & Communication",
+        isToC: true,
         description: [
           "Having a good and long-lasting relationship with your design team is essential for the overall growth of your brand image. When you hire a digital product agency, you can always check in on the progress due to the adequate and stable communication you've established with your dedicated project manager.",
           "Your PM is there to keep your designers on the right track and monitor the quality of their work. They usually organise frequent routine meetings with a structured plan which allows them to prevent any unforeseen problems and miscommunications. We strive to keep our clients engaged and build long-term relationships with them.",
@@ -2221,6 +2307,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "3- Skills & Resources",
+        isToC: true,
         description: [
           "One of the key things any business owner needs to look out for when selecting and hiring great product designers is their overall skill set and reputation. As we already mentioned above, digital product agencies consist of not only expert designers, but also professional project managers. Their job is to ensure the high quality and seamless coordination within their allocated design team and communicate everything to the client directly. This makes it easier for business owners to fully comprehend and approve of the designer's working criteria.",
           "It's no secret that each design freelancer has a particular set of skills and access to different resource materials. It's not common to stumble upon a single designer who is updated on all the latest and upcoming trends and has obtained the newest, most edgy technologies. A digital product development agency guarantees they'll assign their clients the appropriate design team with the necessary focused skills and resources.",
@@ -2228,6 +2315,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "4- Experience & Performance",
+        isToC: true,
         description: [
           "As we outlined above, it's harder to find an individual freelancer with the right knowledge and concrete expertise to ensure the successful completion of your project. Agencies consist of a wide range of designers with a broad experience within the digital product design and development field. During the development process, those designers are usually provided with professional tech support, making it easier for them to adapt to the latest trends and technologies. One of the similarities between product and UX designers is that both need a good amount of resources and background information to deliver results successfully and on time.",
           "Because of our wonderful project managers, we never fail to construct a high-level strategy for all of our clients. Our designers are always required to have an intimate understanding of our customers' overall brand, goals, and needs. Due to the constant and thorough management of our UI/UX designers, they're able to provide you with a detailed record of their performance data with specific results and outcomes.",
@@ -2236,6 +2324,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "5- Flexibility & Time Management",
+        isToC: true,
         description: [
           "With any accomplished project, great time management is an essential component. When business owners hire product designers, they expect them to not only perform well, but also on time. At Stan Vision, we provide you with an experienced design team, led by an expert PM who knows how to prioritise your platform and product. Because of this, you don't have to worry about being held accountable and having to manage our every move.",
           "It's true, agencies are not always as flexible as freelance UI/UX designers. They're rarely able to work evenings or during weekends. Nonetheless, they know how to perform better and deliver top results within traditional working hours. Our project managers can anticipate any possible mishaps and inconsistencies and make sure our work is well-organised and highly efficient.",
@@ -2244,6 +2333,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "6- Security & Credibility",
+        isToC: true,
         description: [
           "Working with competent and reliable people is of the utmost importance. After all, you're practically leaving your business and reputation in someone else's hands. Freelance UX designers are rarely required to sign a contract which could easily exempt them from any legal responsibilities. This makes it much harder to hold them accountable.",
           "With agencies, you can rest assured that you won't have to worry about any of those legal risks and issues. We will provide you with access to our track record and to all the necessary legal documentation in advance. There will never be a scenario in which an agency could disappear without a trace halfway through working on your project. You can avoid any possible losses and unnecessary stress by simply hiring a secure and credible legal entity.",
@@ -2252,6 +2342,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "7- Price & Cost Management",
+        isToC: true,
         description: [
           "To conclude, we can't fail to mention one of the most defining elements when hiring digital product designers - pricing. Sure, it is a well-known fact that agencies are the more expensive option. For some companies, working with freelance product designers could be way more appealing due to their budget-friendly costs.",
           "Despite that fact, as we all know, the affordable choice is not always the best possible option. After all, you get what you pay for. Sometimes, outsourcing multiple digital freelancers could actually end up costing you way more than simply hiring an agency. Furthermore, as an agency of expert product designers, we can provide the best digital product development services and offer you a much higher value for your desired budget.<br><br>We guarantee you won't be left disappointed!",
@@ -2276,20 +2367,23 @@ Take a look at the test cases below to help get you started:`,
           "Mastering UX Design for Mobile: How to Engage and Delight Users on the Go",
       },
       {
-        title: "1- Introduction",
+        title: "Introduction",
+        isToC: true,
         description: [
           "We live in a mobile-first world, and many companies have shifted their product focus to mobile-first. This means the design is iterated, keeping in mind the small screens at first.<br><br>Why? You may ask, and it's because, according to an article by Exploding Topics, almost 90% of the global population uses a smartphone. Corporations realise this, and to capture the market, they ensure that what a user sees on their device is made to enhance their user experience. A well-designed mobile experience is no longer a luxury; it's an absolute necessity.",
         ],
       },
       {
-        title: "2- What Does UX for Mobile Means?",
+        title: "What Does UX for Mobile Means?",
+        isToC: true,
         image: "/blogs/details/blog-14-1.png",
         description: [
           "Let's understand exactly what UX design is for mobile. We all know that user experience (UX) design refers to the overall experience that a user has while interacting with a product.<br><br>UX design for mobile focuses on creating tailored user experiences for a mobile device. It involves understanding the user behaviour on mobile devices, designing interfaces that are optimised as per smaller screens from a development and scalability point of view, touch interactions, and ensuring a seamless user experience throughout the journey.",
         ],
       },
       {
-        title: "3- Benefits of Prioritising UX Design for Mobile",
+        title: "Benefits of Prioritising UX Design for Mobile",
+        isToC: true,
         image: "/blogs/details/blog-14-2.png",
         description: [
           "User experience is critical in designing a mobile app or making an already existing work scalable for the smaller screen, since it has a direct influence on the app's success and functionality. A well-designed software that provides a pleasant user experience may dramatically boost consumer happiness and engagement.<br><br>Here are some of the key benefits of prioritising UX design for mobile:",
@@ -2304,52 +2398,58 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "4- Best UX Practices to Implement for Mobile App Design",
+        title: "Best UX Practices to Implement for Mobile App Design",
+        isToC: true,
         image: "/blogs/details/blog-14-3.png",
         description: [
           "Here are some key Mobile UX best practices to consider when designing your mobile app or website:",
         ],
         unorder_list: [
-          '<span class=/"text-black/">Prioritise Simplicity and Clarity: </span>Mobile screens are smaller than desktops, so keep your design clean and uncluttered. Use clear and concise language, prioritise essential information, and avoid overwhelming users with excessive content.',
-          '<span class=/"text-black/">Optimise for Touch Interactions: </span>Design elements should be large enough for easy tapping and swiping with fingers. Utilise clear and responsive buttons, and ensure adequate spacing between clickable elements.',
-          '<span class=/"text-black/">Fast Loading Speeds: </span>Mobile users expect websites and apps to load quickly. Optimise your mobile experience for fast loading times to avoid frustrating delays and user drop-off.',
-          '<span class=/"text-black/">Responsive Design: </span>Ensure your website or app adapts seamlessly to different screen sizes and devices. Responsive design ensures a consistent and optimal user experience across various smartphones and tablets.',
-          '<span class=/"text-black/">Accessibility for All Users: </span>Design your mobile experience to be accessible for users with disabilities. Use proper colour contrast, offer alternative text descriptions for images, and ensure keyboard navigation functionality.',
-          '<span class=/"text-black/">Focus on Usability Testing: </span>Throughout the design process, conduct usability testing with real mobile users. Observe how users interact with your app or website, identify any pain points, and iterate on your design based on their feedback.',
+          '<span class="text-black">Prioritise Simplicity and Clarity: </span>Mobile screens are smaller than desktops, so keep your design clean and uncluttered. Use clear and concise language, prioritise essential information, and avoid overwhelming users with excessive content.',
+          '<span class="text-black">Optimise for Touch Interactions: </span>Design elements should be large enough for easy tapping and swiping with fingers. Utilise clear and responsive buttons, and ensure adequate spacing between clickable elements.',
+          '<span class="text-black">Fast Loading Speeds: </span>Mobile users expect websites and apps to load quickly. Optimise your mobile experience for fast loading times to avoid frustrating delays and user drop-off.',
+          '<span class="text-black">Responsive Design: </span>Ensure your website or app adapts seamlessly to different screen sizes and devices. Responsive design ensures a consistent and optimal user experience across various smartphones and tablets.',
+          '<span class="text-black">Accessibility for All Users: </span>Design your mobile experience to be accessible for users with disabilities. Use proper colour contrast, offer alternative text descriptions for images, and ensure keyboard navigation functionality.',
+          '<span class="text-black">Focus on Usability Testing: </span>Throughout the design process, conduct usability testing with real mobile users. Observe how users interact with your app or website, identify any pain points, and iterate on your design based on their feedback.',
           '<span class="text-black font-medium">Follow Guidelines:</span> Both Apple (Human Interface Guidelines) and Android (Material Design v3) have released their guidelines for mobile UX, which keeps getting updated. One can go through them for a better understanding of how to create an optimal user experience on mobile devices.',
         ],
       },
       {
         title:
-          "4- Case Studies: Examples of Some Successful UX Implementation in Mobile Apps",
+          "Case Studies: Examples of Some Successful UX Implementation in Mobile Apps",
+        isToC: true,
         image: "/blogs/details/blog-14-4.png",
         description: [
           "The Starbucks mobile app is one of the prime examples that focuses on mobile accessibility for its users. The Starbucks app offers a convenient way for customers to order and pay for their coffee drinks in advance, all through their smartphones. The app features a clean design, intuitive navigation, and a seamless mobile ordering process.",
         ],
       },
       {
-        title: "5- Spotify",
+        title: "Spotify",
+        isToC: true,
         image: "/blogs/details/blog-14-5.png",
         description: [
           "Spotify has always heard their users and that has worked wonders for them, Spotify's mobile app provides a smooth music streaming experience. The app has always focused on accessibility, providing features that help their users, allowing users to easily discover, create, share their favourite music playlists, and more. It has also ensured to include UX writing that syncs with their brand, and helps users understand what's going on in situations where they may feel lost.",
         ],
       },
       {
-        title: "6- Airbnb",
+        title: "Airbnb",
+        isToC: true,
         image: "/blogs/details/blog-14-6.png",
         description: [
           "How can we not talk about Airbnb when we are discussing products that have shown how important UX is for mobile design? The company was formed by a designer by profession, so it makes sense for it to be a product-focused company where users matter the most. The Airbnb app boasts a user-friendly interface that allows users to easily search for accommodations, manage bookings, and communicate with hosts, all on their mobile devices.",
         ],
       },
       {
-        title: "7- Evernote",
+        title: "Evernote",
+        isToC: true,
         image: "/blogs/details/blog-14-7.png",
         description: [
           "Evernote is an app that allows you to save notes, photos, and online articles and retrieve them from any device. Because customers download the app or visit the website on a variety of platforms, including desktop computers, smartphones, and tablets, Evernote must deliver a great mobile experience.<br><br>When you see Evernote's homepage on your desktop computer, you will notice how clean the design is. The value statements are succinct and to the point, and the images contribute to the brand's positioning without cluttering the page. The same is followed on smaller screens, such as mobile or tablet.",
         ],
       },
       {
-        title: "8- The Future of Mobile Design: What Can We Expect?",
+        title: "The Future of Mobile Design: What Can We Expect?",
+        isToC: true,
         description: [
           "Mobile UX design is a constantly evolving field. As technology advances and user expectations continue to rise, staying ahead of the curve is crucial. Here are some trends to consider for the future of mobile UX:",
         ],
@@ -2362,13 +2462,15 @@ Take a look at the test cases below to help get you started:`,
         ],
       },
       {
-        title: "9- Takeaway Notes",
+        title: "Takeaway Notes",
+        isToC: true,
         description: [
-          'Mobile first approach is what you need! Most of the users are on smaller screen devices, if your website or app isn\'t mobile-friendly, you\'re missing out big time. Here are the key points to remember:<br><br><span class="text-black font-medium">Mobile First Approach:</span> Billions of people globally use smartphones, and that number is only growing. Make sure your business caters to them with a stellar mobile experience.<br><span class="text-black font-medium">Simple is Best:</span> Keep your mobile design clean and clutter-free. Prioritise clear information and easy navigation – no one likes a confusing app! Apply the Keep It, Simple Stupid (KISS) strategy, which says to avoid complexity wherever possible.<br><span class="text-black font-medium">Think Fingers, Not Clicks:</span> Design for touch interactions. Buttons should be big enough for tapping, and elements need proper spacing to avoid accidental touches.<br><span class="text-black font-medium">Speed is Key:</span> Mobile users are impatient. Ensure your website or app loads quickly to avoid frustrating delays and user drop-off.<br><span class="text-black font-medium">Respond to all Screen Sizes:</span> One size doesn\'t fit all. Use responsive design to ensure your mobile experience adapts seamlessly to different smartphones and tablets.<br><span class="text-black font-medium">Accessibility Matters:</span> Design inclusively! Consider users with disabilities by using proper colour contrast, offering alternative text descriptions, and ensuring keyboard navigation works.<br><span class="text-black font-medium">Test, Test, Test:</span> Get real people to interact with your mobile app or website. Observe how they use it, identify any pain points, and keep refining your design based on their feedback.<br>The Future is Here: Stay ahead of the curve! Voice search optimization, AR/VR integration, and AI personalization are all trends to watch in mobile UX design.<br>Invest in Mobile UX, Invest in Success: A well-designed mobile experience keeps users happy, boosts conversions, and ultimately drives business growth.<br><br>Remember, a winning mobile experience is essential for business success in today\'s mobile-driven world.',
+          'Mobile first approach is what you need! Most of the users are on smaller screen devices, if your website or app isn\'t mobile-friendly, you\'re missing out big time. Here are the key points to remember:<br><br><span class="text-black font-medium">Mobile First Approach:</span> Billions of people globally use smartphones, and that number is only growing. Make sure your business caters to them with a stellar mobile experience.<br><br><span class="text-black font-medium">Simple is Best:</span> Keep your mobile design clean and clutter-free. Prioritise clear information and easy navigation – no one likes a confusing app! Apply the Keep It, Simple Stupid (KISS) strategy, which says to avoid complexity wherever possible.<br><br><span class="text-black font-medium">Think Fingers, Not Clicks:</span> Design for touch interactions. Buttons should be big enough for tapping, and elements need proper spacing to avoid accidental touches.<br><br><span class="text-black font-medium">Speed is Key:</span> Mobile users are impatient. Ensure your website or app loads quickly to avoid frustrating delays and user drop-off.<br><br><span class="text-black font-medium">Respond to all Screen Sizes:</span> One size doesn\'t fit all. Use responsive design to ensure your mobile experience adapts seamlessly to different smartphones and tablets.<br><br><span class="text-black font-medium">Accessibility Matters:</span> Design inclusively! Consider users with disabilities by using proper colour contrast, offering alternative text descriptions, and ensuring keyboard navigation works.<br><br><span class="text-black font-medium">Test, Test, Test:</span> Get real people to interact with your mobile app or website. Observe how they use it, identify any pain points, and keep refining your design based on their feedback.<br><br>The Future is Here: Stay ahead of the curve! Voice search optimization, AR/VR integration, and AI personalization are all trends to watch in mobile UX design.<br><br><span class="text-black font-medium">Invest in Mobile UX, Invest in Success:</span> A well-designed mobile experience keeps users happy, boosts conversions, and ultimately drives business growth.<br><br>Remember, a winning mobile experience is essential for business success in today\'s mobile-driven world.',
         ],
       },
       {
-        title: "10- Conclusion",
+        title: "Conclusion",
+        isToC: true,
         description: [
           "In conclusion, investing in mobile UX design will help your business succeed. In today's mobile-first environment, ignoring mobile UX design is a prescription for disaster. By focusing on this critical component of your digital presence, you can develop a user-friendly and engaging mobile experience that encourages user loyalty, increases conversions, and ultimately drives business success.<br><br>By investing in mobile UX Design and staying up-to-date with the latest trends, you can ensure your mobile app or website remains at the forefront and delivers an exceptional user experience that keeps customers coming back for more.<br>Do you want to create a product that is scalable and accessible to the general public? If yes, contact us at Web Pioneers, and we will make this come true.",
         ],
@@ -2395,6 +2497,7 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "Understanding Decentralised Applications in 2024",
+        isToC: true,
         description: [
           "First, gaining an understanding of decentralized apps and their differences from typical centralized applications is essential before delving into the challenges. Applications that run on a distributed network of computers as opposed to a single server are known as decentralized apps, or DApps. To reach consensus and keep the network in a shared state, they make use of blockchain technology.",
         ],
@@ -2402,12 +2505,14 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "A typical DApp is made up of many key elements:",
+        isToC: true,
         description: [
           '<span class="text-black font-medium">Smart Contracts:</span> Self-executing contracts with the terms directly written into code.<br><br><span class="text-black font-medium">Frontend:</span> The user interface that interacts with the blockchain.<br><br><span class="text-black font-medium">Blockchain:</span> The underlying distributed ledger technology.<br><br><span class="text-black font-medium">Storage:</span> Decentralized storage solutions for off-chain data.',
         ],
       },
       {
         title: "Here's how they all work together",
+        isToC: true,
         order_list: [
           "A user interacts with the Frontend (e.g., clicking a button to make a purchase).",
           "The Frontend sends this interaction to the appropriate Smart Contract on the Blockchain.",
@@ -2420,37 +2525,38 @@ Take a look at the test cases below to help get you started:`,
       {
         title:
           "Here are the most common Web3 design challenges that you'll face when building blockchain decentralized applications:",
+        isToC: true,
       },
       {
-        title: "1- Understanding the Web3 Design Landscape",
+        title: "1. Understanding the Web3 Design Landscape",
         description: [
           "Web3 signifies a significant shift in the way people engage with apps. It presents ideas like ownership—where users are in charge of their data and digital assets—permissionless participation, which lets anybody participate without the need for gatekeepers—native cryptocurrency payments—and trustless interactions made possible by smart contracts. These ideas serve as the cornerstone of the Web3 paradigm change and have a big impact on DApp development design choices.<br><br>A typical DApp has a number of essential elements that designers need to take into account. The foundation is made up of smart contracts, which carry out preset rules without the need for middlemen. The user's point of contact with the blockchain is through the frontend interface. Users can safely engage with DApps and manage cryptocurrency through wallet integration. Integration of blockchain explorers offers transaction verification and transparency. A thorough understanding of these elements and how they interact is essential for creating DApps that work.",
         ],
         image: "/blogs/details/blog-15-3.png",
       },
       {
-        title: "2- Creating Intuitive User Experience and Interfaces",
+        title: "2. Creating Intuitive User Experience and Interfaces",
         description: [
           "Making user interfaces that are simple to use and intuitive is one of the biggest issues in DApp design, especially for users who are unfamiliar with Web3. It takes a lot of efforts to explain complicated blockchain principles to non-technical people without overwhelming them. Progressive disclosure strategies allow designers to progressively add more sophisticated features as users become used to the fundamental capabilities. Users can navigate the new world more easily if they employ well-known Web2 design patterns and modify them for Web3 circumstances. Enhancing user understanding and engagement through interactive onboarding experiences that teach users about important Web3 principles can be very beneficial.<br><br>Another essential component of designing appealing interfaces is making bitcoin transfers as straightforward as conventional bank operations. This can be accomplished by designers by incorporating visual confirmations along with simple, sequential transaction flows. Real-time conversions of fiat currencies are helpful in providing users with a familiar understanding of the value of their transactions. Users can find abstract topics easier to understand by using visual metaphors to illustrate blockchain principles, such as a padlock image for transaction finality. A decentralized exchange can, for instance, utilize an interactive graphic to explain the idea of liquidity pools and demonstrate how transactions and user cash are added to the pool.",
         ],
         image: "/blogs/details/blog-15-4.png",
       },
       {
-        title: "3- Building Trust in Dapp",
+        title: "3. Building Trust in Dapp",
         description: [
           'In the Web3 sphere, where users frequently engage with substantial financial assets, trust is critical. Gaining the trust of users requires showcasing the transparent and trustless nature of DApps. For real-time transaction verification, designers can incorporate blockchain explorers straight into the user interface (UI), giving explicit representations of data flow and interactions between smart contracts. User confidence in the application can be further increased by including trust indicators, such as community trust scores or security audit badges.<br><br>Another part of developing trust is communicating intricate security measures in an understandable manner. Designers can depict security characteristics, such a vault for cold storage, using visual metaphors. The application\'s dedication to security can be reinforced while educating users through the use of interactive security lessons that walk them through recommended practices. Giving users concise, understandable descriptions of the security procedures in place will help them understand how their data and assets are safeguarded. A visual "security checklist" that users will go through, for example, might be included in a cryptocurrency wallet. It would include topics like configuring two-factor authentication, backing up seed phrases, and comprehending transaction signatures.',
         ],
         image: "/blogs/details/blog-15-5.png",
       },
       {
-        title: "4- Addressing the Lack of UX Research",
+        title: "4. Addressing the Lack of UX Research",
         description: [
           "Comprehensive UX research tailored to DApps is scarce due to Web3's quick evolution. In this emerging and complicated technology ecosystem, obtaining significant user insights is difficult yet crucial. To grasp different viewpoints, designers and researchers should regularly perform user testing sessions with both crypto-native and non-crypto users. Putting in place in-app feedback systems can facilitate the ongoing collection of user data. The creation of efficient design patterns for the Web3 domain can be sped up by working together with other DApp developers to exchange UX insights and best practices.<br><br>Web3-specific UX measurements are necessary since traditional UX metrics might not adequately capture the distinctive features of DApp interactions. In the context of Web3, metrics like transaction completion confidence and decentralization understanding score can offer more pertinent insights into user experiences. By examining on-chain behaviors, using blockchain data to guide UX decisions can provide special insights not seen in conventional online apps. Refine design decisions based on real user behavior on the blockchain by putting in place A/B testing frameworks that are compatible with blockchain interactions.",
         ],
         image: "/blogs/details/blog-15-6.png",
       },
       {
-        title: "5- Crafting Unique and Creative App Designs",
+        title: "5. Crafting Unique and Creative App Designs",
         description: [
           'The Web3 domain presents a chance to transcend conventional design limitations and craft genuinely inventive user experiences. It is, however, quite difficult to strike a balance between creativity and usability. Without alienating people used to Web2 design patterns, designers must develop innovative user interfaces that embody Web3 concepts. Bridging this gap can be facilitated by creating design solutions that combine recognizable components with Web3-specific aspects. Gamification features can help make difficult procedures easier to grasp and more enjoyable.<br><br>Visually expressing complex blockchain concepts is another innovative DApp design challenge. Creating a unified visual language for Web3 components throughout the application guarantees a seamless user experience. A decentralized application for tokenized real estate, for instance, can make use of a virtual "property explorer" interface that allows users to navigate 3D models of properties while having blockchain data seamlessly incorporated into the experience.',
         ],
@@ -2473,12 +2579,14 @@ Take a look at the test cases below to help get you started:`,
       },
       {
         title: "Conclusion",
+        isToC: true,
         description: [
           "The challenges of designing decentralized apps are distinct and call for creative thinking as well as a detailed understanding of Web3 concepts and user expectations. Through the implementation of user-friendly interfaces, transparent building practices, Web3-specific UX research, innovative design, enhanced accessibility of blockchain explorers, and customization for a range of user profiles, designers can produce DApps that not only harness the potential of blockchain technology but also deliver real value and satisfying user experiences.<br><br>Designers are essential to determining how decentralized interactions will develop in the future as the Web3 ecosystem develops. We can build a more dependable, user-friendly, and accessible decentralized web by tackling these design issues head-on, which will eventually encourage broader adoption and let this game-changing technology reach its full potential.",
         ],
       },
       {
         title: "Ready to elevate your DApp design?",
+        isToC: true,
         description: [
           "We specialize in creating intuitive, user-friendly decentralized applications that leverage the full potential of Web3 and blockchain technology. Whether you're looking to improve your UX, develop a seamless web3 design agency, or design a cutting-edge crypto interface, our webflow design expert team is here to help.",
         ],
