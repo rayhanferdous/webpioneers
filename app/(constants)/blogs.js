@@ -1,8 +1,8 @@
 export const blogs = [
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "10 mins read",
+    published_at: "16 May 2025",
     title: "What Makes a Website “Bad”? 15 Examples & Crucial Mistakes",
     slug: "what-makes-a-website-bad-15-examples-crucial-mistakes",
     description:
@@ -321,8 +321,8 @@ export const blogs = [
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "8 mins read",
+    published_at: "09 May 2025",
     title: "Conversational UX design how to enhance user engagement",
     slug: "conversational-ux-design-how-to-enhance-user-engagement",
     description:
@@ -604,8 +604,8 @@ It is also making it easier for patients to book appointments and receive tailor
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "9 mins read",
+    published_at: "02 May 2025",
     title: "Mastering the product design process : best practices",
     slug: "mastering-the-product-design-process-best-practices",
     description:
@@ -977,7 +977,7 @@ This process involves testing the product at different stages of the design proc
   {
     tag: "UI/UX",
     time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    published_at: "25 April 2025",
     title: "4 key design strategies to boost your website purchases",
     slug: "4-key-design-strategies-to-boost-your-website-purchases",
     description:
@@ -1039,8 +1039,8 @@ This process involves testing the product at different stages of the design proc
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "5 mins read",
+    published_at: "18 April 2025",
     title: "The role of quality assurance in user experience design",
     slug: "the-role-of-quality-assurance-in-user-experience-design",
     description:
@@ -1134,8 +1134,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "8 mins read",
+    published_at: "07 March 2025",
     title:
       "Enhancing User Trust Through Secure UX Design for Fintech Applications",
     slug: "enhancing-user-trust-through-secure-ux-design-for-fintech-applications",
@@ -1240,8 +1240,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "8 mins read",
+    published_at: "28 February 2025",
     title: "Why Every Business Needs a UX Audit: Benefits and ROI",
     slug: "why-every-business-needs-a-ux-audit-benefits-and-roi",
     description:
@@ -1447,8 +1447,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "9 mins read",
+    published_at: "21 February 2025",
     title: "The Power of Microinteractions in UI: Small Details, Big Impact",
     slug: "the-power-of-microinteractions-in-ui-small-details-big-impact",
     description:
@@ -1641,8 +1641,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "8 mins read",
+    published_at: "21 March 2025",
     title: "What is webflow? A comprehensive guide to no-code web design",
     slug: "what-is-webflow-a-comprehensive-guide-to-no-code-web-design",
     description:
@@ -1856,8 +1856,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "7 mins read",
+    published_at: "14 March 2025",
     title: "The most useful speed optimisation tactics for webflow websites",
     slug: "the-most-useful-speed-optimisation-tactics-for-webflow-websites",
     description:
@@ -1981,8 +1981,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "7 mins read",
+    published_at: "04 April 2025",
     title: "Product design vs UX design-everything in between",
     slug: "product-design-vs-ux-design-everything-in-between",
     description:
@@ -2128,8 +2128,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "7 mins read",
+    published_at: "28 March 2025",
     title: "Branding in web design: How to craft your digital identity",
     slug: "branding-in-web-design-how-to-craft-your-digital-identity",
     description:
@@ -2272,8 +2272,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "5 mins read",
+    published_at: "11 April 2025",
     title: "Choosing a Digital Product Agency over a Freelance Designer",
     slug: "choosing-a-digital-product-agency-over-a-freelance-designer",
     description:
@@ -2354,8 +2354,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "7 mins read",
+    published_at: "14 February 2025",
     title: "UX Design for Mobile: Why It's Crucial for Your Business",
     slug: "ux-design-for-mobile-why-its-crucial-for-your-business",
     description:
@@ -2482,8 +2482,8 @@ Take a look at the test cases below to help get you started:`,
   },
   {
     tag: "UI/UX",
-    time_to_read: "4 mins read",
-    published_at: "July 5, 2024",
+    time_to_read: "7 mins read",
+    published_at: "07 February 2025",
     title: "Design Challenges in Building Decentralized Applications",
     slug: "design-challenges-in-building-decentralized-applications",
     description:
