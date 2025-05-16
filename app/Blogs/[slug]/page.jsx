@@ -50,7 +50,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.description.map((paragraph, j) => (
                 <p
                   key={j}
-                  className="text-lg leading-[2.25rem] sm:text-3xl sm:leading-[2.25rem] md:text-[1.5rem] md:leading-[2.25rem] lg:leading-[2.25rem] 3xl:text-[1.5rem] text-gray-700"
+                  className="text-lg leading-[2rem] sm:text-3xl sm:leading-[2.25rem] sm-lg:!text-3xl sm-lg:!leading-[2.25rem] md:text-[1.5rem] md:leading-[2.25rem] lg:leading-[2.25rem] 3xl:text-[1.5rem] text-gray-700"
                   dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
               ))}
@@ -194,7 +194,7 @@ const BlogDetailsPage = ({ params }) => {
             <Tags title={currentBlog?.tag} active={true} />
           </MountAnim>
 
-          <div className="flex items-center gap-9">
+          <div className="flex items-center gap-9 flex-wrap justify-center">
             <div className="flex items-center gap-2.5 font-urbanist font-medium text-[22px] text-gray-700">
               <span>{currentBlog?.published_at}</span>
               <span className="min-h-1.5 min-w-1.5 max-h-1.5 max-w-1.5 rounded-full bg-black"></span>
@@ -268,7 +268,7 @@ const BlogDetailsPage = ({ params }) => {
           <div className="col-span-3">
             {/* table of content */}
             <div className="bg-light p-10 rounded-2xl font-urbanist">
-              <h3 className="font-medium text-[28px]">Table Of Contents</h3>
+              <h3 className="font-medium  text-2xl sm:text-4xl md:text-3xl 3xl:text-4xl">Table Of Contents</h3>
               <div className="mt-10 flex flex-col gap-5">
                 {
                   currentBlog?.sections
