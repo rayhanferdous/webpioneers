@@ -292,7 +292,7 @@ const BlogDetailsPage = ({ params }) => {
                           onClick={handleClick}
                           className={`${activeToC == index ? "text-black" : index == 0 ? "text-black" : ""} text-lg cursor-pointer md:text-xl 3xl:text-2xl font-medium text-gray-700`}
                         >
-                          {section.title.replace(/^\d+[-.]\s*/, '')}
+                          {section.title.replace(/^(?:\d+[-.]\s*|[a-zA-Z]\.\s*)/, '')}
                         </div>
                       );
                     })
