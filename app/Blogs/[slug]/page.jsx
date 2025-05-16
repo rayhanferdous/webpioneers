@@ -261,7 +261,7 @@ const BlogDetailsPage = ({ params }) => {
       </section>
       {/* content section */}
       <section className="px-con container-2560 mt-14">
-        <Image src={currentBlog?.main_img} alt={currentBlog?.title} width={1680} height={818} className="w-full h-auto object-cover" />
+        <Image src={currentBlog?.main_img} alt={currentBlog?.title} width={1680} height={818} className="w-full h-auto object-cover rounded-2xl" />
 
         <div className="grid md:grid-cols-5 md:gap-8 3xl:gap-24 mt-14">
           {/* left */}
