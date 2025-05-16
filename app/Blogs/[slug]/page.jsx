@@ -1,6 +1,7 @@
 "use client";
 
 import { Badge } from "@/app/(components)/ui/Badge";
+import Button from "@/app/(components)/ui/Button";
 import MountAnim from "@/app/(components)/ui/MountAnim";
 import Tags from "@/app/(components)/ui/Tags";
 import { blogs } from "@/app/(constants)/blogs";
@@ -8,8 +9,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import { toast } from "sonner";
 import Card from "../(components)/Card";
-import Button from "@/app/(components)/ui/Button";
 import SimilarPostCard from "./(components)/SimilarPostCard";
 
 const BlogDetailsPage = ({ params }) => {
@@ -49,7 +50,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.description.map((paragraph, j) => (
                 <p
                   key={j}
-                  className="text-lg leading-8 sm:text-3xl sm:leading-[3.2rem] md:text-[1.5rem] md:leading-[3rem] lg:leading-8 3xl:text-[1.5rem] text-gray-700"
+                  className="text-lg leading-[2.25rem] sm:text-3xl sm:leading-[2.25rem] md:text-[1.5rem] md:leading-[2.25rem] lg:leading-[2.25rem] 3xl:text-[1.5rem] text-gray-700"
                   dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
               ))}
@@ -72,7 +73,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.order_list.map((item, j) => (
                 <li
                   key={j}
-                  className="list-decimal !list-inside text-lg leading-8 sm:text-3xl sm:leading-[3.2rem] md:text-[1.5rem] md:leading-[3rem] lg:leading-8 3xl:text-[1.5rem] text-gray-700 mb-2"
+                  className="list-decimal !list-inside text-lg leading-[2.25rem] sm:text-3xl sm:leading-[2.25rem] md:text-[1.5rem] md:leading-[2.25rem] lg:leading-[2.25rem] 3xl:text-[1.5rem] text-gray-700 mb-2"
                   dangerouslySetInnerHTML={{ __html: item }}
                 />
               ))}
@@ -84,7 +85,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.unorder_list.map((item, j) => (
                 <li
                   key={j}
-                  className="list-disc !list-inside text-lg leading-8 sm:text-3xl sm:leading-[3.2rem] md:text-[1.5rem] md:leading-[3rem] lg:leading-8 3xl:text-[1.5rem] text-gray-700 mb-2"
+                  className="list-disc !list-inside text-lg leading-[2.25rem] sm:text-3xl sm:leading-[2.25rem] md:text-[1.5rem] md:leading-[2.25rem] lg:leading-[2.25rem] 3xl:text-[1.5rem] text-gray-700 mb-2"
                   dangerouslySetInnerHTML={{ __html: item }}
                 />
               ))}
@@ -94,7 +95,7 @@ const BlogDetailsPage = ({ params }) => {
           return (
             <p
               key={`footer-${i}`}
-              className="text-lg leading-8 sm:text-3xl sm:leading-[3.2rem] md:text-[1.5rem] md:leading-[3rem] lg:leading-8 3xl:text-[1.5rem] text-gray-700 mt-8"
+              className="text-lg leading-[2.25rem] sm:text-3xl sm:leading-[2.25rem] md:text-[1.5rem] md:leading-[2.25rem] lg:leading-[2.25rem] 3xl:text-[1.5rem] text-gray-700 mt-8"
               dangerouslySetInnerHTML={{ __html: section.footer_text }}
             />
           );
@@ -164,6 +165,19 @@ const BlogDetailsPage = ({ params }) => {
   const similarBlogs = getSimilarBlogs();
   const exploreMoreBlogs = getExploreMoreBlogs();
 
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        toast('Link copied to clipboard!');
+      })
+      .catch((err) => {
+        console.error('Failed to copy: ', err);
+      });
+  }
+
+
+
+
 
   return (
     <>
@@ -231,7 +245,7 @@ const BlogDetailsPage = ({ params }) => {
                 </defs>
               </svg>
               {/* copy link */}
-              <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg onClick={() => copyToClipboard(window?.location?.href)} className="cursor-pointer" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5.67289 29.3259C8.3781 32.0311 12.764 32.0311 15.4692 29.3259C16.7329 28.0623 19.3098 25.4854 20.5734 24.2217C23.2786 21.5165 23.2786 17.1306 20.5734 14.4254C17.8682 11.7202 13.4823 11.7202 10.7771 14.4254C9.51341 15.689 6.93654 18.2659 5.67289 19.5296C2.96841 22.234 2.96841 26.6207 5.67289 29.3259ZM8.25122 22.1072C8.99497 21.3634 12.799 17.5593 13.3554 17.003C14.6365 15.7218 16.7147 15.7218 17.9958 17.003C19.277 18.2841 19.277 20.3623 17.9958 21.6434C17.4395 22.1998 13.6354 26.0038 12.8916 26.7476C11.6105 28.0287 9.53237 28.0287 8.25122 26.7476C6.97008 25.4664 6.97008 23.3883 8.25122 22.1072Z" fill="#0078D4" />
                 <path opacity="0.05" d="M17.2164 16.4132C17.2164 16.4132 16.7723 15.3129 17.7778 14.1302L18.7761 13.1312C16.4682 11.977 13.6558 12.1942 11.5383 13.7787C10.939 16.0421 11.8118 18.5497 11.8118 18.5497C12.5701 17.7913 13.1768 17.1847 13.3583 17.0031C14.4083 15.9538 15.9345 15.7599 17.2164 16.4132Z" fill="black" />
                 <path opacity="0.07" d="M16.6428 16.1824C16.583 15.6983 16.513 14.7066 17.388 13.7434C17.439 13.6923 18.0588 13.058 18.2214 12.8954C16.2949 12.0867 14.0732 12.242 12.2481 13.311C11.629 15.1908 12.0169 17.3374 12.2481 18.1104C12.7898 17.5686 13.2135 17.1449 13.3557 17.0028C14.2518 16.1059 15.4958 15.8332 16.6428 16.1824Z" fill="black" />

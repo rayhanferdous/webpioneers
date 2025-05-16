@@ -5,6 +5,7 @@ import Header from "./(components)/Header";
 
 import Script from "next/script";
 import LayoutFooter from "./(components)/LayoutFooter";
+import { Toaster } from "sonner";
 
 const urbanist = Urbanist({
   variable: "--font-urbanist",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <LayoutFooter />
+        <Toaster />
       </body>
     </html>
   );
