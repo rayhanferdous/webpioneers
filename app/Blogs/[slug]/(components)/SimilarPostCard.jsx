@@ -20,7 +20,7 @@ const SimilarPostCard = forwardRef(({ image = '/blogs/blog-default-thumb.png', t
                 <div className="flex flex-col gap-4 md:gap-5">
                     <h3 className={`md:text-[15px] lg:text-lg 2xl:text-[26px] font-medium text-dark`}>{title}</h3>
                 </div>
-                <div className="flex items-center gap-2.5 font-urbanist font-medium md:text-sm lg:text-base 3xl:text-[22px] text-gray-700">
+                <div className="flex items-center gap-2.5 font-urbanist font-medium text-lg leading-8 sm:text-[1.2rem] sm:leading-[3.2rem] md:text-[1.2rem] md:leading-[1.5rem] lg:leading-6 3xl:text-[1.5rem] text-gray-700">
                     <span>{date}</span>
                     <span className="min-h-1.5 min-w-1.5 max-h-1.5 max-w-1.5 rounded-full bg-black"></span>
                     <span>{minsToRead}</span>
