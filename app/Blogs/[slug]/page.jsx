@@ -367,8 +367,10 @@ const BlogDetailsPage = ({ params }) => {
               key={index}
               tag={blog?.tag}
               image={blog?.thumbnail}
+              imageMobile={blog?.thumbnail_mobile}
               title={blog?.title}
               desc={blog?.description}
+              colSpanTwo={blog?.col_span_two}
               minsToRead={blog?.time_to_read}
               link={`/Blogs/${blog?.slug}`}
             />))}
