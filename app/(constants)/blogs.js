@@ -984,6 +984,7 @@ This process involves testing the product at different stages of the design proc
       "From a young age, we are afraid of public speaking. The truth is, you should overcome it by using some tricks, that not only will help you to become a master...",
     col_span_two: true,
     thumbnail: "/blogs/blog-4.png",
+    thumbnail_mobile: "/blogs/blog-4-m.png",
     main_img: "/blogs/details/blog-4.png",
     sections: [
       {
@@ -1863,6 +1864,7 @@ Take a look at the test cases below to help get you started:`,
       "Web designers and businesses can now create visually stunning, responsive websites without having to write a single line of code thanks to no-code web design...",
     col_span_two: true,
     thumbnail: "/blogs/blog-10.png",
+    thumbnail_mobile: "/blogs/blog-10-m.png",
     main_img: "/blogs/details/blog-10.png",
     sections: [
       {
@@ -2360,6 +2362,7 @@ Take a look at the test cases below to help get you started:`,
       "We live in a mobile-first world, and many companies have shifted their product focus to mobile-first. This means the design is iterated, keeping in mind...",
     col_span_two: true,
     thumbnail: "/blogs/blog-14.png",
+    thumbnail_mobile: "/blogs/blog-14-m.png",
     main_img: "/blogs/details/blog-14.png",
     sections: [
       {

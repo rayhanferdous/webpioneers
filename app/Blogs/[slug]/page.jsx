@@ -49,7 +49,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.description.map((paragraph, j) => (
                 <p
                   key={j}
-                  className="text-lg sm:text-4xl md:text-2xl lg:text-2xl 3xl:text-3xl text-gray-700"
+                  className="text-lg leading-8 sm:text-3xl sm:leading-[3.2rem] md:text-3xl md:leading-[3rem] lg:leading-8 3xl:text-3xl text-gray-700"
                   dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
               ))}
@@ -72,7 +72,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.order_list.map((item, j) => (
                 <li
                   key={j}
-                  className="list-decimal !list-inside text-lg sm:text-4xl md:text-2xl lg:text-2xl 3xl:text-3xl text-gray-700 mb-2"
+                  className="list-decimal !list-inside text-lg leading-8 sm:text-3xl sm:leading-[3.2rem] md:text-3xl md:leading-[3rem] lg:leading-8 3xl:text-3xl text-gray-700 mb-2"
                   dangerouslySetInnerHTML={{ __html: item }}
                 />
               ))}
@@ -84,7 +84,7 @@ const BlogDetailsPage = ({ params }) => {
               {section.unorder_list.map((item, j) => (
                 <li
                   key={j}
-                  className="list-disc !list-inside text-lg sm:text-4xl md:text-2xl lg:text-2xl 3xl:text-3xl text-gray-700 mb-2"
+                  className="list-disc !list-inside text-lg leading-8 sm:text-3xl sm:leading-[3.2rem] md:text-3xl md:leading-[3rem] lg:leading-8 3xl:text-3xl text-gray-700 mb-2"
                   dangerouslySetInnerHTML={{ __html: item }}
                 />
               ))}
@@ -94,7 +94,7 @@ const BlogDetailsPage = ({ params }) => {
           return (
             <p
               key={`footer-${i}`}
-              className="text-lg sm:text-4xl md:text-2xl lg:text-2xl 3xl:text-3xl text-gray-700 mt-8"
+              className="text-lg leading-8 sm:text-3xl sm:leading-[3.2rem] md:text-3xl md:leading-[3rem] lg:leading-8 3xl:text-3xl text-gray-700 mt-8"
               dangerouslySetInnerHTML={{ __html: section.footer_text }}
             />
           );
@@ -276,7 +276,7 @@ const BlogDetailsPage = ({ params }) => {
                         <div
                           key={index}
                           onClick={handleClick}
-                          className={`${activeToC == index ? "text-black" : index == 0 ? "text-black" : ""} text-lg cursor-pointer md:text-xl 3xl:text-2xl font-bold text-gray-700`}
+                          className={`${activeToC == index ? "text-black" : index == 0 ? "text-black" : ""} text-lg cursor-pointer md:text-xl 3xl:text-2xl font-medium text-gray-700`}
                         >
                           {section.title.replace(/^\d+[-.]\s*/, '')}
                         </div>

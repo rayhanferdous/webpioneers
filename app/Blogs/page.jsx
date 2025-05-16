@@ -1,13 +1,12 @@
 'use client';
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
 import { Badge } from "../(components)/ui/Badge";
 import MountAnim from "../(components)/ui/MountAnim";
 import Tags from "../(components)/ui/Tags";
 import { blogs } from "../(constants)/blogs";
 import Card from "./(components)/Card";
-import CardSpan from "./(components)/CardSpan";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,27 +64,18 @@ const Blogs = () => {
       {/* card section */}
       <div className="container-2560 grid gap-y-7 pt-10 md:pt-[42px] lg:pt-14 md:gap-y-10 xl:gap-y-14 2xl:gap-y-20 gap-x-9 md:gap-x-9 xl:gap-x-8 2xl:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 px-con">
         {blogs?.map((blog, index) => (
-          blog?.col_span_two ?
-            <CardSpan
-              key={index}
-              ref={el => cardsRef.current[index] = el}
-              tag={blog?.tag}
-              image={blog?.thumbnail}
-              title={blog?.title}
-              desc={blog?.description}
-              colSpanTwo={blog?.col_span_two}
-              minsToRead={blog?.time_to_read}
-              link={`/Blogs/${blog?.slug}`}
-            /> : <Card
-              key={index}
-              ref={el => cardsRef.current[index] = el}
-              tag={blog?.tag}
-              image={blog?.thumbnail}
-              title={blog?.title}
-              desc={blog?.description}
-              minsToRead={blog?.time_to_read}
-              link={`/Blogs/${blog?.slug}`}
-            />
+          <Card
+            key={index}
+            ref={el => cardsRef.current[index] = el}
+            tag={blog?.tag}
+            image={blog?.thumbnail}
+            imageMobile={blog?.thumbnail_mobile}
+            title={blog?.title}
+            desc={blog?.description}
+            colSpanTwo={blog?.col_span_two}
+            minsToRead={blog?.time_to_read}
+            link={`/Blogs/${blog?.slug}`}
+          />
         ))}
       </div>
     </>
