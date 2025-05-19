@@ -6,6 +6,7 @@ import Marquee from "../Marquee";
 import { Badge } from "../ui/Badge";
 import FormField from "../ui/FormField";
 import MountAnim from "../ui/MountAnim";
+import { toast } from "sonner";
 
 const Inner = () => {
   const [formData, setFormData] = useState({
@@ -26,20 +27,39 @@ const Inner = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form Data:", formData);
 
-    setFormData({
-      fullName: "",
-      email: "",
-      site: "",
-      company: "",
-      number: "",
-      plan: "",
-      message: "",
-    });
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        toast.success('Email sent successfully!');
+        setFormData({
+          fullName: "",
+          email: "",
+          site: "",
+          company: "",
+          number: "",
+          plan: "",
+          message: "",
+        });
+      } else {
+        const errorData = await res.json();
+        toast.error(`Failed to send email: ${errorData?.error || "Unknown error"}`);
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      toast.error('An unexpected error occurred.');
+    }
   };
+
 
   return (
     <div className="py-12 w-full h-full flex flex-col justify-between items-center gap-12">
