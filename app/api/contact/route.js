@@ -18,11 +18,13 @@ export async function POST(request) {
     const transporter = nodemailer.createTransport({
       host: "smtp.office365.com",
       port: 587,
-      secure: true,
-      encryption: "STARTTLS",
+      secure: false,
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
+      },
+      tls: {
+        rejectUnauthorized: false, // Optional: only if you face self-signed cert issues
       },
     });
 
@@ -41,9 +43,8 @@ export async function POST(request) {
     `;
 
     await transporter.sendMail({
-      from: `"${fullName}" <${process.env.EMAIL_USER}>`,
-      replyTo: email,
-      to: process.env.EMAIL_RECEIVER,
+      from: process.env.EMAIL_USER,
+      to: email,
       subject: `Contact Form Submission from ${fullName}`,
       text: emailContent,
       html: `
