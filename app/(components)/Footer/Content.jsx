@@ -1,10 +1,8 @@
-import React from "react";
-import Button from "../ui/Button";
-import { Colors } from "@/app/(constants)/colors";
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../ui/Button";
 
-export default function FooterContent() {
+export default function FooterContent({ setOpenModal }) {
   const footerLinks = [
     {
       title: "Quick",
@@ -133,7 +131,7 @@ export default function FooterContent() {
               />
               <span>+1 (631) 530-2666</span>
             </Link>
-            <Button className={"px-8 sm:px-12"}>
+            <Button onClick={() => setOpenModal((prev) => !prev)} className={"px-8 sm:px-12"}>
               Book Your Free Consultation{" "}
             </Button>
           </div>
@@ -155,9 +153,8 @@ export default function FooterContent() {
                       className="w-fit block rounded-full"
                     >
                       <Button
-                        className={`hover:text-dark px-2 sm:px-4 h-[2.5rem] sm:h-[3.125rem] text-xl sm:text-[1.625rem] whitespace-nowrap bg-transparent text-gray-700 border-none ${
-                          false ? "sm:hover:bg-yellow-light" : ""
-                        }`}
+                        className={`hover:text-dark px-2 sm:px-4 h-[2.5rem] sm:h-[3.125rem] text-xl sm:text-[1.625rem] whitespace-nowrap bg-transparent text-gray-700 border-none ${false ? "sm:hover:bg-yellow-light" : ""
+                          }`}
                         iconClass={"opacity-0 transition-opacity duration-200"}
                       >
                         {link.label}

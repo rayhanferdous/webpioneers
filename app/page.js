@@ -1,10 +1,10 @@
 import dynamic from "next/dynamic";
 
 import Hero from "./(components)/Hero";
+import HorizontalSec from "./(components)/HorizontalSec";
 import Marquee from "./(components)/Marquee";
 import Process from "./(components)/Process";
 import Video from "./(components)/Video";
-import HorizontalSec from "./(components)/HorizontalSec";
 
 const Portfolio = dynamic(() => import("./(components)/Portfolio"));
 const PricingBanner = dynamic(() => import("./(components)/PricingBanner"));

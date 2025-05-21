@@ -7,7 +7,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-export default function Footer() {
+export default function Footer({ openModal, setOpenModal }) {
   const preFooter = useRef();
   const timeline = gsap.timeline();
 
@@ -53,7 +53,10 @@ export default function Footer() {
         <div className="hidden max-sm:block lg:block min-h-screen h-screen"></div>
       </div>
       <div className="sticky bottom-0 w-full">
-        <Content />
+        <Content
+          openModal={openModal}
+          setOpenModal={setOpenModal}
+        />
       </div>
     </section>
   );
