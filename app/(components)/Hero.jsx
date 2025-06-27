@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import MountAnim from "./ui/MountAnim";
 
 import { useGSAP } from "@gsap/react";
@@ -20,30 +20,108 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const containerRef = useRef(null);
 
-  useGSAP(
-    () => {
-      gsap.to(".ipad", {
-        scale: 0.8,
-        ease: "none",
-        scrollTrigger: {
-          trigger: containerRef.current,
-          start: "20% top",
-          end: "80% top",
-          invalidateOnRefresh: true,
-          scrub: 1,
-        },
+  // useGSAP(
+  //   () => {
+  //     gsap.to(".ipad", {
+  //       scale: 0.8,
+  //       ease: "none",
+  //       scrollTrigger: {
+  //         trigger: containerRef.current,
+  //         start: "20% top",
+  //         end: "80% top",
+  //         invalidateOnRefresh: true,
+  //         scrub: 1,
+  //       },
+  //     });
+  //   },
+  //   {
+  //     scope: containerRef,
+  //   }
+  // );
+
+  const leftRef = useRef(null);
+  const rightRef = useRef(null);
+  const scheduleBtnRef = useRef(null);
+
+  useEffect(() => {
+    gsap.set(leftRef.current, { x: -60, opacity: 0.7 });
+    gsap.set(rightRef.current, { x: 60, opacity: 0.7 });
+  }, []);
+
+  const handleMouseEnter = () => {
+    gsap.to(leftRef.current, {
+      x: 0,
+      duration: 0.8,
+      ease: "power3.out",
+    });
+
+    gsap.to(rightRef.current, {
+      x: 0,
+      duration: 0.8,
+      ease: "power3.out",
+    });
+
+    gsap.to(scheduleBtnRef.current, {
+      y: 10, // smaller movement for more subtlety
+      duration: 0.6,
+      ease: "power3.out",
+    });
+  };
+
+  const handleMouseLeave = () => {
+    gsap.to(leftRef.current, {
+      x: -60,
+      duration: 0.6,
+      ease: "power3.inOut",
+    });
+
+    gsap.to(rightRef.current, {
+      x: 60,
+      duration: 0.6,
+      ease: "power3.inOut",
+    });
+
+    gsap.to(scheduleBtnRef.current, {
+      y: 0,
+      duration: 0.6,
+      ease: "power3.inOut",
+    });
+  };
+
+  useEffect(() => {
+    const btn = scheduleBtnRef.current;
+
+    const onEnter = () => {
+      gsap.to(btn, {
+        scale: 1.07,
+        duration: 0.6,
+        ease: "power3.out",
       });
-    },
-    {
-      scope: containerRef,
-    }
-  );
+    };
+
+    const onLeave = () => {
+      gsap.to(btn, {
+        scale: 1,
+        duration: 0.5,
+        ease: "power3.inOut",
+      });
+    };
+
+    btn.addEventListener("mouseenter", onEnter);
+    btn.addEventListener("mouseleave", onLeave);
+
+    return () => {
+      btn.removeEventListener("mouseenter", onEnter);
+      btn.removeEventListener("mouseleave", onLeave);
+    };
+  }, []);
   return (
     <>
       <section className="container-2560 relative py-12 sm:py-20 px-con flex flex-col sm:items-center gap-3 sm:gap-16 sm:pb-32 sm:text-center overflow-hidden">
         <div className="headerSpace"></div>
-        <div className="grid grid-cols-[288px_1fr_288px] gap-16">
-          <div className="grid grid-rows-3 gap-14">
+        <div onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave} ref={containerRef} className="grid grid-cols-[288px_1fr_288px] gap-16">
+          <div ref={leftRef} className="grid grid-rows-3 gap-14">
             <Image
               src={"/hero/left-1.jpg"}
               alt="logo"
@@ -73,14 +151,14 @@ const Hero = () => {
                 development agency that <span className="lin-gradient bg-clip-text text-transparent">delivers results</span></h3>
               <p className="text-paragraph mt-1 font-urbanist text-base lg:text-lg xl:text-xl 2xl:text-2xl">At Web Pioneers, we mix smart design with clean <br />code to help your brand stand out—and sell more.</p>
             </div>
-            <div className="lin-gradient px-[3px] pt-[3px] pb-2 rounded-2xl mt-16 max-w-[800px] mx-auto">
+            <div ref={scheduleBtnRef} className="transition-transform duration-300 transform cursor-pointer hover:scale-x-125 lin-gradient px-[3px] pt-[3px] pb-2 rounded-2xl mt-16 max-w-[800px] mx-auto">
               <div className="bg-white rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 pr-3 py-3 pl-5">
                 <span className="font-urbanist font-medium text-paragraph text-[22px]">Want expert eyes on your site?</span>
                 <button className="bg-purple-custom font-semibold text-[22px] text-white px-7 py-6 rounded-xl">Schedule a free strategy call</button>
               </div>
             </div>
           </div>
-          <div className="grid grid-rows-3 gap-14">
+          <div ref={rightRef} className="grid grid-rows-3 gap-14">
             <Image
               src={"/hero/right-1.jpg"}
               alt="logo"
