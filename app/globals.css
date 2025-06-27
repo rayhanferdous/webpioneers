@@ -48,6 +48,10 @@
   @apply max-w-[2560px] w-full mx-auto;
 }
 
+.lin-gradient {
+  @apply bg-gradient-to-r from-[#FF0000] from-20% via-[#F332B3] via-70% to-[#6248FF] to-[86%];
+}
+
 * {
   padding: 0%;
   margin: 0;

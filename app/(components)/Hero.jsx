@@ -1,15 +1,20 @@
 "use client";
 
-import React, { useRef } from "react";
-import { Badge } from "./ui/Badge";
 import Image from "next/image";
+import { useRef } from "react";
 import MountAnim from "./ui/MountAnim";
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Link from "next/link";
-import Button from "./ui/Button";
+import Axibo from "./svg/Axibo";
+import Sync from "./svg/Sync";
+import Vividora from "./svg/Vividora";
+import Justthrive from "./svg/Justthrive";
+import Headshots from "./svg/Headshots";
+import Rewind from "./svg/Rewind";
+import Mherst from "./svg/Mherst";
+import Dyutih from "./svg/Dyutih";
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
@@ -34,9 +39,72 @@ const Hero = () => {
     }
   );
   return (
-    <section className="container-2560 relative py-12 sm:py-20 px-con flex flex-col sm:items-center gap-3 sm:gap-5 sm:text-center overflow-hidden">
-      <div className="headerSpace"></div>
-      <MountAnim>
+    <>
+      <section className="container-2560 relative py-12 sm:py-20 px-con flex flex-col sm:items-center gap-3 sm:gap-16 sm:pb-32 sm:text-center overflow-hidden">
+        <div className="headerSpace"></div>
+        <div className="grid grid-cols-[288px_1fr_288px] gap-16">
+          <div className="grid grid-rows-3 gap-14">
+            <Image
+              src={"/hero/left-1.jpg"}
+              alt="logo"
+              width={288}
+              height={180}
+              className="w-full h-auto"
+            />
+            <Image
+              src={"/hero/left-2.jpg"}
+              alt="logo"
+              width={288}
+              height={180}
+              className="w-full h-auto -ml-10"
+            />
+            <Image
+              src={"/hero/left-3.png"}
+              alt="logo"
+              width={288}
+              height={180}
+              className="w-full h-auto"
+            />
+          </div>
+          <div className="self-center mt-10">
+            <div className="flex flex-col gap-4 items-center">
+              <span className="font-medium w-fit text-lg font-inter p-2.5 rounded-lg border border-[#DEDEDE] bg-white"><span className="lin-gradient bg-clip-text text-transparent ">200+</span> companies have scaled faster with our design solutions</span>
+              <h3 className="font-urbanist font-medium text-[49px] 2xl:text-[90px] leading-tight text-dark">We’re a design & <br />
+                development agency that <span className="lin-gradient bg-clip-text text-transparent">delivers results</span></h3>
+              <p className="text-paragraph mt-1 font-urbanist text-base lg:text-lg xl:text-xl 2xl:text-2xl">At Web Pioneers, we mix smart design with clean <br />code to help your brand stand out—and sell more.</p>
+            </div>
+            <div className="lin-gradient px-[3px] pt-[3px] pb-2 rounded-2xl mt-16 max-w-[800px] mx-auto">
+              <div className="bg-white rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 pr-3 py-3 pl-5">
+                <span className="font-urbanist font-medium text-paragraph text-[22px]">Want expert eyes on your site?</span>
+                <button className="bg-purple-custom font-semibold text-[22px] text-white px-7 py-6 rounded-xl">Schedule a free strategy call</button>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-rows-3 gap-14">
+            <Image
+              src={"/hero/right-1.jpg"}
+              alt="logo"
+              width={288}
+              height={180}
+              className="w-full h-auto"
+            />
+            <Image
+              src={"/hero/right-2.jpg"}
+              alt="logo"
+              width={288}
+              height={180}
+              className="w-full h-auto ml-10"
+            />
+            <Image
+              src={"/hero/right-3.jpg"}
+              alt="logo"
+              width={288}
+              height={180}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+        {/* <MountAnim>
         <Badge nodot size="xl" variant="yellow">
           An agency that delivers Perfection{" "}
         </Badge>
@@ -63,7 +131,7 @@ const Hero = () => {
       </MountAnim>
       <MountAnim
         delay={0.1}
-        className="flex flex-wrap w-full max-w-[90rem] sm:justify-center gap-3 sm:gap-7 py-5 sm:py-14 *:rounded-full *:gap-3 *:text-base *:sm:text-[1.75rem] *:flex *:items-center *:transition-all *:duration-500 *:!leading-[1.1] *:bg-white *:border *:text-dark"
+        className="flex flex-wrap w-full max-w-[90rem] sm:justify-center gap-3 sm:gap-7 py-5 sm:py-14 *:rounded-full *:gap-3 *:text-base *:sm:text-[1.75rem] *:flex *:items-center *:transition-all *:duration-500 *:!leading-[1.1]  *:border *:text-dark"
       >
         <div
           className={
@@ -100,35 +168,50 @@ const Hero = () => {
             Learn More About Our Dashbaord
           </Button>
         </Link>
-      </MountAnim>
-      <div ref={containerRef} className="w-[180vw] sm:w-full max-w-[104rem]">
-        <MountAnim delay={0.2}>
-          <Image
-            src={"./Ipad.svg"}
-            alt="logo"
-            width={500}
-            height={500}
-            priority
-            className="w-full h-auto ipad"
-          />
-        </MountAnim>
-      </div>
+      </MountAnim> */}
+        {/* <div ref={containerRef} className="w-[180vw] sm:w-full max-w-[104rem]">
+          <MountAnim delay={0.2}>
+            <Image
+              src={"./Ipad.svg"}
+              alt="logo"
+              width={500}
+              height={500}
+              priority
+              className="w-full h-auto ipad"
+            />
+          </MountAnim>
+        </div> */}
 
-      <Image
-        src={"./HeroBgD.svg"}
-        alt="bg"
-        width={400}
-        height={400}
-        className="max-sm:hidden object-cover absolute left-0 top-0 w-full h-auto z-[-1] max-h-full"
-      />
-      <Image
-        src={"./HeroBgM.svg"}
-        alt="bg"
-        width={400}
-        height={400}
-        className="sm:hidden object-cover absolute left-0 top-0 w-full h-auto z-[-1] max-h-full"
-      />
-    </section>
+        <Image
+          src={"./HeroBgD.svg"}
+          alt="bg"
+          width={400}
+          height={400}
+          className="max-sm:hidden object-cover absolute left-0 top-0 w-full h-auto z-[-1] max-h-full"
+        />
+        <Image
+          src={"./HeroBgM.svg"}
+          alt="bg"
+          width={400}
+          height={400}
+          className="sm:hidden object-cover absolute left-0 top-0 w-full h-auto z-[-1] max-h-full"
+        />
+        <div className="container-2560 flex flex-col items-center gap-10 px-con">
+          <h4 className="font-inter font-semibold text-lg text-dark">Our Partners in Growth</h4>
+          <div className="flex items-center gap-7 flex-wrap justify-center">
+            <Axibo />
+            <Sync />
+            <Vividora />
+            <Justthrive />
+            <Headshots />
+            <Rewind />
+            <Mherst />
+            <Dyutih />
+          </div>
+        </div>
+      </section>
+
+    </>
   );
 };
 

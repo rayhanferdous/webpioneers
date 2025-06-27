@@ -15,6 +15,15 @@ export default {
         "3xl": "1920px",
       },
       colors: {
+        "jet-black": {
+          DEFAULT: "#161616",
+        },
+        paragraph: {
+          DEFAULT: "#515151",
+        },
+        "purple-custom": {
+          DEFAULT: "#6248FF",
+        },
         background: "#FFFFFF",
         foreground: "#080808",
         dark: "#1D1D1D",
@@ -30,6 +39,7 @@ export default {
           600: "#686868",
           500: "#545454",
           bb: "#BBBBBB",
+          new: "#E7E6E4",
         },
         blue: {
           DEFAULT: "#5B97BD",
@@ -64,6 +74,7 @@ export default {
       },
       fontFamily: {
         urbanist: "var(--font-urbanist)",
+        inter: "var(--font-inter)",
       },
     },
   },

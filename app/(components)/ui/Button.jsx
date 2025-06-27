@@ -37,7 +37,7 @@ const Button = ({
       className={cn(
         "transition-all duration-500 ease overflow-hidden flex items-center justify-center whitespace-nowrap relative group cursor-pointer",
         isFit,
-        rounded ? "rounded-full" : "rounded-lg",
+        rounded ? "rounded-full" : "rounded-xl",
         Types[btnType],
         Sizes[size],
         className

@@ -138,7 +138,7 @@ const HorizontalSec = () => {
               "px-con text-[18.6rem] leading-none whitespace-nowrap w-fit capitalize flex flex-nowrap items-center gap-[.5ch] font-normal relative h-full"
             }
           >
-            {Data.map((item, index) => {
+            {/* {Data.map((item, index) => {
               return (
                 <div
                   key={index}
@@ -166,7 +166,7 @@ const HorizontalSec = () => {
                   </p>
                 </div>
               );
-            })}
+            })} */}
             <span className="relative">
               Why they
               <MountAnim className={"left-0 bottom-full absolute"}>
@@ -247,7 +247,7 @@ const HorizontalSec = () => {
           </MountAnim>
 
           <div className="flex flex-col gap-4 mt-8">
-            <FeedbackCarousel Data={Data} />
+            {/* <FeedbackCarousel Data={Data} /> */}
           </div>
         </div>
       )}
@@ -267,9 +267,9 @@ const HorizontalSec = () => {
             <h2>love us</h2>
           </MountAnim>
 
-          <div className="flex flex-col gap-4 mb-8">
+          {/* <div className="flex flex-col gap-4 mb-8">
             <FeedbackCarousel Data={Data} />
-          </div>
+          </div> */}
 
           <MountAnim className="px-con text-4xl capitalize leading-snug">
             <Badge nodot variant="yellow">

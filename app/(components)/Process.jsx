@@ -9,6 +9,7 @@ import { Badge } from "./ui/Badge";
 import { useResponsiveStates } from "../(utils)/hooks";
 import Icon from "./ui/Icon";
 import { cn } from "../(utils)/utils";
+import Link from "next/link";
 
 const ProcessStep = React.memo(
   ({
@@ -19,6 +20,7 @@ const ProcessStep = React.memo(
     badgeVariant,
     iconSrc,
     title,
+    subTitle,
     description,
     ProcessComponent,
   }) => {
@@ -37,7 +39,7 @@ const ProcessStep = React.memo(
           whileHover={!isTab ? "show" : undefined}
           className={cn(
             "flex-1 overflow-hidden border-2 border-gray-600 rounded-2xl transition-colors duration-500",
-            isTab && isInView ? bgColor : `${hover} bg-transparent`
+            isTab && isInView ? bgColor : `${hover} bg-white`
           )}
         >
           <motion.div
@@ -49,23 +51,22 @@ const ProcessStep = React.memo(
             className="flex flex-col gap-4 -mb-1"
           >
             <div className="px-10 flex flex-col gap-4 items-center text-center py-5">
-              <Badge
-                className={"text-[#545454]"}
-                size="s"
-                outline
-                variant={badgeVariant}
+              <div
+                className={"text-lg font-medium !font-inter bg-clip-text text-transparent lin-gradient"}
               >
                 {title}
-              </Badge>
+              </div>
               <div className="size-[4.125rem] sm:size-[5.3125rem]">
                 <Icon size="100%" src={iconSrc} />
               </div>
               <h2 className="text-4xl sm:text-[2.875rem] leading-none">
-                {title}
+                {subTitle}
               </h2>
               <p className="text-lg sm:text-2xl leading-snug text-[#7A7A7A]">
                 {description}
               </p>
+              <Link href={"/#"} className="font-inter text-sm text-dark font-medium bg-white px-4 py-3 rounded-md border border-gray-900">
+                Let’s Get Started</Link>
             </div>
             <ProcessComponent />
           </motion.div>
@@ -143,15 +144,7 @@ const Process = () => {
   return (
     <section className="container-2560 relative mt-12 p-con flex flex-col items-center text-center gap-3 overflow-hidden">
       <MountAnim>
-        <Badge nodot variant="yellow">
-          Our Process
-        </Badge>
-      </MountAnim>
-      <MountAnim>
-        <h1 className="heading2">
-          Your Path to Success <br />
-          Starts Here
-        </h1>
+        <h3 className="font-urbanist font-medium text-[120px]">Our <span className="bg-clip-text text-transparent lin-gradient">Services</span></h3>
       </MountAnim>
       <div className="flex w-full flex-col items-center">
         <MountAnim
@@ -164,12 +157,13 @@ const Process = () => {
             <ProcessStep
               isInView={isInView1}
               customVar={isTab ? centerVar : leftVar}
-              bgColor="bg-yellow-light"
-              hover="hover:bg-yellow-light"
+              bgColor="bg-white"
+              hover="hover:bg-white"
               badgeVariant="yellow"
               iconSrc="https://cdn.lordicon.com/zywwafpn.json"
-              title="Ideation"
-              description="Turning ideas into structured wireframes to define the blueprint for your project's success."
+              title="Explore Ideas"
+              subTitle="Ideation"
+              description="Turn big ideas into clean, focused wireframes that guide your entire project."
               ProcessComponent={Process1}
             />
           </div>
@@ -177,12 +171,13 @@ const Process = () => {
             <ProcessStep
               isInView={isInView2}
               customVar={centerVar}
-              bgColor="bg-purple-light"
-              hover="hover:bg-purple-light"
+              bgColor="bg-white"
+              hover="hover:bg-white"
               badgeVariant="purple"
               iconSrc="https://cdn.lordicon.com/ovxlloho.json"
-              title="Design"
-              description="Custom designs that enhance experiences, aligning with your brand for seamless digital interactions"
+              title="Enhance Your Brand"
+              subTitle="Design"
+              description="Custom visuals that match your brand and make every click feel just right."
               ProcessComponent={Process2}
             />
           </div>
@@ -190,12 +185,13 @@ const Process = () => {
             <ProcessStep
               isInView={isInView3}
               customVar={isTab ? centerVar : rightVar}
-              bgColor="bg-green-light"
-              hover="hover:bg-green-light"
+              bgColor="bg-white"
+              hover="hover:bg-white"
               badgeVariant="green"
               iconSrc="https://cdn.lordicon.com/wbthjkyu.json"
-              title="Development"
-              description="We develop scalable platforms that bring your vision to life, ensuring efficiency and growth"
+              title="Ready to Develop"
+              subTitle="Development"
+              description="We build fast, scalable sites that load quick and grow with your business."
               ProcessComponent={Process3}
             />
           </div>

@@ -20,12 +20,11 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Marquee direction={"left"} speed={0.4} />
-      <Process />
       <Video />
+      <Process />
       <HorizontalSec />
       <Portfolio />
-      <PricingBanner />
+      {/* <PricingBanner /> */}
       <WhatWeOffer />
       <Boxes />
       <Dragables />
@@ -34,6 +33,7 @@ export default function Home() {
       <Factor />
       <Pricing />
       <FAQ />
+      <Marquee direction={"left"} speed={0.4} />
     </>
   );
 }

@@ -126,13 +126,10 @@ const Process3 = () => {
           fill="white"
         />
       </motion.g>
-      <motion.path
+      <path
+        fill="#F7F7F7"
         d="M95 13C95 5.8203 100.82 0 108 0H559V564H95V13Z"
-        variants={{
-          initial: { fill: "#F7F7F7" },
-          show: { fill: "#FFFFFF" },
-        }}
-        transition={transition}
+
       />
       <path
         d="M135 387.429H648V422.93C648 433.797 639.109 442.619 628.157 442.619H154.85C143.898 442.619 135.007 433.797 135.007 422.93V387.429H135Z"
@@ -273,7 +270,7 @@ const Process3 = () => {
         strokeWidth="3"
         strokeMiterlimit="10"
       />
-      <motion.g
+      {/* <motion.g
         variants={{
           initial: { y: "30%", x: "50%" },
           show: { y: "0%", x: 0 },
@@ -302,7 +299,7 @@ const Process3 = () => {
           d="M495.787 196.117L469.781 202.304L470.555 205.554L496.56 199.368L495.787 196.117Z"
           fill="white"
         />
-      </motion.g>
+      </motion.g> */}
     </svg>
   );
 };

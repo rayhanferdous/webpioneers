@@ -13,19 +13,13 @@ import Sidebar from "./ui/Sidebar";
 import { getGlobalLenis } from "./LenisSmooth";
 
 const Header = () => {
-  let [activeTab, setActiveTab] = useState("/");
-  let [hoverTab, setHoverTab] = useState();
+  const [activeTab, setActiveTab] = useState("/");
   const pathname = usePathname();
   const transition = { type: "spring", stiffness: 300, damping: 30 };
-
   const [isOpen, setIsOpen] = useState(false);
 
   const handleNavToggle = () => {
-    if (isOpen) {
-      setIsOpen(false);
-    } else {
-      setIsOpen(true);
-    }
+    setIsOpen(!isOpen);
   };
 
   const handleNavClose = () => {
@@ -58,21 +52,14 @@ const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="pointer-events-none absolute top-0 z-[999] left-0 right-0 py-6 px-con flex justify-between items-center whitespace-nowrap">
+    <header className="pointer-events-none absolute top-14 z-[999] left-0 right-0 py-6 px-con flex justify-between items-center whitespace-nowrap">
       {/* Left */}
       <Link href={"/"} className="pointer-events-auto cursor-pointer">
         <Logo className="h-[3.75rem] sm:h-[5.27rem] lg:h-[5.625rem] w-auto" />
       </Link>
 
       {/* Center */}
-      <nav
-        onMouseLeave={() => {
-          setTimeout(() => {
-            setHoverTab(activeTab);
-          }, 300);
-        }}
-        className="max-sm:hidden pointer-events-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex items-center gap-4 bg-white border border-[#DFDFDF] rounded-full p-3.5 z-50"
-      >
+      <nav className="max-sm:hidden pointer-events-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex items-center gap-4 p-3.5 z-50">
         {NavItems.map((item) => {
           const linkActive = activeTab === item.id || isLinkActive(item.src);
           return (
@@ -80,22 +67,16 @@ const Header = () => {
               href={item.src}
               key={item.id}
               name={item.label}
-              style={{
-                color: linkActive
-                  ? Colors[item.color].dark
-                  : hoverTab === item.id
-                    ? "var(--dark)"
-                    : "#888581",
-              }}
-              onMouseEnter={() => {
-                setHoverTab(item.id);
-              }}
+              className={`
+                text-[1.375rem] relative font-normal flex items-center justify-center px-3 py-2 leading-none font-medium transition-colors duration-300 ease-in-out cursor-pointer
+                ${linkActive ? `text-jet-black bg-white rounded-lg` : "text-[#5e5c5b]"}
+                hover:text-jet-black
+              `}
               onClick={() => {
-                if (activeTab != item.id) {
+                if (activeTab !== item.id) {
                   setActiveTab(item.id);
                 }
               }}
-              className={`text-[1.375rem] relative flex items-center justify-center px-3 py-2 leading-none font-medium rounded-full transition-colors duration-300 ease-in-out cursor-pointer`}
             >
               <motion.div
                 className="relative z-30 overflow-hidden origin-left w-0"
@@ -104,28 +85,7 @@ const Header = () => {
                   width: linkActive ? "auto" : "0",
                 }}
                 transition={transition}
-              >
-                <motion.div
-                  style={{
-                    backgroundColor: Colors[item.color].DEFAULT,
-                  }}
-                  transition={transition}
-                  className="size-2.5 rounded-full mr-2"
-                ></motion.div>
-              </motion.div>
-
-              {linkActive && (
-                <motion.span
-                  layoutId="bubble"
-                  className={`absolute inset-0 rounded-full z-20`}
-                  style={{
-                    backgroundColor: Colors[item.color].light,
-                  }}
-                  transition={transition}
-                >
-                  <div></div>
-                </motion.span>
-              )}
+              />
               <span className="relative z-20">{item.label}</span>
             </Link>
           );
@@ -134,13 +94,13 @@ const Header = () => {
 
       {/* Right */}
       <div className="cursor-pointer pointer-events-auto max-sm:hidden flex items-center gap-5">
-        <Link
+        {/* <Link
           href="/Login"
-          className="text-[1.35rem] font-medium hover:underline"
+          className="text-[1.35rem] font-medium hover:underline transition-colors"
         >
           Login
-        </Link>
-        <Button>Let's Get Started</Button>
+        </Link> */}
+        <Button rounded={false} arrow={false}>Let's Get Started</Button>
       </div>
       <button
         className={`cursor-pointer pointer-events-auto sm:hidden relative`}

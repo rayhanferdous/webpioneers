@@ -1,7 +1,8 @@
-import { Urbanist } from "next/font/google";
+import { Inter, Urbanist } from "next/font/google";
 import "./globals.css";
 import LenisSmooth from "./(components)/LenisSmooth";
 import Header from "./(components)/Header";
+import TopBanner from "./(components)/ui/TobBanner";
 
 import Script from "next/script";
 import LayoutFooter from "./(components)/LayoutFooter";
@@ -9,6 +10,11 @@ import { Toaster } from "sonner";
 
 const urbanist = Urbanist({
   variable: "--font-urbanist",
+  subsets: ["latin"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -22,13 +28,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         suppressHydrationWarning
-        className={`${urbanist.variable} font-urbanist antialiased`}
+        className={`${urbanist.variable} font-urbanist antialiased bg-[#F1F0EE]`}
       >
         <Script
           src="https://cdn.lordicon.com/lordicon.js"
           strategy="beforeInteractive"
         />
         <LenisSmooth />
+        <TopBanner />
         <Header />
         {children}
         <LayoutFooter />

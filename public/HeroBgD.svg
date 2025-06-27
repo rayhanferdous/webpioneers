@@ -1,58 +1,53 @@
 <svg width="1920" height="1684" viewBox="0 0 1920 1684" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g clip-path="url(#clip0_8897_34455)">
-        <rect x="84" y="59" width="1" height="1486" fill="#DEDEDE" />
-        <rect x="1217" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="393" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="805" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="599" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="1011" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="187" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="496" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="908" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="290" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="702" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="1114" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="1320" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="1629" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="1835" y="59" width="1" height="1486" fill="#DEDEDE" />
-        <rect x="1423" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="1732" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect x="1526" y="59" width="1" height="1625" fill="#DEDEDE" />
-        <rect y="140" width="1" height="1920" transform="rotate(-90 0 140)" fill="#DEDEDE" />
-        <rect y="1376" width="1" height="1920" transform="rotate(-90 0 1376)" fill="#DEDEDE" />
-        <rect y="449" width="1" height="1920" transform="rotate(-90 0 449)" fill="#DEDEDE" />
-        <rect y="964" width="1" height="1920" transform="rotate(-90 0 964)" fill="#DEDEDE" />
-        <rect y="243" width="1" height="1920" transform="rotate(-90 0 243)" fill="#DEDEDE" />
-        <rect y="1479" width="1" height="1920" transform="rotate(-90 0 1479)" fill="#DEDEDE" />
-        <rect y="655" width="1" height="1920" transform="rotate(-90 0 655)" fill="#DEDEDE" />
-        <rect y="1170" width="1" height="1920" transform="rotate(-90 0 1170)" fill="#DEDEDE" />
-        <rect y="552" width="1" height="1920" transform="rotate(-90 0 552)" fill="#DEDEDE" />
-        <rect y="1067" width="1" height="1920" transform="rotate(-90 0 1067)" fill="#DEDEDE" />
-        <rect y="346" width="1" height="1920" transform="rotate(-90 0 346)" fill="#DEDEDE" />
-        <rect y="1582" width="1" height="1920" transform="rotate(-90 0 1582)" fill="#DEDEDE" />
-        <rect y="861" width="1" height="1920" transform="rotate(-90 0 861)" fill="#DEDEDE" />
-        <rect y="758" width="1" height="1920" transform="rotate(-90 0 758)" fill="#DEDEDE" />
-        <rect y="1273" width="1" height="1920" transform="rotate(-90 0 1273)" fill="#DEDEDE" />
-        <path d="M960 0H0V1684H960V0Z" fill="url(#paint0_linear_8897_34455)" />
-        <rect width="960" height="1684" transform="matrix(-1 0 0 1 1920 0)" fill="url(#paint1_linear_8897_34455)" />
-        <rect width="170" height="1920" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)"
-            fill="url(#paint2_linear_8897_34455)" />
-    </g>
-    <defs>
-        <linearGradient id="paint0_linear_8897_34455" x1="960" y1="842" x2="0" y2="842" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white" stop-opacity="0.08" />
-            <stop offset="1" stop-color="white" />
-        </linearGradient>
-        <linearGradient id="paint1_linear_8897_34455" x1="960" y1="842" x2="0" y2="842" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white" stop-opacity="0.08" />
-            <stop offset="1" stop-color="white" />
-        </linearGradient>
-        <linearGradient id="paint2_linear_8897_34455" x1="170" y1="960" x2="0" y2="960" gradientUnits="userSpaceOnUse">
-            <stop stop-color="white" stop-opacity="0.08" />
-            <stop offset="1" stop-color="white" />
-        </linearGradient>
-        <clipPath id="clip0_8897_34455">
-            <rect width="1920" height="1684" fill="white" />
-        </clipPath>
-    </defs>
+<rect x="84.0005" y="59" width="1" height="1486" fill="#DEDEDE"/>
+<rect x="1217" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="393" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="805" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="599" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="1011" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="187" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="496" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="908" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="290" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="702" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="1114" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="1320" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="1629" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="1835" y="59" width="1" height="1486" fill="#DEDEDE"/>
+<rect x="1423" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="1732" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="1526" y="59" width="1" height="1625" fill="#DEDEDE"/>
+<rect x="0.000488281" y="140" width="1" height="1920" transform="matrix(0 -1 1 0 -140 140)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="1376" width="1" height="1920" transform="matrix(0 -1 1 0 -1376 1376)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="449" width="1" height="1920" transform="matrix(0 -1 1 0 -449 449)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="964" width="1" height="1920" transform="matrix(0 -1 1 0 -964 964)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="243" width="1" height="1920" transform="matrix(0 -1 1 0 -243 243)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="1479" width="1" height="1920" transform="matrix(0 -1 1 0 -1479 1479)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="655" width="1" height="1920" transform="matrix(0 -1 1 0 -655 655)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="1170" width="1" height="1920" transform="matrix(0 -1 1 0 -1170 1170)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="552" width="1" height="1920" transform="matrix(0 -1 1 0 -552 552)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="1067" width="1" height="1920" transform="matrix(0 -1 1 0 -1067 1067)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="346" width="1" height="1920" transform="matrix(0 -1 1 0 -346 346)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="1582" width="1" height="1920" transform="matrix(0 -1 1 0 -1582 1582)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="861" width="1" height="1920" transform="matrix(0 -1 1 0 -861 861)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="758" width="1" height="1920" transform="matrix(0 -1 1 0 -758 758)" fill="#DEDEDE"/>
+<rect x="0.000488281" y="1273" width="1" height="1920" transform="matrix(0 -1 1 0 -1273 1273)" fill="#DEDEDE"/>
+<path d="M960 0H0.000488281V1630H960V0Z" fill="url(#paint0_linear_9519_72610)"/>
+<rect width="960" height="1630" transform="matrix(-1 0 0 1 1920 0)" fill="url(#paint1_linear_9519_72610)"/>
+<rect width="170" height="1920" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)" fill="url(#paint2_linear_9519_72610)"/>
+<defs>
+<linearGradient id="paint0_linear_9519_72610" x1="960" y1="815" x2="0.000488281" y2="815" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F1F0EE" stop-opacity="0.08"/>
+<stop offset="1" stop-color="#F1F0EE"/>
+</linearGradient>
+<linearGradient id="paint1_linear_9519_72610" x1="960" y1="815" x2="0" y2="815" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F1F0EE" stop-opacity="0.08"/>
+<stop offset="1" stop-color="#F1F0EE"/>
+</linearGradient>
+<linearGradient id="paint2_linear_9519_72610" x1="170" y1="960" x2="0" y2="960" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F1F0EE" stop-opacity="0.08"/>
+<stop offset="1" stop-color="#F1F0EE"/>
+</linearGradient>
+</defs>
 </svg>
+
