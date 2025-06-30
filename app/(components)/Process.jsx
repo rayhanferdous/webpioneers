@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useMemo } from "react";
+import React, { useRef, useMemo, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 import Process1 from "./figures/process1";
 import Process2 from "./figures/process2";
@@ -10,6 +10,10 @@ import { useResponsiveStates } from "../(utils)/hooks";
 import Icon from "./ui/Icon";
 import { cn } from "../(utils)/utils";
 import Link from "next/link";
+import { gsap } from 'gsap';
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+
+gsap.registerPlugin(DrawSVGPlugin);
 
 const ProcessStep = React.memo(
   ({
@@ -65,7 +69,7 @@ const ProcessStep = React.memo(
               <p className="text-lg sm:text-2xl leading-snug text-[#7A7A7A]">
                 {description}
               </p>
-              <Link href={"/#"} className="font-inter text-sm text-dark font-medium bg-white px-4 py-3 rounded-md border border-gray-900">
+              <Link href={"/#"} className="font-inter text-sm text-dark font-medium bg-white px-4 py-3 rounded-md border border-gray-900 hover:bg-gray-btn-hover hover:border-gray-btn-hover">
                 Let’s Get Started</Link>
             </div>
             <ProcessComponent />
@@ -141,6 +145,22 @@ const Process = () => {
   const isInView2 = useInView(ref2, { amount: 0.5, once: true });
   const isInView3 = useInView(ref3, { amount: 0.5, once: true });
 
+  const pathRef = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      pathRef.current,
+      { drawSVG: "0%" },
+      {
+        drawSVG: "100%",
+        duration: 4,
+        ease: "power1.inOut",
+        repeat: -1,
+      }
+    );
+  }, []);
+
+
   return (
     <section className="container-2560 relative mt-12 p-con flex flex-col items-center text-center gap-3 overflow-hidden">
       <MountAnim>
@@ -150,8 +170,48 @@ const Process = () => {
         <MountAnim
           animation="opacity"
           delay={0.3}
-          className="w-[3px] h-24 sm:h-[9rem] bg-gradient-to-t from-gray-600 to-transparent"
-        />
+        >
+          <svg viewBox="0 0 840 172" width="840" height="172" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient
+                id="gradientStroke"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0%" stopColor="rgb(255,255,255)" />
+                <stop offset="25%" stopColor="rgb(176,163,255)" />
+                <stop offset="50%" stopColor="rgb(255,72,72)" />
+                <stop offset="75%" stopColor="rgb(98,72,255)" />
+                <stop offset="100%" stopColor="rgb(255,255,255)" />
+              </linearGradient>
+            </defs>
+
+            <path
+              id="staticPath"
+              d="M420.5,0 C420.5,0 420.5,122 420.5,122 C420.5,122 15.5,122 15.5,122 C15.5,122 3,122 3,133.5 C3,145 3,172 3,172"
+              fill="none"
+              stroke="white"
+              strokeWidth="2"
+            />
+            <path
+              ref={pathRef}
+              id="animatedPath"
+              d="M420.5,0 
+           C420.5,0 420.5,122 420.5,122 
+           C420.5,122 15.5,122 15.5,122 
+           C15.5,122 3,122 3,133.5 
+           C3,145 3,172 3,172"
+              fill="none"
+              stroke="url(#gradientStroke)"
+              strokeWidth="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </MountAnim>
         <div className="flex max-sm:flex-col w-full gap-8">
           <div ref={ref1} className="flex-1 flex">
             <ProcessStep

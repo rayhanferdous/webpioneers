@@ -63,6 +63,7 @@ const HorizontalSec = () => {
         const items = gsap.utils.toArray(".HRItems");
         const tl = gsap.timeline();
 
+
         tl.fromTo(
           "#text",
           {
@@ -73,15 +74,32 @@ const HorizontalSec = () => {
             x: "100vw",
             xPercent: -100,
             ease: "none",
+            duration: 5
           }
+        );
+
+
+        tl.fromTo(
+          ".horizon-capsule",
+          {
+            x: "0",
+            xPercent: 0,
+          },
+          {
+            x: "-100vw",
+            xPercent: -100,
+            ease: "none",
+            duration: 2.5
+          },
+          "<"
         );
 
         items?.forEach((item, i) => {
           tl.fromTo(
             item,
             { x: "60vw" },
-            { x: "-60vw", ease: "none" },
-            "<" // Play simultaneously with the previous animation
+            { x: "-60vw", ease: "none", duration: 5 },
+            "<"
           );
         });
 
@@ -129,6 +147,92 @@ const HorizontalSec = () => {
       dependencies: [isTab, isMobile],
     }
   );
+
+  // useGSAP(
+  //   () => {
+  //     if (!isTab && !isMobile) {
+  //       const items = gsap.utils.toArray(".HRItems");
+  //       const tl = gsap.timeline();
+
+  //       tl.fromTo(
+  //         "#text",
+  //         {
+  //           x: "0",
+  //           xPercent: -0,
+  //         },
+  //         {
+  //           x: "100vw",
+  //           xPercent: -100,
+  //           ease: "none",
+  //         }
+  //       );
+
+  //       tl.fromTo(".horizon-capsule",
+  //         {
+  //           x: "0",
+  //           xPercent: 0,
+  //         },
+  //         {
+  //           x: "100vw",
+  //           xPercent: -100,
+  //           ease: "none",
+  //         },
+  //       );
+
+
+  //       items?.forEach((item, i) => {
+  //         tl.fromTo(
+  //           item,
+  //           { x: "60vw" },
+  //           { x: "-60vw", ease: "none" },
+  //           "<" // Play simultaneously with the previous animation
+  //         );
+  //       });
+
+  //       tl.to(
+  //         "#text > *:not(#worktext)",
+  //         { opacity: 0, ease: "none", duration: 0.05 },
+  //         "worktext"
+  //       ).to("#worktext", {
+  //         scale: 1.5,
+  //         ease: "none",
+  //         duration: 0.1,
+  //         onStart: () => {
+  //           document.querySelector("#worktext").classList.add(
+  //             "bg-clip-text", "text-transparent", "lin-gradient"
+  //           );
+  //         }
+  //       }, "worktext");
+
+  //       ScrollTrigger.create({
+  //         trigger: containerRef.current,
+  //         start: "top top",
+  //         end: "bottom bottom",
+  //         invalidateOnRefresh: true,
+  //         scrub: true,
+  //         animation: tl,
+  //       });
+
+  //       if (!isTab) {
+  //         const tl2 = gsap.timeline();
+  //         tl2.to("#sticky", { yPercent: 100, ease: "none" });
+
+  //         ScrollTrigger.create({
+  //           trigger: containerRef.current,
+  //           start: "bottom bottom",
+  //           end: "bottom top",
+  //           invalidateOnRefresh: true,
+  //           scrub: true,
+  //           animation: tl2,
+  //         });
+  //       }
+  //     }
+  //   },
+  //   {
+  //     scope: containerRef,
+  //     dependencies: [isTab, isMobile],
+  //   }
+  // );
 
   return (
     <section ref={containerRef} className="relative lg:h-[1000vh]">
@@ -205,7 +309,7 @@ const HorizontalSec = () => {
               />
             </div>
             <div className="bg-clip-text text-transparent leading-none overflow-visible lin-gradient top-5 relative">
-              <div className="inline-block leading-none pb-7">amazing</div>
+              <div className="inline-block leading-none pb-7 mr-8">amazing</div>
               <span id="worktext" className="inline-block">
                 work
               </span>
@@ -323,7 +427,7 @@ const HorizonCapsule = ({ title, className }) => {
   return (
     <span
       className={cn(
-        "font-normal p-12 rounded-full bg-gray-new max-h-fit w-fit absolute text-5xl ",
+        "horizon-capsule font-normal p-12 rounded-full bg-gray-new max-h-fit w-fit absolute text-5xl ",
         className
       )}
     >

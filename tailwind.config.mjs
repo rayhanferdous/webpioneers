@@ -40,6 +40,7 @@ export default {
           500: "#545454",
           bb: "#BBBBBB",
           new: "#E7E6E4",
+          "btn-hover": "#F1F0EE",
         },
         blue: {
           DEFAULT: "#5B97BD",

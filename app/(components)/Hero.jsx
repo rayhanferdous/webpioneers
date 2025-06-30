@@ -2,19 +2,17 @@
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import MountAnim from "./ui/MountAnim";
 
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Axibo from "./svg/Axibo";
+import Dyutih from "./svg/Dyutih";
+import Headshots from "./svg/Headshots";
+import Justthrive from "./svg/Justthrive";
+import Mherst from "./svg/Mherst";
+import Rewind from "./svg/Rewind";
 import Sync from "./svg/Sync";
 import Vividora from "./svg/Vividora";
-import Justthrive from "./svg/Justthrive";
-import Headshots from "./svg/Headshots";
-import Rewind from "./svg/Rewind";
-import Mherst from "./svg/Mherst";
-import Dyutih from "./svg/Dyutih";
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
@@ -44,8 +42,8 @@ const Hero = () => {
   const scheduleBtnRef = useRef(null);
 
   useEffect(() => {
-    gsap.set(leftRef.current, { x: -60, opacity: 0.7 });
-    gsap.set(rightRef.current, { x: 60, opacity: 0.7 });
+    gsap.set(leftRef.current, { x: -60, });
+    gsap.set(rightRef.current, { x: 60, });
   }, []);
 
   const handleMouseEnter = () => {
